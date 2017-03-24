@@ -1,16 +1,32 @@
-const INCREASE = 'INCREASE';
-const DECREASE = 'DECREASE';
+import {
+  INCREASE_COUNT,
+  DECREASE_COUNT,
+} from '../actions/actionTypes';
+
+import { combineReducers } from 'redux';
 
 const initialState = {
-  number: 1
+  value: 1
 }
 
-export default function update(state = initialState, action) {
-  if(action.type === INCREASE) {
-    return { number: state.number + action.amount }
-  }
-  else if(action.type === DECREASE) {
-    return { number: state.number - action.amount }
-  }
-  return state
+function count(state = initialState, action) {
+	switch (action.type) {
+		case INCREASE_COUNT: {
+			let newState = Object.assign({}, state);
+			newState.value = newState.value + 1;
+			return newState;
+		}
+		case DECREASE_COUNT: {
+			let newState = Object.assign({}, state);
+			newState.value = newState.value - 1;
+			return newState;
+		}
+		default: {
+      		return initialState;
+		}
+	}
 }
+
+module.exports = {
+  count,
+};

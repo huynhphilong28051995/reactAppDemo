@@ -22,22 +22,22 @@ const STYLES = {
 }
 
 export default class App extends React.Component {
-   	render() {
-      	return (
-        	<div>
-        		<Header />
-        		<Grid>
-        			<Row>
-        				<Col xs={3} style={STYLES.sidebar}>
-        					<SideBar />
-        				</Col>
-        				<Col xs={9} style={STYLES.main}>
-        					{this.props.children}
-        				</Col>
-        			</Row>
-        		</Grid>
-        	</div>
-      	);
-   	}
+ 	render() {
+  	return (
+    	<div>
+    		<Header />
+    		<Grid>
+    			<Row>
+    				<Col xs={3} style={STYLES.sidebar}>
+    					<SideBar />
+    				</Col>
+    				<Col xs={9} style={STYLES.main}>
+    					{this.props.children}
+    				</Col>
+    			</Row>
+    		</Grid>
+    	</div>
+  	);
+ 	}
 }
 

@@ -67,7 +67,7 @@ export default class ThreePanelView extends React.Component {
                </Row>
 	        		<Row>
 	        			<Col sm={4}>
-	        				<LeftPanel handleNumChange={::this.handleLeftPanelNumChange}/>
+	        				<LeftPanel handleNumChange={::this.handleLeftPanelNumChange} />
 	        			</Col>
 	        			<Col sm={8}>
 	        				<RightPanel handleNumChange={::this.handleRightPanelNumChange} />

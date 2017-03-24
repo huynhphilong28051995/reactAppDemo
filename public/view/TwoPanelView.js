@@ -13,6 +13,9 @@ import {
 	RightPanel,
 } from './widget';
 
+
+import actions from '../../redux/actions';
+
 export default class TwoPanelView extends React.Component {
    	handleBothNumChange(num) {
    		console.log('TwoPanelView_handleBothNumChange_DO NOTHING');
