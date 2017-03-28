@@ -1,12 +1,11 @@
 import React from 'react';
 
-import App from '../public/App';
+import App from './App';
 
 import {
-	ThreePanelView,
-	TwoPanelView,
-	ReduxStoreView,
-} from '../public/view';
+	MainPage,
+	DocumentTranslatePage,
+} from './view';
 
 import { Router, browserHistory, Route, IndexRoute } from 'react-router';
 
@@ -27,12 +26,16 @@ let store = createStore(
 
 const routes = (
 	<Provider store={store}>
-		<Router history={browserHistory}>
+		<Router history={browserHistory} onUpdate={() => window.scrollTo(0, 0)}>
 			<Route path="/" component={App}>
-		    	<IndexRoute component={ThreePanelView} />
-		    	<Route path="/twopanelview" component={TwoPanelView} />
-		    	<Route path="/threepanelview" component={ThreePanelView} />
-		    	<Route path="/reduxstoreview" component={ReduxStoreView} />
+		    	<IndexRoute component={MainPage} />
+		    	<Route path="main" component={MainPage} />
+		    	<Route path="document_translate" component={DocumentTranslatePage} />
+		    	{
+		    	// 	<Route path="/twopanelview" component={TwoPanelView} />
+		    	// <Route path="/threepanelview" component={ThreePanelView} />
+		    	// <Route path="/reduxstoreview" component={ReduxStoreView} />
+		    	}
 		  	</Route>
 		</Router>
 	</Provider>

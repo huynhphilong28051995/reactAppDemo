@@ -1,11 +1,16 @@
+var Webpack = require('webpack');
 var path = require("path");
 
+var buildPath = path.resolve(__dirname, 'public', 'build');
+var mainPath = path.resolve(__dirname, 'app', 'main.js');
+var nodeModulesPath = path.resolve(__dirname, 'node_modules');
+
 var config = {
-   entry: './main.js',
+   entry: './app/main.js',
 	
    output: {
       path: '/',
-      filename: 'index.js',
+      filename: 'index.js'
    },
 
    devServer: {
@@ -13,13 +18,12 @@ var config = {
       port: 8080,
       historyApiFallback: true,
    },
-	
 
    module: {
       loaders: [
          {
             test: /\.jsx?$/,
-            exclude: /node_modules/,
+            exclude: [nodeModulesPath],
             loader: 'babel-loader',
             query: {
                presets: ['es2015', 'react', 'stage-0'],
@@ -27,8 +31,7 @@ var config = {
             }
          }
       ]
-   }
-   
+   },
 }
 
 module.exports = config;
