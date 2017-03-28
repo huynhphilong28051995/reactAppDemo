@@ -5,7 +5,7 @@ import App from './App';
 import {
 	MainPage,
 	DocumentTranslatePage,
-} from './view';
+} from './component';
 
 import { Router, browserHistory, Route, IndexRoute } from 'react-router';
 

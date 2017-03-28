@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-import Header from './view/common/Header';
+import Header from './component/common/Header';
 
 import {
 	Grid,

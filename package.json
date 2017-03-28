@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --hot"
+    "webpack": "webpack",
+    "node": "babel-node --presets node6 server.babel.js",
+    "dev": "concurrently --kill-others \"npm run webpack\" \"npm run node\""
   },
-  "author": "",
+  "author": "Huynh Phi Long",
   "license": "ISC",
   "dependencies": {
     "babel": "^6.23.0",
@@ -14,8 +16,10 @@
     "babel-core": "^6.24.0",
     "babel-loader": "^6.4.0",
     "babel-preset-es2015": "^6.24.0",
+    "babel-preset-node6": "^11.0.0",
     "babel-preset-react": "^6.23.0",
     "babel-preset-stage-0": "^6.22.0",
+    "concurrently": "^3.4.0",
     "express": "^4.14.0",
     "fs": "0.0.1-security",
     "http-proxy": "^1.16.2",
@@ -33,6 +37,7 @@
     "webpack-dev-server": "^2.4.1"
   },
   "devDependencies": {
+    "babel-cli": "^6.24.0",
     "babel-plugin-transform-decorators-legacy": "^1.3.4"
   }
 }
