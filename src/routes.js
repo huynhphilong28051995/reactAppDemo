@@ -5,6 +5,7 @@ import App from './App';
 import {
 	MainPage,
 	DocumentTranslatePage,
+  Community,
 } from './component';
 
 import { Router, browserHistory, Route, IndexRoute } from 'react-router';
@@ -31,6 +32,7 @@ const routes = (
 		    	<IndexRoute component={MainPage} />
 		    	<Route path="main" component={MainPage} />
 		    	<Route path="document_translate" component={DocumentTranslatePage} />
+		    	<Route path="community" component={Community} />
 		    	{
 		    	// 	<Route path="/twopanelview" component={TwoPanelView} />
 		    	// <Route path="/threepanelview" component={ThreePanelView} />
