@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "b176d40fc17a487d9754"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "e567fa9d983c65c314db"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotMainModule = true; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -929,23 +929,15 @@ exports.default = function (instance, Constructor) {
 
 exports.__esModule = true;
 
-<<<<<<< HEAD:public/bundle.js
-var _setPrototypeOf = __webpack_require__(295);
+var _setPrototypeOf = __webpack_require__(317);
 
 var _setPrototypeOf2 = _interopRequireDefault(_setPrototypeOf);
 
-var _create = __webpack_require__(294);
-=======
-var _setPrototypeOf = __webpack_require__(315);
-
-var _setPrototypeOf2 = _interopRequireDefault(_setPrototypeOf);
-
-var _create = __webpack_require__(314);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _create = __webpack_require__(316);
 
 var _create2 = _interopRequireDefault(_create);
 
-var _typeof2 = __webpack_require__(105);
+var _typeof2 = __webpack_require__(106);
 
 var _typeof3 = _interopRequireDefault(_typeof2);
 
@@ -976,7 +968,7 @@ exports.default = function (subClass, superClass) {
 
 exports.__esModule = true;
 
-var _typeof2 = __webpack_require__(105);
+var _typeof2 = __webpack_require__(106);
 
 var _typeof3 = _interopRequireDefault(_typeof2);
 
@@ -1109,7 +1101,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_invariant__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__StyleConfig__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__StyleConfig__ = __webpack_require__(20);
 /* harmony export (immutable) */ __webpack_exports__["prefix"] = prefix;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "bsClass", function() { return bsClass; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "bsStyles", function() { return bsStyles; });
@@ -1508,7 +1500,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _createChainableTypeChecker = __webpack_require__(100);
+var _createChainableTypeChecker = __webpack_require__(102);
 
 var _createChainableTypeChecker2 = _interopRequireDefault(_createChainableTypeChecker);
 
@@ -2042,6 +2034,16 @@ function createChainedFunction() {
 
 /***/ }),
 /* 19 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = __webpack_require__(538);
+
+
+/***/ }),
+/* 20 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2082,20 +2084,6 @@ var Style = {
   LINK: 'link',
   INVERSE: 'inverse'
 };
-
-/***/ }),
-/* 20 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-<<<<<<< HEAD:public/bundle.js
-module.exports = __webpack_require__(516);
-=======
-module.exports = __webpack_require__(536);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
-
 
 /***/ }),
 /* 21 */
@@ -2306,9 +2294,9 @@ function toArray(children) {
 
 
 
-var _prodInvariant = __webpack_require__(46);
+var _prodInvariant = __webpack_require__(47);
 
-var ReactCurrentOwner = __webpack_require__(29);
+var ReactCurrentOwner = __webpack_require__(30);
 
 var invariant = __webpack_require__(9);
 var warning = __webpack_require__(10);
@@ -2651,11 +2639,7 @@ module.exports = ReactComponentTreeHook;
 var debugTool = null;
 
 if (process.env.NODE_ENV !== 'production') {
-<<<<<<< HEAD:public/bundle.js
-  var ReactDebugTool = __webpack_require__(531);
-=======
-  var ReactDebugTool = __webpack_require__(551);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+  var ReactDebugTool = __webpack_require__(553);
   debugTool = ReactDebugTool;
 }
 
@@ -2708,24 +2692,293 @@ module.exports = emptyFunction;
 
 /***/ }),
 /* 25 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Accordion__ = __webpack_require__(461);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Accordion", function() { return __WEBPACK_IMPORTED_MODULE_0__Accordion__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Alert__ = __webpack_require__(462);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Alert", function() { return __WEBPACK_IMPORTED_MODULE_1__Alert__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Badge__ = __webpack_require__(463);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Badge", function() { return __WEBPACK_IMPORTED_MODULE_2__Badge__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Breadcrumb__ = __webpack_require__(464);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Breadcrumb", function() { return __WEBPACK_IMPORTED_MODULE_3__Breadcrumb__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__BreadcrumbItem__ = __webpack_require__(214);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "BreadcrumbItem", function() { return __WEBPACK_IMPORTED_MODULE_4__BreadcrumbItem__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Button__ = __webpack_require__(74);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Button", function() { return __WEBPACK_IMPORTED_MODULE_5__Button__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ButtonGroup__ = __webpack_require__(215);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ButtonGroup", function() { return __WEBPACK_IMPORTED_MODULE_6__ButtonGroup__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ButtonToolbar__ = __webpack_require__(465);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ButtonToolbar", function() { return __WEBPACK_IMPORTED_MODULE_7__ButtonToolbar__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Carousel__ = __webpack_require__(466);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Carousel", function() { return __WEBPACK_IMPORTED_MODULE_8__Carousel__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__CarouselItem__ = __webpack_require__(216);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "CarouselItem", function() { return __WEBPACK_IMPORTED_MODULE_9__CarouselItem__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Checkbox__ = __webpack_require__(468);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Checkbox", function() { return __WEBPACK_IMPORTED_MODULE_10__Checkbox__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__Clearfix__ = __webpack_require__(469);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Clearfix", function() { return __WEBPACK_IMPORTED_MODULE_11__Clearfix__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ControlLabel__ = __webpack_require__(471);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ControlLabel", function() { return __WEBPACK_IMPORTED_MODULE_12__ControlLabel__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__Col__ = __webpack_require__(470);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Col", function() { return __WEBPACK_IMPORTED_MODULE_13__Col__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__Collapse__ = __webpack_require__(137);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Collapse", function() { return __WEBPACK_IMPORTED_MODULE_14__Collapse__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__Dropdown__ = __webpack_require__(91);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Dropdown", function() { return __WEBPACK_IMPORTED_MODULE_15__Dropdown__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__DropdownButton__ = __webpack_require__(472);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "DropdownButton", function() { return __WEBPACK_IMPORTED_MODULE_16__DropdownButton__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__Fade__ = __webpack_require__(92);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Fade", function() { return __WEBPACK_IMPORTED_MODULE_17__Fade__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__Form__ = __webpack_require__(474);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Form", function() { return __WEBPACK_IMPORTED_MODULE_18__Form__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__FormControl__ = __webpack_require__(475);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "FormControl", function() { return __WEBPACK_IMPORTED_MODULE_19__FormControl__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__FormGroup__ = __webpack_require__(478);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "FormGroup", function() { return __WEBPACK_IMPORTED_MODULE_20__FormGroup__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__Glyphicon__ = __webpack_require__(138);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Glyphicon", function() { return __WEBPACK_IMPORTED_MODULE_21__Glyphicon__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__Grid__ = __webpack_require__(218);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Grid", function() { return __WEBPACK_IMPORTED_MODULE_22__Grid__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__HelpBlock__ = __webpack_require__(479);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "HelpBlock", function() { return __WEBPACK_IMPORTED_MODULE_23__HelpBlock__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__Image__ = __webpack_require__(480);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Image", function() { return __WEBPACK_IMPORTED_MODULE_24__Image__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__InputGroup__ = __webpack_require__(481);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "InputGroup", function() { return __WEBPACK_IMPORTED_MODULE_25__InputGroup__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__Jumbotron__ = __webpack_require__(484);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Jumbotron", function() { return __WEBPACK_IMPORTED_MODULE_26__Jumbotron__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__Label__ = __webpack_require__(485);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Label", function() { return __WEBPACK_IMPORTED_MODULE_27__Label__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__ListGroup__ = __webpack_require__(486);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ListGroup", function() { return __WEBPACK_IMPORTED_MODULE_28__ListGroup__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__ListGroupItem__ = __webpack_require__(219);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ListGroupItem", function() { return __WEBPACK_IMPORTED_MODULE_29__ListGroupItem__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__Media__ = __webpack_require__(139);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Media", function() { return __WEBPACK_IMPORTED_MODULE_30__Media__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__MenuItem__ = __webpack_require__(493);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "MenuItem", function() { return __WEBPACK_IMPORTED_MODULE_31__MenuItem__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__Modal__ = __webpack_require__(494);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Modal", function() { return __WEBPACK_IMPORTED_MODULE_32__Modal__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__ModalBody__ = __webpack_require__(220);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ModalBody", function() { return __WEBPACK_IMPORTED_MODULE_33__ModalBody__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__ModalFooter__ = __webpack_require__(221);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ModalFooter", function() { return __WEBPACK_IMPORTED_MODULE_34__ModalFooter__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__ModalHeader__ = __webpack_require__(222);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ModalHeader", function() { return __WEBPACK_IMPORTED_MODULE_35__ModalHeader__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__ModalTitle__ = __webpack_require__(223);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ModalTitle", function() { return __WEBPACK_IMPORTED_MODULE_36__ModalTitle__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__Nav__ = __webpack_require__(224);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Nav", function() { return __WEBPACK_IMPORTED_MODULE_37__Nav__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__Navbar__ = __webpack_require__(497);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Navbar", function() { return __WEBPACK_IMPORTED_MODULE_38__Navbar__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__NavbarBrand__ = __webpack_require__(226);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "NavbarBrand", function() { return __WEBPACK_IMPORTED_MODULE_39__NavbarBrand__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__NavDropdown__ = __webpack_require__(496);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "NavDropdown", function() { return __WEBPACK_IMPORTED_MODULE_40__NavDropdown__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__NavItem__ = __webpack_require__(225);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "NavItem", function() { return __WEBPACK_IMPORTED_MODULE_41__NavItem__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__Overlay__ = __webpack_require__(227);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Overlay", function() { return __WEBPACK_IMPORTED_MODULE_42__Overlay__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__OverlayTrigger__ = __webpack_require__(501);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "OverlayTrigger", function() { return __WEBPACK_IMPORTED_MODULE_43__OverlayTrigger__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__PageHeader__ = __webpack_require__(502);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "PageHeader", function() { return __WEBPACK_IMPORTED_MODULE_44__PageHeader__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__PageItem__ = __webpack_require__(503);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "PageItem", function() { return __WEBPACK_IMPORTED_MODULE_45__PageItem__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__Pager__ = __webpack_require__(504);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Pager", function() { return __WEBPACK_IMPORTED_MODULE_46__Pager__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__Pagination__ = __webpack_require__(505);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Pagination", function() { return __WEBPACK_IMPORTED_MODULE_47__Pagination__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__Panel__ = __webpack_require__(507);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Panel", function() { return __WEBPACK_IMPORTED_MODULE_48__Panel__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__PanelGroup__ = __webpack_require__(229);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "PanelGroup", function() { return __WEBPACK_IMPORTED_MODULE_49__PanelGroup__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__Popover__ = __webpack_require__(508);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Popover", function() { return __WEBPACK_IMPORTED_MODULE_50__Popover__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__ProgressBar__ = __webpack_require__(509);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ProgressBar", function() { return __WEBPACK_IMPORTED_MODULE_51__ProgressBar__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__Radio__ = __webpack_require__(510);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Radio", function() { return __WEBPACK_IMPORTED_MODULE_52__Radio__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__ResponsiveEmbed__ = __webpack_require__(511);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ResponsiveEmbed", function() { return __WEBPACK_IMPORTED_MODULE_53__ResponsiveEmbed__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_54__Row__ = __webpack_require__(512);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Row", function() { return __WEBPACK_IMPORTED_MODULE_54__Row__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_55__SafeAnchor__ = __webpack_require__(28);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "SafeAnchor", function() { return __WEBPACK_IMPORTED_MODULE_55__SafeAnchor__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_56__SplitButton__ = __webpack_require__(513);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "SplitButton", function() { return __WEBPACK_IMPORTED_MODULE_56__SplitButton__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_57__Tab__ = __webpack_require__(515);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Tab", function() { return __WEBPACK_IMPORTED_MODULE_57__Tab__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_58__TabContainer__ = __webpack_require__(140);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "TabContainer", function() { return __WEBPACK_IMPORTED_MODULE_58__TabContainer__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__TabContent__ = __webpack_require__(141);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "TabContent", function() { return __WEBPACK_IMPORTED_MODULE_59__TabContent__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_60__Table__ = __webpack_require__(516);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Table", function() { return __WEBPACK_IMPORTED_MODULE_60__Table__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__TabPane__ = __webpack_require__(230);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "TabPane", function() { return __WEBPACK_IMPORTED_MODULE_61__TabPane__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__Tabs__ = __webpack_require__(517);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Tabs", function() { return __WEBPACK_IMPORTED_MODULE_62__Tabs__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__Thumbnail__ = __webpack_require__(518);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Thumbnail", function() { return __WEBPACK_IMPORTED_MODULE_63__Thumbnail__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__Tooltip__ = __webpack_require__(519);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Tooltip", function() { return __WEBPACK_IMPORTED_MODULE_64__Tooltip__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_65__Well__ = __webpack_require__(520);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Well", function() { return __WEBPACK_IMPORTED_MODULE_65__Well__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_66__utils__ = __webpack_require__(524);
+/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, "utils", function() { return __WEBPACK_IMPORTED_MODULE_66__utils__; });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***/ }),
+/* 26 */
 /***/ (function(module, exports) {
 
 var core = module.exports = {version: '2.4.0'};
 if(typeof __e == 'number')__e = core; // eslint-disable-line no-undef
 
 /***/ }),
-/* 26 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< HEAD:public/bundle.js
-var store      = __webpack_require__(111)('wks')
-  , uid        = __webpack_require__(79)
-  , Symbol     = __webpack_require__(32).Symbol
-=======
-var store      = __webpack_require__(115)('wks')
-  , uid        = __webpack_require__(83)
+var store      = __webpack_require__(116)('wks')
+  , uid        = __webpack_require__(85)
   , Symbol     = __webpack_require__(34).Symbol
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
   , USE_SYMBOL = typeof Symbol == 'function';
 
 var $exports = module.exports = function(name){
@@ -2736,7 +2989,7 @@ var $exports = module.exports = function(name){
 $exports.store = store;
 
 /***/ }),
-/* 27 */
+/* 28 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2855,7 +3108,7 @@ SafeAnchor.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (SafeAnchor);
 
 /***/ }),
-/* 28 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2875,10 +3128,10 @@ var _prodInvariant = __webpack_require__(11),
     _assign = __webpack_require__(13);
 
 var CallbackQueue = __webpack_require__(233);
-var PooledClass = __webpack_require__(44);
+var PooledClass = __webpack_require__(45);
 var ReactFeatureFlags = __webpack_require__(238);
-var ReactReconciler = __webpack_require__(59);
-var Transaction = __webpack_require__(95);
+var ReactReconciler = __webpack_require__(60);
+var Transaction = __webpack_require__(97);
 
 var invariant = __webpack_require__(9);
 
@@ -3112,7 +3365,7 @@ module.exports = ReactUpdates;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 29 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3148,281 +3401,6 @@ var ReactCurrentOwner = {
 module.exports = ReactCurrentOwner;
 
 /***/ }),
-/* 30 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Accordion__ = __webpack_require__(459);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Accordion", function() { return __WEBPACK_IMPORTED_MODULE_0__Accordion__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Alert__ = __webpack_require__(460);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Alert", function() { return __WEBPACK_IMPORTED_MODULE_1__Alert__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Badge__ = __webpack_require__(461);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Badge", function() { return __WEBPACK_IMPORTED_MODULE_2__Badge__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Breadcrumb__ = __webpack_require__(462);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Breadcrumb", function() { return __WEBPACK_IMPORTED_MODULE_3__Breadcrumb__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__BreadcrumbItem__ = __webpack_require__(214);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "BreadcrumbItem", function() { return __WEBPACK_IMPORTED_MODULE_4__BreadcrumbItem__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Button__ = __webpack_require__(74);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Button", function() { return __WEBPACK_IMPORTED_MODULE_5__Button__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ButtonGroup__ = __webpack_require__(215);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ButtonGroup", function() { return __WEBPACK_IMPORTED_MODULE_6__ButtonGroup__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ButtonToolbar__ = __webpack_require__(463);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ButtonToolbar", function() { return __WEBPACK_IMPORTED_MODULE_7__ButtonToolbar__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Carousel__ = __webpack_require__(464);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Carousel", function() { return __WEBPACK_IMPORTED_MODULE_8__Carousel__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__CarouselItem__ = __webpack_require__(216);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "CarouselItem", function() { return __WEBPACK_IMPORTED_MODULE_9__CarouselItem__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Checkbox__ = __webpack_require__(466);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Checkbox", function() { return __WEBPACK_IMPORTED_MODULE_10__Checkbox__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__Clearfix__ = __webpack_require__(467);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Clearfix", function() { return __WEBPACK_IMPORTED_MODULE_11__Clearfix__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ControlLabel__ = __webpack_require__(469);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ControlLabel", function() { return __WEBPACK_IMPORTED_MODULE_12__ControlLabel__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__Col__ = __webpack_require__(468);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Col", function() { return __WEBPACK_IMPORTED_MODULE_13__Col__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__Collapse__ = __webpack_require__(136);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Collapse", function() { return __WEBPACK_IMPORTED_MODULE_14__Collapse__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__Dropdown__ = __webpack_require__(89);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Dropdown", function() { return __WEBPACK_IMPORTED_MODULE_15__Dropdown__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__DropdownButton__ = __webpack_require__(470);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "DropdownButton", function() { return __WEBPACK_IMPORTED_MODULE_16__DropdownButton__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__Fade__ = __webpack_require__(90);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Fade", function() { return __WEBPACK_IMPORTED_MODULE_17__Fade__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__Form__ = __webpack_require__(472);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Form", function() { return __WEBPACK_IMPORTED_MODULE_18__Form__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__FormControl__ = __webpack_require__(473);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "FormControl", function() { return __WEBPACK_IMPORTED_MODULE_19__FormControl__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__FormGroup__ = __webpack_require__(476);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "FormGroup", function() { return __WEBPACK_IMPORTED_MODULE_20__FormGroup__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__Glyphicon__ = __webpack_require__(137);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Glyphicon", function() { return __WEBPACK_IMPORTED_MODULE_21__Glyphicon__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__Grid__ = __webpack_require__(218);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Grid", function() { return __WEBPACK_IMPORTED_MODULE_22__Grid__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__HelpBlock__ = __webpack_require__(477);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "HelpBlock", function() { return __WEBPACK_IMPORTED_MODULE_23__HelpBlock__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__Image__ = __webpack_require__(478);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Image", function() { return __WEBPACK_IMPORTED_MODULE_24__Image__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__InputGroup__ = __webpack_require__(479);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "InputGroup", function() { return __WEBPACK_IMPORTED_MODULE_25__InputGroup__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__Jumbotron__ = __webpack_require__(482);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Jumbotron", function() { return __WEBPACK_IMPORTED_MODULE_26__Jumbotron__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__Label__ = __webpack_require__(483);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Label", function() { return __WEBPACK_IMPORTED_MODULE_27__Label__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__ListGroup__ = __webpack_require__(484);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ListGroup", function() { return __WEBPACK_IMPORTED_MODULE_28__ListGroup__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__ListGroupItem__ = __webpack_require__(219);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ListGroupItem", function() { return __WEBPACK_IMPORTED_MODULE_29__ListGroupItem__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__Media__ = __webpack_require__(138);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Media", function() { return __WEBPACK_IMPORTED_MODULE_30__Media__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__MenuItem__ = __webpack_require__(491);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "MenuItem", function() { return __WEBPACK_IMPORTED_MODULE_31__MenuItem__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__Modal__ = __webpack_require__(492);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Modal", function() { return __WEBPACK_IMPORTED_MODULE_32__Modal__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__ModalBody__ = __webpack_require__(220);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ModalBody", function() { return __WEBPACK_IMPORTED_MODULE_33__ModalBody__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__ModalFooter__ = __webpack_require__(221);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ModalFooter", function() { return __WEBPACK_IMPORTED_MODULE_34__ModalFooter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__ModalHeader__ = __webpack_require__(222);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ModalHeader", function() { return __WEBPACK_IMPORTED_MODULE_35__ModalHeader__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__ModalTitle__ = __webpack_require__(223);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ModalTitle", function() { return __WEBPACK_IMPORTED_MODULE_36__ModalTitle__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__Nav__ = __webpack_require__(224);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Nav", function() { return __WEBPACK_IMPORTED_MODULE_37__Nav__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__Navbar__ = __webpack_require__(495);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Navbar", function() { return __WEBPACK_IMPORTED_MODULE_38__Navbar__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__NavbarBrand__ = __webpack_require__(226);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "NavbarBrand", function() { return __WEBPACK_IMPORTED_MODULE_39__NavbarBrand__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__NavDropdown__ = __webpack_require__(494);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "NavDropdown", function() { return __WEBPACK_IMPORTED_MODULE_40__NavDropdown__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__NavItem__ = __webpack_require__(225);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "NavItem", function() { return __WEBPACK_IMPORTED_MODULE_41__NavItem__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__Overlay__ = __webpack_require__(227);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Overlay", function() { return __WEBPACK_IMPORTED_MODULE_42__Overlay__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__OverlayTrigger__ = __webpack_require__(499);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "OverlayTrigger", function() { return __WEBPACK_IMPORTED_MODULE_43__OverlayTrigger__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__PageHeader__ = __webpack_require__(500);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "PageHeader", function() { return __WEBPACK_IMPORTED_MODULE_44__PageHeader__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__PageItem__ = __webpack_require__(501);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "PageItem", function() { return __WEBPACK_IMPORTED_MODULE_45__PageItem__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__Pager__ = __webpack_require__(502);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Pager", function() { return __WEBPACK_IMPORTED_MODULE_46__Pager__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__Pagination__ = __webpack_require__(503);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Pagination", function() { return __WEBPACK_IMPORTED_MODULE_47__Pagination__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__Panel__ = __webpack_require__(505);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Panel", function() { return __WEBPACK_IMPORTED_MODULE_48__Panel__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__PanelGroup__ = __webpack_require__(229);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "PanelGroup", function() { return __WEBPACK_IMPORTED_MODULE_49__PanelGroup__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__Popover__ = __webpack_require__(506);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Popover", function() { return __WEBPACK_IMPORTED_MODULE_50__Popover__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__ProgressBar__ = __webpack_require__(507);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ProgressBar", function() { return __WEBPACK_IMPORTED_MODULE_51__ProgressBar__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__Radio__ = __webpack_require__(508);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Radio", function() { return __WEBPACK_IMPORTED_MODULE_52__Radio__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__ResponsiveEmbed__ = __webpack_require__(509);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ResponsiveEmbed", function() { return __WEBPACK_IMPORTED_MODULE_53__ResponsiveEmbed__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_54__Row__ = __webpack_require__(510);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Row", function() { return __WEBPACK_IMPORTED_MODULE_54__Row__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_55__SafeAnchor__ = __webpack_require__(27);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "SafeAnchor", function() { return __WEBPACK_IMPORTED_MODULE_55__SafeAnchor__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_56__SplitButton__ = __webpack_require__(511);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "SplitButton", function() { return __WEBPACK_IMPORTED_MODULE_56__SplitButton__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_57__Tab__ = __webpack_require__(513);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Tab", function() { return __WEBPACK_IMPORTED_MODULE_57__Tab__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_58__TabContainer__ = __webpack_require__(139);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "TabContainer", function() { return __WEBPACK_IMPORTED_MODULE_58__TabContainer__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__TabContent__ = __webpack_require__(140);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "TabContent", function() { return __WEBPACK_IMPORTED_MODULE_59__TabContent__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_60__Table__ = __webpack_require__(514);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Table", function() { return __WEBPACK_IMPORTED_MODULE_60__Table__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__TabPane__ = __webpack_require__(230);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "TabPane", function() { return __WEBPACK_IMPORTED_MODULE_61__TabPane__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__Tabs__ = __webpack_require__(515);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Tabs", function() { return __WEBPACK_IMPORTED_MODULE_62__Tabs__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__Thumbnail__ = __webpack_require__(516);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Thumbnail", function() { return __WEBPACK_IMPORTED_MODULE_63__Thumbnail__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__Tooltip__ = __webpack_require__(517);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Tooltip", function() { return __WEBPACK_IMPORTED_MODULE_64__Tooltip__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_65__Well__ = __webpack_require__(518);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Well", function() { return __WEBPACK_IMPORTED_MODULE_65__Well__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_66__utils__ = __webpack_require__(522);
-/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, "utils", function() { return __WEBPACK_IMPORTED_MODULE_66__utils__; });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/***/ }),
 /* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3441,7 +3419,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 var _assign = __webpack_require__(13);
 
-var PooledClass = __webpack_require__(44);
+var PooledClass = __webpack_require__(45);
 
 var emptyFunction = __webpack_require__(24);
 var warning = __webpack_require__(10);
@@ -3730,9 +3708,9 @@ module.exports = _extends({}, _count2.default, _spinner2.default, _personalLib2.
 /***/ (function(module, exports, __webpack_require__) {
 
 var global    = __webpack_require__(34)
-  , core      = __webpack_require__(25)
-  , ctx       = __webpack_require__(107)
-  , hide      = __webpack_require__(50)
+  , core      = __webpack_require__(26)
+  , ctx       = __webpack_require__(108)
+  , hide      = __webpack_require__(51)
   , PROTOTYPE = 'prototype';
 
 var $export = function(type, name, source){
@@ -3806,7 +3784,7 @@ if(typeof __g == 'number')__g = global; // eslint-disable-line no-undef
 
 // to indexed object, toObject with fallback for non-array-like ES3 strings
 var IObject = __webpack_require__(174)
-  , defined = __webpack_require__(108);
+  , defined = __webpack_require__(109);
 module.exports = function(it){
   return IObject(defined(it));
 };
@@ -4163,6 +4141,24 @@ module.exports = DOMProperty;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_Provider__ = __webpack_require__(605);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_connectAdvanced__ = __webpack_require__(259);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__connect_connect__ = __webpack_require__(606);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Provider", function() { return __WEBPACK_IMPORTED_MODULE_0__components_Provider__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "connectAdvanced", function() { return __WEBPACK_IMPORTED_MODULE_1__components_connectAdvanced__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "connect", function() { return __WEBPACK_IMPORTED_MODULE_2__connect_connect__["a"]; });
+
+
+
+
+
+
+/***/ }),
+/* 41 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony export (immutable) */ __webpack_exports__["b"] = isReactChildren;
@@ -4251,7 +4247,7 @@ function createRoutes(routes) {
 }
 
 /***/ }),
-/* 41 */
+/* 42 */
 /***/ (function(module, exports) {
 
 var hasOwnProperty = {}.hasOwnProperty;
@@ -4260,15 +4256,15 @@ module.exports = function(it, key){
 };
 
 /***/ }),
-/* 42 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var anObject       = __webpack_require__(48)
+var anObject       = __webpack_require__(49)
   , IE8_DOM_DEFINE = __webpack_require__(173)
-  , toPrimitive    = __webpack_require__(118)
+  , toPrimitive    = __webpack_require__(119)
   , dP             = Object.defineProperty;
 
-exports.f = __webpack_require__(49) ? Object.defineProperty : function defineProperty(O, P, Attributes){
+exports.f = __webpack_require__(50) ? Object.defineProperty : function defineProperty(O, P, Attributes){
   anObject(O);
   P = toPrimitive(P, true);
   anObject(Attributes);
@@ -4281,18 +4277,12 @@ exports.f = __webpack_require__(49) ? Object.defineProperty : function definePro
 };
 
 /***/ }),
-/* 43 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< HEAD:public/bundle.js
-var Symbol = __webpack_require__(125),
-    getRawTag = __webpack_require__(409),
-    objectToString = __webpack_require__(417);
-=======
-var Symbol = __webpack_require__(129),
-    getRawTag = __webpack_require__(429),
-    objectToString = __webpack_require__(437);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var Symbol = __webpack_require__(130),
+    getRawTag = __webpack_require__(431),
+    objectToString = __webpack_require__(439);
 
 /** `Object#toString` result references. */
 var nullTag = '[object Null]',
@@ -4321,7 +4311,7 @@ module.exports = baseGetTag;
 
 
 /***/ }),
-/* 44 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4439,7 +4429,7 @@ module.exports = PooledClass;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 45 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4457,14 +4447,10 @@ module.exports = PooledClass;
 
 var _assign = __webpack_require__(13);
 
-var ReactCurrentOwner = __webpack_require__(29);
+var ReactCurrentOwner = __webpack_require__(30);
 
 var warning = __webpack_require__(10);
-<<<<<<< HEAD:public/bundle.js
-var canDefineProperty = __webpack_require__(161);
-=======
-var canDefineProperty = __webpack_require__(166);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var canDefineProperty = __webpack_require__(167);
 var hasOwnProperty = Object.prototype.hasOwnProperty;
 
 var REACT_ELEMENT_TYPE = __webpack_require__(275);
@@ -4790,7 +4776,7 @@ module.exports = ReactElement;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 46 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4834,17 +4820,13 @@ function reactProdInvariant(code) {
 module.exports = reactProdInvariant;
 
 /***/ }),
-/* 47 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< HEAD:public/bundle.js
-module.exports = { "default": __webpack_require__(303), __esModule: true };
-=======
-module.exports = { "default": __webpack_require__(323), __esModule: true };
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+module.exports = { "default": __webpack_require__(325), __esModule: true };
 
 /***/ }),
-/* 48 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var isObject = __webpack_require__(65);
@@ -4854,7 +4836,7 @@ module.exports = function(it){
 };
 
 /***/ }),
-/* 49 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // Thank's IE8 for his funny defineProperty
@@ -4863,12 +4845,12 @@ module.exports = !__webpack_require__(64)(function(){
 });
 
 /***/ }),
-/* 50 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var dP         = __webpack_require__(42)
+var dP         = __webpack_require__(43)
   , createDesc = __webpack_require__(68);
-module.exports = __webpack_require__(49) ? function(object, key, value){
+module.exports = __webpack_require__(50) ? function(object, key, value){
   return dP.f(object, key, createDesc(1, value));
 } : function(object, key, value){
   object[key] = value;
@@ -4876,19 +4858,19 @@ module.exports = __webpack_require__(49) ? function(object, key, value){
 };
 
 /***/ }),
-/* 51 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.14 / 15.2.3.14 Object.keys(O)
 var $keys       = __webpack_require__(178)
-  , enumBugKeys = __webpack_require__(109);
+  , enumBugKeys = __webpack_require__(110);
 
 module.exports = Object.keys || function keys(O){
   return $keys(O, enumBugKeys);
 };
 
 /***/ }),
-/* 52 */
+/* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4904,7 +4886,7 @@ function ownerDocument(node) {
 module.exports = exports["default"];
 
 /***/ }),
-/* 53 */
+/* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4944,7 +4926,7 @@ function fallback(context, node) {
 module.exports = exports['default'];
 
 /***/ }),
-/* 54 */
+/* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4967,11 +4949,7 @@ var _warning2 = _interopRequireDefault(_warning);
 
 var _PathUtils = __webpack_require__(37);
 
-<<<<<<< HEAD:public/bundle.js
-var _Actions = __webpack_require__(83);
-=======
-var _Actions = __webpack_require__(87);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _Actions = __webpack_require__(89);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -5047,16 +5025,11 @@ var locationsAreEqual = exports.locationsAreEqual = function locationsAreEqual(a
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 55 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< HEAD:public/bundle.js
-var baseIsNative = __webpack_require__(396),
-    getValue = __webpack_require__(411);
-=======
-var baseIsNative = __webpack_require__(416),
-    getValue = __webpack_require__(431);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var baseIsNative = __webpack_require__(418),
+    getValue = __webpack_require__(433);
 
 /**
  * Gets the native function at `key` of `object`.
@@ -5075,10 +5048,10 @@ module.exports = getNative;
 
 
 /***/ }),
-/* 56 */
+/* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseGetTag = __webpack_require__(43),
+var baseGetTag = __webpack_require__(44),
     isObject = __webpack_require__(73);
 
 /** `Object#toString` result references. */
@@ -5118,7 +5091,7 @@ module.exports = isFunction;
 
 
 /***/ }),
-/* 57 */
+/* 58 */
 /***/ (function(module, exports) {
 
 /**
@@ -5153,7 +5126,7 @@ module.exports = isObjectLike;
 
 
 /***/ }),
-/* 58 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5169,10 +5142,10 @@ module.exports = isObjectLike;
 
 
 
-var DOMNamespaces = __webpack_require__(142);
-var setInnerHTML = __webpack_require__(97);
+var DOMNamespaces = __webpack_require__(143);
+var setInnerHTML = __webpack_require__(99);
 
-var createMicrosoftUnsafeLocalFunction = __webpack_require__(149);
+var createMicrosoftUnsafeLocalFunction = __webpack_require__(150);
 var setTextContent = __webpack_require__(251);
 
 var ELEMENT_NODE_TYPE = 1;
@@ -5276,7 +5249,7 @@ DOMLazyTree.queueText = queueText;
 module.exports = DOMLazyTree;
 
 /***/ }),
-/* 59 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5292,11 +5265,7 @@ module.exports = DOMLazyTree;
 
 
 
-<<<<<<< HEAD:public/bundle.js
-var ReactRef = __webpack_require__(545);
-=======
-var ReactRef = __webpack_require__(565);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var ReactRef = __webpack_require__(567);
 var ReactInstrumentation = __webpack_require__(23);
 
 var warning = __webpack_require__(10);
@@ -5452,24 +5421,6 @@ var ReactReconciler = {
 
 module.exports = ReactReconciler;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
-
-/***/ }),
-/* 60 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_Provider__ = __webpack_require__(603);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_connectAdvanced__ = __webpack_require__(259);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__connect_connect__ = __webpack_require__(604);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Provider", function() { return __WEBPACK_IMPORTED_MODULE_0__components_Provider__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "connectAdvanced", function() { return __WEBPACK_IMPORTED_MODULE_1__components_connectAdvanced__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "connect", function() { return __WEBPACK_IMPORTED_MODULE_2__connect_connect__["a"]; });
-
-
-
-
-
 
 /***/ }),
 /* 61 */
@@ -5771,29 +5722,16 @@ function _resetWarned() {
 
 var _assign = __webpack_require__(13);
 
-<<<<<<< HEAD:public/bundle.js
-var ReactChildren = __webpack_require__(610);
-var ReactComponent = __webpack_require__(158);
-var ReactPureComponent = __webpack_require__(614);
-var ReactClass = __webpack_require__(611);
-var ReactDOMFactories = __webpack_require__(612);
-var ReactElement = __webpack_require__(43);
-var ReactPropTypes = __webpack_require__(613);
-var ReactVersion = __webpack_require__(615);
+var ReactChildren = __webpack_require__(637);
+var ReactComponent = __webpack_require__(164);
+var ReactPureComponent = __webpack_require__(641);
+var ReactClass = __webpack_require__(638);
+var ReactDOMFactories = __webpack_require__(639);
+var ReactElement = __webpack_require__(46);
+var ReactPropTypes = __webpack_require__(640);
+var ReactVersion = __webpack_require__(642);
 
-var onlyChild = __webpack_require__(617);
-=======
-var ReactChildren = __webpack_require__(635);
-var ReactComponent = __webpack_require__(163);
-var ReactPureComponent = __webpack_require__(639);
-var ReactClass = __webpack_require__(636);
-var ReactDOMFactories = __webpack_require__(637);
-var ReactElement = __webpack_require__(45);
-var ReactPropTypes = __webpack_require__(638);
-var ReactVersion = __webpack_require__(640);
-
-var onlyChild = __webpack_require__(642);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var onlyChild = __webpack_require__(644);
 var warning = __webpack_require__(10);
 
 var createElement = ReactElement.createElement;
@@ -5994,7 +5932,7 @@ module.exports = isArray;
 /* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isFunction = __webpack_require__(56),
+var isFunction = __webpack_require__(57),
     isLength = __webpack_require__(211);
 
 /**
@@ -6071,7 +6009,7 @@ module.exports = isObject;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values__ = __webpack_require__(48);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_objectWithoutProperties__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_objectWithoutProperties___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_objectWithoutProperties__);
@@ -6090,8 +6028,8 @@ module.exports = isObject;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react_prop_types_lib_elementType__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react_prop_types_lib_elementType___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_react_prop_types_lib_elementType__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_bootstrapUtils__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils_StyleConfig__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__SafeAnchor__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils_StyleConfig__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__SafeAnchor__ = __webpack_require__(28);
 
 
 
@@ -6188,286 +6126,7 @@ Button.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__utils_bootstrapUtils__["bsClass"])('btn', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__utils_bootstrapUtils__["bsSizes"])([__WEBPACK_IMPORTED_MODULE_10__utils_StyleConfig__["b" /* Size */].LARGE, __WEBPACK_IMPORTED_MODULE_10__utils_StyleConfig__["b" /* Size */].SMALL, __WEBPACK_IMPORTED_MODULE_10__utils_StyleConfig__["b" /* Size */].XSMALL], __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__utils_bootstrapUtils__["bsStyles"])([].concat(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values___default()(__WEBPACK_IMPORTED_MODULE_10__utils_StyleConfig__["c" /* State */]), [__WEBPACK_IMPORTED_MODULE_10__utils_StyleConfig__["d" /* Style */].DEFAULT, __WEBPACK_IMPORTED_MODULE_10__utils_StyleConfig__["d" /* Style */].PRIMARY, __WEBPACK_IMPORTED_MODULE_10__utils_StyleConfig__["d" /* Style */].LINK]), __WEBPACK_IMPORTED_MODULE_10__utils_StyleConfig__["d" /* Style */].DEFAULT, Button))));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 72 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Accordion__ = __webpack_require__(439);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Accordion", function() { return __WEBPACK_IMPORTED_MODULE_0__Accordion__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Alert__ = __webpack_require__(440);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Alert", function() { return __WEBPACK_IMPORTED_MODULE_1__Alert__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Badge__ = __webpack_require__(441);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Badge", function() { return __WEBPACK_IMPORTED_MODULE_2__Badge__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Breadcrumb__ = __webpack_require__(442);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Breadcrumb", function() { return __WEBPACK_IMPORTED_MODULE_3__Breadcrumb__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__BreadcrumbItem__ = __webpack_require__(210);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "BreadcrumbItem", function() { return __WEBPACK_IMPORTED_MODULE_4__BreadcrumbItem__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Button__ = __webpack_require__(71);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Button", function() { return __WEBPACK_IMPORTED_MODULE_5__Button__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ButtonGroup__ = __webpack_require__(211);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ButtonGroup", function() { return __WEBPACK_IMPORTED_MODULE_6__ButtonGroup__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ButtonToolbar__ = __webpack_require__(443);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ButtonToolbar", function() { return __WEBPACK_IMPORTED_MODULE_7__ButtonToolbar__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Carousel__ = __webpack_require__(444);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Carousel", function() { return __WEBPACK_IMPORTED_MODULE_8__Carousel__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__CarouselItem__ = __webpack_require__(212);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "CarouselItem", function() { return __WEBPACK_IMPORTED_MODULE_9__CarouselItem__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Checkbox__ = __webpack_require__(446);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Checkbox", function() { return __WEBPACK_IMPORTED_MODULE_10__Checkbox__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__Clearfix__ = __webpack_require__(447);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Clearfix", function() { return __WEBPACK_IMPORTED_MODULE_11__Clearfix__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ControlLabel__ = __webpack_require__(449);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ControlLabel", function() { return __WEBPACK_IMPORTED_MODULE_12__ControlLabel__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__Col__ = __webpack_require__(448);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Col", function() { return __WEBPACK_IMPORTED_MODULE_13__Col__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__Collapse__ = __webpack_require__(131);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Collapse", function() { return __WEBPACK_IMPORTED_MODULE_14__Collapse__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__Dropdown__ = __webpack_require__(85);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Dropdown", function() { return __WEBPACK_IMPORTED_MODULE_15__Dropdown__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__DropdownButton__ = __webpack_require__(450);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "DropdownButton", function() { return __WEBPACK_IMPORTED_MODULE_16__DropdownButton__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__Fade__ = __webpack_require__(86);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Fade", function() { return __WEBPACK_IMPORTED_MODULE_17__Fade__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__Form__ = __webpack_require__(452);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Form", function() { return __WEBPACK_IMPORTED_MODULE_18__Form__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__FormControl__ = __webpack_require__(453);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "FormControl", function() { return __WEBPACK_IMPORTED_MODULE_19__FormControl__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__FormGroup__ = __webpack_require__(456);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "FormGroup", function() { return __WEBPACK_IMPORTED_MODULE_20__FormGroup__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__Glyphicon__ = __webpack_require__(132);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Glyphicon", function() { return __WEBPACK_IMPORTED_MODULE_21__Glyphicon__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__Grid__ = __webpack_require__(214);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Grid", function() { return __WEBPACK_IMPORTED_MODULE_22__Grid__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__HelpBlock__ = __webpack_require__(457);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "HelpBlock", function() { return __WEBPACK_IMPORTED_MODULE_23__HelpBlock__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__Image__ = __webpack_require__(458);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Image", function() { return __WEBPACK_IMPORTED_MODULE_24__Image__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__InputGroup__ = __webpack_require__(459);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "InputGroup", function() { return __WEBPACK_IMPORTED_MODULE_25__InputGroup__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__Jumbotron__ = __webpack_require__(462);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Jumbotron", function() { return __WEBPACK_IMPORTED_MODULE_26__Jumbotron__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__Label__ = __webpack_require__(463);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Label", function() { return __WEBPACK_IMPORTED_MODULE_27__Label__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__ListGroup__ = __webpack_require__(464);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ListGroup", function() { return __WEBPACK_IMPORTED_MODULE_28__ListGroup__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__ListGroupItem__ = __webpack_require__(215);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ListGroupItem", function() { return __WEBPACK_IMPORTED_MODULE_29__ListGroupItem__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__Media__ = __webpack_require__(133);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Media", function() { return __WEBPACK_IMPORTED_MODULE_30__Media__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__MenuItem__ = __webpack_require__(471);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "MenuItem", function() { return __WEBPACK_IMPORTED_MODULE_31__MenuItem__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__Modal__ = __webpack_require__(472);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Modal", function() { return __WEBPACK_IMPORTED_MODULE_32__Modal__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__ModalBody__ = __webpack_require__(216);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ModalBody", function() { return __WEBPACK_IMPORTED_MODULE_33__ModalBody__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__ModalFooter__ = __webpack_require__(217);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ModalFooter", function() { return __WEBPACK_IMPORTED_MODULE_34__ModalFooter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__ModalHeader__ = __webpack_require__(218);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ModalHeader", function() { return __WEBPACK_IMPORTED_MODULE_35__ModalHeader__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__ModalTitle__ = __webpack_require__(219);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ModalTitle", function() { return __WEBPACK_IMPORTED_MODULE_36__ModalTitle__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__Nav__ = __webpack_require__(220);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Nav", function() { return __WEBPACK_IMPORTED_MODULE_37__Nav__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__Navbar__ = __webpack_require__(475);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Navbar", function() { return __WEBPACK_IMPORTED_MODULE_38__Navbar__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__NavbarBrand__ = __webpack_require__(222);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "NavbarBrand", function() { return __WEBPACK_IMPORTED_MODULE_39__NavbarBrand__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__NavDropdown__ = __webpack_require__(474);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "NavDropdown", function() { return __WEBPACK_IMPORTED_MODULE_40__NavDropdown__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__NavItem__ = __webpack_require__(221);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "NavItem", function() { return __WEBPACK_IMPORTED_MODULE_41__NavItem__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__Overlay__ = __webpack_require__(223);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Overlay", function() { return __WEBPACK_IMPORTED_MODULE_42__Overlay__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__OverlayTrigger__ = __webpack_require__(479);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "OverlayTrigger", function() { return __WEBPACK_IMPORTED_MODULE_43__OverlayTrigger__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__PageHeader__ = __webpack_require__(480);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "PageHeader", function() { return __WEBPACK_IMPORTED_MODULE_44__PageHeader__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__PageItem__ = __webpack_require__(481);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "PageItem", function() { return __WEBPACK_IMPORTED_MODULE_45__PageItem__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__Pager__ = __webpack_require__(482);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Pager", function() { return __WEBPACK_IMPORTED_MODULE_46__Pager__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__Pagination__ = __webpack_require__(483);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Pagination", function() { return __WEBPACK_IMPORTED_MODULE_47__Pagination__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__Panel__ = __webpack_require__(485);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Panel", function() { return __WEBPACK_IMPORTED_MODULE_48__Panel__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__PanelGroup__ = __webpack_require__(225);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "PanelGroup", function() { return __WEBPACK_IMPORTED_MODULE_49__PanelGroup__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__Popover__ = __webpack_require__(486);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Popover", function() { return __WEBPACK_IMPORTED_MODULE_50__Popover__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__ProgressBar__ = __webpack_require__(487);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ProgressBar", function() { return __WEBPACK_IMPORTED_MODULE_51__ProgressBar__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__Radio__ = __webpack_require__(488);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Radio", function() { return __WEBPACK_IMPORTED_MODULE_52__Radio__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__ResponsiveEmbed__ = __webpack_require__(489);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ResponsiveEmbed", function() { return __WEBPACK_IMPORTED_MODULE_53__ResponsiveEmbed__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_54__Row__ = __webpack_require__(490);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Row", function() { return __WEBPACK_IMPORTED_MODULE_54__Row__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_55__SafeAnchor__ = __webpack_require__(27);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "SafeAnchor", function() { return __WEBPACK_IMPORTED_MODULE_55__SafeAnchor__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_56__SplitButton__ = __webpack_require__(491);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "SplitButton", function() { return __WEBPACK_IMPORTED_MODULE_56__SplitButton__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_57__Tab__ = __webpack_require__(493);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Tab", function() { return __WEBPACK_IMPORTED_MODULE_57__Tab__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_58__TabContainer__ = __webpack_require__(134);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "TabContainer", function() { return __WEBPACK_IMPORTED_MODULE_58__TabContainer__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__TabContent__ = __webpack_require__(135);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "TabContent", function() { return __WEBPACK_IMPORTED_MODULE_59__TabContent__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_60__Table__ = __webpack_require__(494);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Table", function() { return __WEBPACK_IMPORTED_MODULE_60__Table__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__TabPane__ = __webpack_require__(226);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "TabPane", function() { return __WEBPACK_IMPORTED_MODULE_61__TabPane__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__Tabs__ = __webpack_require__(495);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Tabs", function() { return __WEBPACK_IMPORTED_MODULE_62__Tabs__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__Thumbnail__ = __webpack_require__(496);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Thumbnail", function() { return __WEBPACK_IMPORTED_MODULE_63__Thumbnail__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__Tooltip__ = __webpack_require__(497);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Tooltip", function() { return __WEBPACK_IMPORTED_MODULE_64__Tooltip__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_65__Well__ = __webpack_require__(498);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Well", function() { return __WEBPACK_IMPORTED_MODULE_65__Well__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_66__utils__ = __webpack_require__(502);
-/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, "utils", function() { return __WEBPACK_IMPORTED_MODULE_66__utils__; });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/***/ }),
-/* 73 */
-=======
 /* 75 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6485,9 +6144,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 var _prodInvariant = __webpack_require__(11);
 
-var EventPluginRegistry = __webpack_require__(92);
-var EventPluginUtils = __webpack_require__(143);
-var ReactErrorUtils = __webpack_require__(147);
+var EventPluginRegistry = __webpack_require__(94);
+var EventPluginUtils = __webpack_require__(144);
+var ReactErrorUtils = __webpack_require__(148);
 
 var accumulateInto = __webpack_require__(245);
 var forEachAccumulated = __webpack_require__(246);
@@ -6751,11 +6410,7 @@ module.exports = EventPluginHub;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 74 */
-=======
 /* 76 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6771,13 +6426,8 @@ module.exports = EventPluginHub;
 
 
 
-<<<<<<< HEAD:public/bundle.js
-var EventPluginHub = __webpack_require__(73);
-var EventPluginUtils = __webpack_require__(138);
-=======
 var EventPluginHub = __webpack_require__(75);
-var EventPluginUtils = __webpack_require__(143);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var EventPluginUtils = __webpack_require__(144);
 
 var accumulateInto = __webpack_require__(245);
 var forEachAccumulated = __webpack_require__(246);
@@ -6900,11 +6550,7 @@ module.exports = EventPropagators;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 75 */
-=======
 /* 77 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6957,11 +6603,7 @@ var ReactInstanceMap = {
 module.exports = ReactInstanceMap;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 76 */
-=======
 /* 78 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6979,7 +6621,7 @@ module.exports = ReactInstanceMap;
 
 var SyntheticEvent = __webpack_require__(31);
 
-var getEventTarget = __webpack_require__(152);
+var getEventTarget = __webpack_require__(153);
 
 /**
  * @interface UIEvent
@@ -7025,11 +6667,7 @@ SyntheticEvent.augmentClass(SyntheticUIEvent, UIEventInterface);
 module.exports = SyntheticUIEvent;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 77 */
-=======
 /* 79 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7043,11 +6681,11 @@ exports.default = function (componentOrElement) {
   return (0, _ownerDocument2.default)(_reactDom2.default.findDOMNode(componentOrElement));
 };
 
-var _reactDom = __webpack_require__(20);
+var _reactDom = __webpack_require__(19);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _ownerDocument = __webpack_require__(52);
+var _ownerDocument = __webpack_require__(53);
 
 var _ownerDocument2 = _interopRequireDefault(_ownerDocument);
 
@@ -7056,11 +6694,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 module.exports = exports['default'];
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 78 */
-=======
 /* 80 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7102,9 +6736,6 @@ var route = oneOfType([object, element]);
 var routes = oneOfType([route, arrayOf(route)]);
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 79 */
-=======
 /* 81 */
 /***/ (function(module, exports) {
 
@@ -7161,7 +6792,52 @@ module.exports = function(module) {
 
 /***/ }),
 /* 83 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _count = __webpack_require__(292);
+
+var _count2 = _interopRequireDefault(_count);
+
+var _spinner = __webpack_require__(295);
+
+var _spinner2 = _interopRequireDefault(_spinner);
+
+var _personalLib = __webpack_require__(293);
+
+var _personalLib2 = _interopRequireDefault(_personalLib);
+
+var _publicLib = __webpack_require__(294);
+
+var _publicLib2 = _interopRequireDefault(_publicLib);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+module.exports = _extends({}, _count2.default, _spinner2.default, _personalLib2.default, _publicLib2.default);
+
+/***/ }),
+/* 84 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _reactRouter = __webpack_require__(273);
+
+function redirect(path) {
+    _reactRouter.browserHistory.push(path);
+}
+
+module.exports = {
+    redirect: redirect
+};
+
+/***/ }),
+/* 85 */
 /***/ (function(module, exports) {
 
 var id = 0
@@ -7171,11 +6847,7 @@ module.exports = function(key){
 };
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 80 */
-=======
-/* 84 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 86 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7212,11 +6884,7 @@ exports.default = on;
 module.exports = exports['default'];
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 81 */
-=======
-/* 85 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7232,11 +6900,7 @@ function getWindow(node) {
 module.exports = exports["default"];
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 82 */
-=======
-/* 86 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7251,37 +6915,21 @@ var _camelizeStyle = __webpack_require__(188);
 
 var _camelizeStyle2 = _interopRequireDefault(_camelizeStyle);
 
-<<<<<<< HEAD:public/bundle.js
-var _hyphenateStyle = __webpack_require__(356);
+var _hyphenateStyle = __webpack_require__(378);
 
 var _hyphenateStyle2 = _interopRequireDefault(_hyphenateStyle);
 
-var _getComputedStyle2 = __webpack_require__(351);
+var _getComputedStyle2 = __webpack_require__(373);
 
 var _getComputedStyle3 = _interopRequireDefault(_getComputedStyle2);
 
-var _removeStyle = __webpack_require__(352);
-=======
-var _hyphenateStyle = __webpack_require__(376);
-
-var _hyphenateStyle2 = _interopRequireDefault(_hyphenateStyle);
-
-var _getComputedStyle2 = __webpack_require__(371);
-
-var _getComputedStyle3 = _interopRequireDefault(_getComputedStyle2);
-
-var _removeStyle = __webpack_require__(372);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _removeStyle = __webpack_require__(374);
 
 var _removeStyle2 = _interopRequireDefault(_removeStyle);
 
 var _properties = __webpack_require__(187);
 
-<<<<<<< HEAD:public/bundle.js
-var _isTransform = __webpack_require__(353);
-=======
-var _isTransform = __webpack_require__(373);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _isTransform = __webpack_require__(375);
 
 var _isTransform2 = _interopRequireDefault(_isTransform);
 
@@ -7320,11 +6968,7 @@ function style(node, property, value) {
 module.exports = exports['default'];
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 83 */
-=======
-/* 87 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 89 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7352,11 +6996,7 @@ var REPLACE = exports.REPLACE = 'REPLACE';
 var POP = exports.POP = 'POP';
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 84 */
-=======
-/* 88 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 90 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7411,11 +7051,7 @@ var isExtraneousPopstateEvent = exports.isExtraneousPopstateEvent = function isE
 };
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 85 */
-=======
-/* 89 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 91 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7433,43 +7069,30 @@ var isExtraneousPopstateEvent = exports.isExtraneousPopstateEvent = function isE
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_classnames__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_dom_helpers_activeElement__ = __webpack_require__(183);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_dom_helpers_activeElement___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_dom_helpers_activeElement__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_dom_helpers_query_contains__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_dom_helpers_query_contains__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_dom_helpers_query_contains___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_dom_helpers_query_contains__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_keycode__ = __webpack_require__(127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_keycode__ = __webpack_require__(128);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_keycode___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_keycode__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_react_dom__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_react_dom__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_react_dom__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_react_prop_types_lib_all__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_react_prop_types_lib_all__ = __webpack_require__(100);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_react_prop_types_lib_all___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11_react_prop_types_lib_all__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_react_prop_types_lib_elementType__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_react_prop_types_lib_elementType___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12_react_prop_types_lib_elementType__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_react_prop_types_lib_isRequiredForA11y__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_react_prop_types_lib_isRequiredForA11y__ = __webpack_require__(101);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_react_prop_types_lib_isRequiredForA11y___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13_react_prop_types_lib_isRequiredForA11y__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_uncontrollable__ = __webpack_require__(99);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_uncontrollable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14_uncontrollable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_warning__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_warning___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15_warning__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__ButtonGroup__ = __webpack_require__(211);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__DropdownMenu__ = __webpack_require__(451);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__DropdownToggle__ = __webpack_require__(213);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__utils_bootstrapUtils__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__utils_createChainedFunction__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__utils_PropTypes__ = __webpack_require__(499);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_uncontrollable__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_uncontrollable__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_uncontrollable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14_uncontrollable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_warning__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_warning___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15_warning__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__ButtonGroup__ = __webpack_require__(215);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__DropdownMenu__ = __webpack_require__(471);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__DropdownMenu__ = __webpack_require__(473);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__DropdownToggle__ = __webpack_require__(217);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__utils_bootstrapUtils__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__utils_createChainedFunction__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__utils_PropTypes__ = __webpack_require__(519);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__utils_PropTypes__ = __webpack_require__(521);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__utils_ValidComponentChildren__ = __webpack_require__(21);
 
 
@@ -7826,11 +7449,7 @@ UncontrolledDropdown.Menu = __WEBPACK_IMPORTED_MODULE_17__DropdownMenu__["a" /* 
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 86 */
-=======
-/* 90 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 92 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7945,11 +7564,7 @@ Fade.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (Fade);
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 87 */
-=======
-/* 91 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 93 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7978,7 +7593,7 @@ function splitComponentProps(props, Component) {
 }
 
 /***/ }),
-/* 92 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8239,7 +7854,7 @@ module.exports = EventPluginRegistry;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 93 */
+/* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8257,21 +7872,12 @@ module.exports = EventPluginRegistry;
 
 var _assign = __webpack_require__(13);
 
-<<<<<<< HEAD:public/bundle.js
-var EventPluginRegistry = __webpack_require__(88);
-var ReactEventEmitterMixin = __webpack_require__(535);
-var ViewportMetrics = __webpack_require__(240);
-
-var getVendorPrefixedEventName = __webpack_require__(571);
-var isEventSupported = __webpack_require__(148);
-=======
-var EventPluginRegistry = __webpack_require__(92);
-var ReactEventEmitterMixin = __webpack_require__(555);
+var EventPluginRegistry = __webpack_require__(94);
+var ReactEventEmitterMixin = __webpack_require__(557);
 var ViewportMetrics = __webpack_require__(244);
 
-var getVendorPrefixedEventName = __webpack_require__(591);
-var isEventSupported = __webpack_require__(153);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var getVendorPrefixedEventName = __webpack_require__(593);
+var isEventSupported = __webpack_require__(154);
 
 /**
  * Summary of `ReactBrowserEventEmitter` event handling:
@@ -8581,7 +8187,7 @@ var ReactBrowserEventEmitter = _assign({}, ReactEventEmitterMixin, {
 module.exports = ReactBrowserEventEmitter;
 
 /***/ }),
-/* 94 */
+/* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8597,15 +8203,10 @@ module.exports = ReactBrowserEventEmitter;
 
 
 
-<<<<<<< HEAD:public/bundle.js
-var SyntheticUIEvent = __webpack_require__(76);
-var ViewportMetrics = __webpack_require__(240);
-=======
 var SyntheticUIEvent = __webpack_require__(78);
 var ViewportMetrics = __webpack_require__(244);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 
-var getEventModifierState = __webpack_require__(151);
+var getEventModifierState = __webpack_require__(152);
 
 /**
  * @interface MouseEvent
@@ -8663,7 +8264,7 @@ SyntheticUIEvent.augmentClass(SyntheticMouseEvent, MouseEventInterface);
 module.exports = SyntheticMouseEvent;
 
 /***/ }),
-/* 95 */
+/* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8894,7 +8495,7 @@ module.exports = TransactionImpl;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 96 */
+/* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9022,7 +8623,7 @@ function escapeTextContentForBrowser(text) {
 module.exports = escapeTextContentForBrowser;
 
 /***/ }),
-/* 97 */
+/* 99 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9039,12 +8640,12 @@ module.exports = escapeTextContentForBrowser;
 
 
 var ExecutionEnvironment = __webpack_require__(17);
-var DOMNamespaces = __webpack_require__(142);
+var DOMNamespaces = __webpack_require__(143);
 
 var WHITESPACE_TEST = /^[ \r\n\t\f]/;
 var NONVISIBLE_TEST = /<(!--|link|noscript|meta|script|style)[ \r\n\t\f\/>]/;
 
-var createMicrosoftUnsafeLocalFunction = __webpack_require__(149);
+var createMicrosoftUnsafeLocalFunction = __webpack_require__(150);
 
 // SVG temp container for IE lacking innerHTML
 var reusableSVGContainer;
@@ -9125,7 +8726,7 @@ if (ExecutionEnvironment.canUseDOM) {
 module.exports = setInnerHTML;
 
 /***/ }),
-/* 98 */
+/* 100 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9134,7 +8735,7 @@ module.exports = setInnerHTML;
 exports.__esModule = true;
 exports.default = all;
 
-var _createChainableTypeChecker = __webpack_require__(100);
+var _createChainableTypeChecker = __webpack_require__(102);
 
 var _createChainableTypeChecker2 = _interopRequireDefault(_createChainableTypeChecker);
 
@@ -9170,7 +8771,7 @@ function all() {
 }
 
 /***/ }),
-/* 99 */
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9196,7 +8797,7 @@ function isRequiredForA11y(validator) {
 }
 
 /***/ }),
-/* 100 */
+/* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9242,56 +8843,21 @@ function createChainableTypeChecker(validate) {
 }
 
 /***/ }),
-/* 101 */
+/* 103 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_Provider__ = __webpack_require__(583);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_connectAdvanced__ = __webpack_require__(255);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__connect_connect__ = __webpack_require__(584);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Provider", function() { return __WEBPACK_IMPORTED_MODULE_0__components_Provider__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "connectAdvanced", function() { return __WEBPACK_IMPORTED_MODULE_1__components_connectAdvanced__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "connect", function() { return __WEBPACK_IMPORTED_MODULE_2__connect_connect__["a"]; });
-
-
-
-
-
-
-/***/ }),
-/* 98 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(process) {Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__createStore__ = __webpack_require__(276);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__combineReducers__ = __webpack_require__(629);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__bindActionCreators__ = __webpack_require__(628);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__applyMiddleware__ = __webpack_require__(627);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__compose__ = __webpack_require__(275);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__utils_warning__ = __webpack_require__(277);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "createStore", function() { return __WEBPACK_IMPORTED_MODULE_0__createStore__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "combineReducers", function() { return __WEBPACK_IMPORTED_MODULE_1__combineReducers__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "bindActionCreators", function() { return __WEBPACK_IMPORTED_MODULE_2__bindActionCreators__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "applyMiddleware", function() { return __WEBPACK_IMPORTED_MODULE_3__applyMiddleware__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "compose", function() { return __WEBPACK_IMPORTED_MODULE_4__compose__["a"]; });
-
-
-
-=======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__createAction__ = __webpack_require__(280);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__handleAction__ = __webpack_require__(281);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__handleActions__ = __webpack_require__(647);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__handleActions__ = __webpack_require__(649);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__combineActions__ = __webpack_require__(279);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__createActions__ = __webpack_require__(646);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__createActions__ = __webpack_require__(648);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "createAction", function() { return __WEBPACK_IMPORTED_MODULE_0__createAction__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "createActions", function() { return __WEBPACK_IMPORTED_MODULE_4__createActions__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "handleAction", function() { return __WEBPACK_IMPORTED_MODULE_1__handleAction__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "handleActions", function() { return __WEBPACK_IMPORTED_MODULE_2__handleActions__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "combineActions", function() { return __WEBPACK_IMPORTED_MODULE_3__combineActions__["a"]; });
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 
 
 
@@ -9301,11 +8867,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 99 */
-=======
-/* 102 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9313,11 +8875,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 exports.__esModule = true;
 
-<<<<<<< HEAD:public/bundle.js
-var _createUncontrollable = __webpack_require__(634);
-=======
-var _createUncontrollable = __webpack_require__(658);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _createUncontrollable = __webpack_require__(660);
 
 var _createUncontrollable2 = _interopRequireDefault(_createUncontrollable);
 
@@ -9346,58 +8904,29 @@ exports.default = (0, _createUncontrollable2.default)([mixin], set);
 module.exports = exports['default'];
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 100 */
-/***/ (function(module, exports) {
-=======
-/* 103 */
+/* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _count = __webpack_require__(292);
-
-var _count2 = _interopRequireDefault(_count);
-
-var _spinner = __webpack_require__(295);
-
-var _spinner2 = _interopRequireDefault(_spinner);
-
-var _personalLib = __webpack_require__(293);
-
-var _personalLib2 = _interopRequireDefault(_personalLib);
-
-var _publicLib = __webpack_require__(294);
-
-var _publicLib2 = _interopRequireDefault(_publicLib);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-module.exports = _extends({}, _count2.default, _spinner2.default, _personalLib2.default, _publicLib2.default);
-
-/***/ }),
-/* 104 */
-/***/ (function(module, exports, __webpack_require__) {
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
-
-"use strict";
-
-
-var _reactRouter = __webpack_require__(273);
-
-function redirect(path) {
-    _reactRouter.browserHistory.push(path);
+function publishNoti(type, message) {
+  Messenger().post({
+    id: message,
+    showCloseButton: true,
+    type: type,
+    singleton: false,
+    hideAfter: 6,
+    message: message
+  });
 }
 
 module.exports = {
-    redirect: redirect
+  publishNoti: publishNoti
 };
 
 /***/ }),
-/* 105 */
+/* 106 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9405,19 +8934,11 @@ module.exports = {
 
 exports.__esModule = true;
 
-<<<<<<< HEAD:public/bundle.js
-var _iterator = __webpack_require__(297);
+var _iterator = __webpack_require__(319);
 
 var _iterator2 = _interopRequireDefault(_iterator);
 
-var _symbol = __webpack_require__(296);
-=======
-var _iterator = __webpack_require__(317);
-
-var _iterator2 = _interopRequireDefault(_iterator);
-
-var _symbol = __webpack_require__(316);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _symbol = __webpack_require__(318);
 
 var _symbol2 = _interopRequireDefault(_symbol);
 
@@ -9432,7 +8953,7 @@ exports.default = typeof _symbol2.default === "function" && _typeof(_iterator2.d
 };
 
 /***/ }),
-/* 106 */
+/* 107 */
 /***/ (function(module, exports) {
 
 var toString = {}.toString;
@@ -9442,15 +8963,11 @@ module.exports = function(it){
 };
 
 /***/ }),
-/* 107 */
+/* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // optional / simple context binding
-<<<<<<< HEAD:public/bundle.js
-var aFunction = __webpack_require__(306);
-=======
-var aFunction = __webpack_require__(326);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var aFunction = __webpack_require__(328);
 module.exports = function(fn, that, length){
   aFunction(fn);
   if(that === undefined)return fn;
@@ -9471,7 +8988,7 @@ module.exports = function(fn, that, length){
 };
 
 /***/ }),
-/* 108 */
+/* 109 */
 /***/ (function(module, exports) {
 
 // 7.2.1 RequireObjectCoercible(argument)
@@ -9481,7 +8998,7 @@ module.exports = function(it){
 };
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, exports) {
 
 // IE 8- don't enum bug keys
@@ -9490,27 +9007,20 @@ module.exports = (
 ).split(',');
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, exports) {
 
 module.exports = true;
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
-<<<<<<< HEAD:public/bundle.js
-var anObject    = __webpack_require__(46)
-  , dPs         = __webpack_require__(322)
-  , enumBugKeys = __webpack_require__(105)
-  , IE_PROTO    = __webpack_require__(110)('IE_PROTO')
-=======
-var anObject    = __webpack_require__(48)
-  , dPs         = __webpack_require__(342)
-  , enumBugKeys = __webpack_require__(109)
-  , IE_PROTO    = __webpack_require__(114)('IE_PROTO')
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var anObject    = __webpack_require__(49)
+  , dPs         = __webpack_require__(344)
+  , enumBugKeys = __webpack_require__(110)
+  , IE_PROTO    = __webpack_require__(115)('IE_PROTO')
   , Empty       = function(){ /* empty */ }
   , PROTOTYPE   = 'prototype';
 
@@ -9523,11 +9033,7 @@ var createDict = function(){
     , gt     = '>'
     , iframeDocument;
   iframe.style.display = 'none';
-<<<<<<< HEAD:public/bundle.js
-  __webpack_require__(312).appendChild(iframe);
-=======
-  __webpack_require__(332).appendChild(iframe);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+  __webpack_require__(334).appendChild(iframe);
   iframe.src = 'javascript:'; // eslint-disable-line no-script-url
   // createDict = iframe.contentWindow.Object;
   // html.removeChild(iframe);
@@ -9554,40 +9060,35 @@ module.exports = Object.create || function create(O, Properties){
 
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, exports) {
 
 exports.f = Object.getOwnPropertySymbols;
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var def = __webpack_require__(42).f
-  , has = __webpack_require__(41)
-  , TAG = __webpack_require__(26)('toStringTag');
+var def = __webpack_require__(43).f
+  , has = __webpack_require__(42)
+  , TAG = __webpack_require__(27)('toStringTag');
 
 module.exports = function(it, tag, stat){
   if(it && !has(it = stat ? it : it.prototype, TAG))def(it, TAG, {configurable: true, value: tag});
 };
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< HEAD:public/bundle.js
-var shared = __webpack_require__(111)('keys')
-  , uid    = __webpack_require__(79);
-=======
-var shared = __webpack_require__(115)('keys')
-  , uid    = __webpack_require__(83);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var shared = __webpack_require__(116)('keys')
+  , uid    = __webpack_require__(85);
 module.exports = function(key){
   return shared[key] || (shared[key] = uid(key));
 };
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var global = __webpack_require__(34)
@@ -9598,7 +9099,7 @@ module.exports = function(key){
 };
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, exports) {
 
 // 7.1.4 ToInteger
@@ -9609,17 +9110,17 @@ module.exports = function(it){
 };
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.1.13 ToObject(argument)
-var defined = __webpack_require__(108);
+var defined = __webpack_require__(109);
 module.exports = function(it){
   return Object(defined(it));
 };
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.1.1 ToPrimitive(input [, PreferredType])
@@ -9636,27 +9137,27 @@ module.exports = function(it, S){
 };
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var global         = __webpack_require__(34)
-  , core           = __webpack_require__(25)
-  , LIBRARY        = __webpack_require__(110)
-  , wksExt         = __webpack_require__(120)
-  , defineProperty = __webpack_require__(42).f;
+  , core           = __webpack_require__(26)
+  , LIBRARY        = __webpack_require__(111)
+  , wksExt         = __webpack_require__(121)
+  , defineProperty = __webpack_require__(43).f;
 module.exports = function(name){
   var $Symbol = core.Symbol || (core.Symbol = LIBRARY ? {} : global.Symbol || {});
   if(name.charAt(0) != '_' && !(name in $Symbol))defineProperty($Symbol, name, {value: wksExt.f(name)});
 };
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports.f = __webpack_require__(26);
+exports.f = __webpack_require__(27);
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9687,7 +9188,7 @@ exports.default = off;
 module.exports = exports['default'];
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9760,7 +9261,7 @@ function shallowEqual(objA, objB) {
 module.exports = shallowEqual;
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9769,19 +9270,15 @@ module.exports = shallowEqual;
 exports.__esModule = true;
 exports.go = exports.replaceLocation = exports.pushLocation = exports.startListener = exports.getUserConfirmation = exports.getCurrentLocation = undefined;
 
-var _LocationUtils = __webpack_require__(54);
+var _LocationUtils = __webpack_require__(55);
 
-<<<<<<< HEAD:public/bundle.js
-var _DOMUtils = __webpack_require__(84);
-=======
-var _DOMUtils = __webpack_require__(88);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _DOMUtils = __webpack_require__(90);
 
 var _DOMStateStorage = __webpack_require__(193);
 
 var _PathUtils = __webpack_require__(37);
 
-var _ExecutionEnvironment = __webpack_require__(124);
+var _ExecutionEnvironment = __webpack_require__(125);
 
 var PopStateEvent = 'popstate';
 var HashChangeEvent = 'hashchange';
@@ -9869,7 +9366,7 @@ var go = exports.go = function go(n) {
 };
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9879,7 +9376,7 @@ exports.__esModule = true;
 var canUseDOM = exports.canUseDOM = !!(typeof window !== 'undefined' && window.document && window.document.createElement);
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9887,25 +9384,17 @@ var canUseDOM = exports.canUseDOM = !!(typeof window !== 'undefined' && window.d
 
 exports.__esModule = true;
 
-<<<<<<< HEAD:public/bundle.js
-var _AsyncUtils = __webpack_require__(372);
-=======
-var _AsyncUtils = __webpack_require__(392);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _AsyncUtils = __webpack_require__(394);
 
 var _PathUtils = __webpack_require__(37);
 
-var _runTransitionHook = __webpack_require__(126);
+var _runTransitionHook = __webpack_require__(127);
 
 var _runTransitionHook2 = _interopRequireDefault(_runTransitionHook);
 
-<<<<<<< HEAD:public/bundle.js
-var _Actions = __webpack_require__(83);
-=======
-var _Actions = __webpack_require__(87);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _Actions = __webpack_require__(89);
 
-var _LocationUtils = __webpack_require__(54);
+var _LocationUtils = __webpack_require__(55);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -10069,7 +9558,7 @@ var createHistory = function createHistory() {
 exports.default = createHistory;
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10099,7 +9588,7 @@ exports.default = runTransitionHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports) {
 
 // Source: http://jsfiddle.net/vWx8V/
@@ -10251,18 +9740,13 @@ for (var alias in aliases) {
 
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseGetTag_js__ = __webpack_require__(378);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__getPrototype_js__ = __webpack_require__(380);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__isObjectLike_js__ = __webpack_require__(385);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseGetTag_js__ = __webpack_require__(398);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__getPrototype_js__ = __webpack_require__(400);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__isObjectLike_js__ = __webpack_require__(405);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__baseGetTag_js__ = __webpack_require__(400);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__getPrototype_js__ = __webpack_require__(402);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__isObjectLike_js__ = __webpack_require__(407);
 
 
 
@@ -10328,7 +9812,7 @@ function isPlainObject(value) {
 
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var root = __webpack_require__(38);
@@ -10340,7 +9824,7 @@ module.exports = Symbol;
 
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports) {
 
 /** Used for built-in method references. */
@@ -10364,7 +9848,7 @@ module.exports = isPrototype;
 
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports) {
 
 /**
@@ -10407,12 +9891,12 @@ module.exports = eq;
 
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseGetTag = __webpack_require__(43),
-    getPrototype = __webpack_require__(428),
-    isObjectLike = __webpack_require__(57);
+var baseGetTag = __webpack_require__(44),
+    getPrototype = __webpack_require__(430),
+    isObjectLike = __webpack_require__(58);
 
 /** `Object#toString` result references. */
 var objectTag = '[object Object]';
@@ -10475,16 +9959,15 @@ module.exports = isPlainObject;
 
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseGetTag = __webpack_require__(43),
+var baseGetTag = __webpack_require__(44),
     isArray = __webpack_require__(71),
-    isObjectLike = __webpack_require__(57);
+    isObjectLike = __webpack_require__(58);
 
 /** `Object#toString` result references. */
 var stringTag = '[object String]';
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 
 /**
  * Checks if `value` is classified as a `String` primitive or object.
@@ -10512,11 +9995,11 @@ module.exports = isString;
 
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseGetTag = __webpack_require__(43),
-    isObjectLike = __webpack_require__(57);
+var baseGetTag = __webpack_require__(44),
+    isObjectLike = __webpack_require__(58);
 
 /** `Object#toString` result references. */
 var symbolTag = '[object Symbol]';
@@ -10547,7 +10030,7 @@ module.exports = isSymbol;
 
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global, module) {var __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -27470,15 +26953,9 @@ module.exports = isSymbol;
       });
     });
 
-<<<<<<< HEAD:public/bundle.js
-var baseGetTag = __webpack_require__(41),
-    getPrototype = __webpack_require__(408),
-    isObjectLike = __webpack_require__(55);
-=======
     LazyWrapper.prototype.reject = function(predicate) {
       return this.filter(negate(getIteratee(predicate)));
     };
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 
     LazyWrapper.prototype.slice = function(start, end) {
       start = toInteger(start);
@@ -27645,7 +27122,7 @@ var baseGetTag = __webpack_require__(41),
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(81), __webpack_require__(82)(module)))
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27661,11 +27138,7 @@ var baseGetTag = __webpack_require__(41),
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_classnames__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_classnames__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_dom_helpers_style__ = __webpack_require__(82);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_dom_helpers_style__ = __webpack_require__(86);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_dom_helpers_style__ = __webpack_require__(88);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_dom_helpers_style___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_dom_helpers_style__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react__);
@@ -27899,7 +27372,7 @@ Collapse.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (Collapse);
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27971,7 +27444,7 @@ Glyphicon.propTypes = propTypes;
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__utils_bootstrapUtils__["bsClass"])('glyphicon', Glyphicon));
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27991,21 +27464,12 @@ Glyphicon.propTypes = propTypes;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_prop_types_lib_elementType__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_prop_types_lib_elementType___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react_prop_types_lib_elementType__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__MediaBody__ = __webpack_require__(465);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__MediaHeading__ = __webpack_require__(466);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__MediaLeft__ = __webpack_require__(467);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__MediaList__ = __webpack_require__(468);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__MediaListItem__ = __webpack_require__(469);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__MediaRight__ = __webpack_require__(470);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__MediaBody__ = __webpack_require__(485);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__MediaHeading__ = __webpack_require__(486);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__MediaLeft__ = __webpack_require__(487);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__MediaList__ = __webpack_require__(488);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__MediaListItem__ = __webpack_require__(489);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__MediaRight__ = __webpack_require__(490);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__MediaBody__ = __webpack_require__(487);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__MediaHeading__ = __webpack_require__(488);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__MediaLeft__ = __webpack_require__(489);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__MediaList__ = __webpack_require__(490);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__MediaListItem__ = __webpack_require__(491);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__MediaRight__ = __webpack_require__(492);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__utils_bootstrapUtils__ = __webpack_require__(8);
 
 
@@ -28074,7 +27538,7 @@ Media.ListItem = __WEBPACK_IMPORTED_MODULE_12__MediaListItem__["a" /* default */
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_14__utils_bootstrapUtils__["bsClass"])('media', Media));
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28088,11 +27552,7 @@ Media.ListItem = __WEBPACK_IMPORTED_MODULE_12__MediaListItem__["a" /* default */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_inherits__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_react__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_uncontrollable__ = __webpack_require__(99);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_uncontrollable__ = __webpack_require__(102);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_uncontrollable__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_uncontrollable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_uncontrollable__);
 
 
@@ -28223,7 +27683,7 @@ TabContainer.childContextTypes = childContextTypes;
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_5_uncontrollable___default()(TabContainer, { activeKey: 'onSelect' }));
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28430,7 +27890,7 @@ TabContent.childContextTypes = childContextTypes;
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__["bsClass"])('tab', TabContent));
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28446,18 +27906,13 @@ TabContent.childContextTypes = childContextTypes;
 
 
 
-<<<<<<< HEAD:public/bundle.js
-var DOMLazyTree = __webpack_require__(56);
-var Danger = __webpack_require__(508);
-=======
-var DOMLazyTree = __webpack_require__(58);
-var Danger = __webpack_require__(528);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var DOMLazyTree = __webpack_require__(59);
+var Danger = __webpack_require__(530);
 var ReactDOMComponentTree = __webpack_require__(15);
 var ReactInstrumentation = __webpack_require__(23);
 
-var createMicrosoftUnsafeLocalFunction = __webpack_require__(149);
-var setInnerHTML = __webpack_require__(97);
+var createMicrosoftUnsafeLocalFunction = __webpack_require__(150);
+var setInnerHTML = __webpack_require__(99);
 var setTextContent = __webpack_require__(251);
 
 function getNodeAfter(parentNode, node) {
@@ -28666,7 +28121,7 @@ module.exports = DOMChildrenOperations;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28691,7 +28146,7 @@ var DOMNamespaces = {
 module.exports = DOMNamespaces;
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28709,7 +28164,7 @@ module.exports = DOMNamespaces;
 
 var _prodInvariant = __webpack_require__(11);
 
-var ReactErrorUtils = __webpack_require__(147);
+var ReactErrorUtils = __webpack_require__(148);
 
 var invariant = __webpack_require__(9);
 var warning = __webpack_require__(10);
@@ -28923,7 +28378,7 @@ module.exports = EventPluginUtils;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28987,7 +28442,7 @@ var KeyEscapeUtils = {
 module.exports = KeyEscapeUtils;
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29128,7 +28583,7 @@ module.exports = LinkedValueUtils;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29180,7 +28635,7 @@ module.exports = ReactComponentEnvironment;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29263,7 +28718,7 @@ module.exports = ReactErrorUtils;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29281,14 +28736,10 @@ module.exports = ReactErrorUtils;
 
 var _prodInvariant = __webpack_require__(11);
 
-var ReactCurrentOwner = __webpack_require__(29);
-<<<<<<< HEAD:public/bundle.js
-var ReactInstanceMap = __webpack_require__(75);
-=======
+var ReactCurrentOwner = __webpack_require__(30);
 var ReactInstanceMap = __webpack_require__(77);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 var ReactInstrumentation = __webpack_require__(23);
-var ReactUpdates = __webpack_require__(28);
+var ReactUpdates = __webpack_require__(29);
 
 var invariant = __webpack_require__(9);
 var warning = __webpack_require__(10);
@@ -29499,7 +28950,7 @@ module.exports = ReactUpdateQueue;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29536,7 +28987,7 @@ var createMicrosoftUnsafeLocalFunction = function (func) {
 module.exports = createMicrosoftUnsafeLocalFunction;
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29591,7 +29042,7 @@ function getEventCharCode(nativeEvent) {
 module.exports = getEventCharCode;
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29639,7 +29090,7 @@ function getEventModifierState(nativeEvent) {
 module.exports = getEventModifierState;
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29679,7 +29130,7 @@ function getEventTarget(nativeEvent) {
 module.exports = getEventTarget;
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29744,7 +29195,7 @@ function isEventSupported(eventNameSuffix, capture) {
 module.exports = isEventSupported;
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29791,7 +29242,7 @@ function shouldUpdateReactComponent(prevElement, nextElement) {
 module.exports = shouldUpdateReactComponent;
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30179,7 +29630,7 @@ module.exports = validateDOMNesting;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30190,7 +29641,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = getContainer;
 
-var _reactDom = __webpack_require__(20);
+var _reactDom = __webpack_require__(19);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -30203,7 +29654,7 @@ function getContainer(container, defaultContainer) {
 module.exports = exports['default'];
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30217,7 +29668,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _createChainableTypeChecker = __webpack_require__(100);
+var _createChainableTypeChecker = __webpack_require__(102);
 
 var _createChainableTypeChecker2 = _interopRequireDefault(_createChainableTypeChecker);
 
@@ -30241,11 +29692,7 @@ function validate(props, propName, componentName, location, propFullName) {
 exports.default = (0, _createChainableTypeChecker2.default)(validate);
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 153 */
-=======
-/* 158 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 159 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -30273,11 +29720,7 @@ function warning(message) {
 }
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 154 */
-=======
-/* 159 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 160 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -30368,11 +29811,7 @@ function mapAsync(array, work, callback) {
 }
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 155 */
-=======
-/* 160 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 161 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -30497,11 +29936,7 @@ function ContextSubscriber(name) {
 }
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 156 */
-=======
-/* 161 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 162 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -30536,11 +29971,7 @@ var locationShape = shape({
 });
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 157 */
-=======
-/* 162 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 163 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -30548,15 +29979,9 @@ var locationShape = shape({
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_invariant__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__getRouteParams__ = __webpack_require__(602);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ContextUtils__ = __webpack_require__(155);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__RouteUtils__ = __webpack_require__(38);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__getRouteParams__ = __webpack_require__(627);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ContextUtils__ = __webpack_require__(160);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__RouteUtils__ = __webpack_require__(40);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__getRouteParams__ = __webpack_require__(629);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ContextUtils__ = __webpack_require__(161);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__RouteUtils__ = __webpack_require__(41);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -30677,11 +30102,7 @@ var RouterContext = __WEBPACK_IMPORTED_MODULE_1_react___default.a.createClass({
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 158 */
-=======
-/* 163 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30697,19 +30118,12 @@ var RouterContext = __WEBPACK_IMPORTED_MODULE_1_react___default.a.createClass({
 
 
 
-var _prodInvariant = __webpack_require__(46);
+var _prodInvariant = __webpack_require__(47);
 
-<<<<<<< HEAD:public/bundle.js
-var ReactNoopUpdateQueue = __webpack_require__(159);
+var ReactNoopUpdateQueue = __webpack_require__(165);
 
-var canDefineProperty = __webpack_require__(161);
-var emptyObject = __webpack_require__(66);
-=======
-var ReactNoopUpdateQueue = __webpack_require__(164);
-
-var canDefineProperty = __webpack_require__(166);
+var canDefineProperty = __webpack_require__(167);
 var emptyObject = __webpack_require__(69);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 var invariant = __webpack_require__(9);
 var warning = __webpack_require__(10);
 
@@ -30812,11 +30226,7 @@ module.exports = ReactComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 159 */
-=======
-/* 164 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30918,11 +30328,7 @@ module.exports = ReactNoopUpdateQueue;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 160 */
-=======
-/* 165 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30953,11 +30359,7 @@ module.exports = ReactPropTypeLocationNames;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 161 */
-=======
-/* 166 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30989,11 +30391,7 @@ module.exports = canDefineProperty;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 162 */
-=======
-/* 167 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31039,48 +30437,17 @@ function getIteratorFn(maybeIterable) {
 module.exports = getIteratorFn;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 163 */
-/***/ (function(module, exports) {
-
-var g;
-
-// This works in non-strict mode
-g = (function() {
-	return this;
-})();
-
-try {
-	// This works if eval is allowed (see CSP)
-	g = g || Function("return this")() || (1,eval)("this");
-} catch(e) {
-	// This works if the window reference is available
-	if(typeof window === "object")
-		g = window;
-}
-
-// g can still be undefined, but nothing to do about it...
-// We return undefined, instead of nothing here, so it's
-// easier to handle this case. if(!global) { ...}
-
-module.exports = g;
-
-
-/***/ }),
-/* 164 */
-=======
-/* 168 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _FileUpload = __webpack_require__(310);
+var _FileUpload = __webpack_require__(312);
 
 var _FileUpload2 = _interopRequireDefault(_FileUpload);
 
-var _SelectDropdown = __webpack_require__(311);
+var _SelectDropdown = __webpack_require__(313);
 
 var _SelectDropdown2 = _interopRequireDefault(_SelectDropdown);
 
@@ -31092,46 +30459,16 @@ module.exports = {
 };
 
 /***/ }),
-/* 169 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-function publishNoti(type, message) {
-  Messenger().post({
-    id: message,
-    showCloseButton: true,
-    type: type,
-    singleton: false,
-    hideAfter: 6,
-    message: message
-  });
-}
-
-module.exports = {
-  publishNoti: publishNoti
-};
-
-/***/ }),
 /* 170 */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< HEAD:public/bundle.js
-module.exports = { "default": __webpack_require__(299), __esModule: true };
-=======
-module.exports = { "default": __webpack_require__(319), __esModule: true };
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+module.exports = { "default": __webpack_require__(321), __esModule: true };
 
 /***/ }),
 /* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< HEAD:public/bundle.js
-module.exports = { "default": __webpack_require__(301), __esModule: true };
-=======
-module.exports = { "default": __webpack_require__(321), __esModule: true };
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+module.exports = { "default": __webpack_require__(323), __esModule: true };
 
 /***/ }),
 /* 172 */
@@ -31149,7 +30486,7 @@ module.exports = function(it){
 /* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = !__webpack_require__(49) && !__webpack_require__(64)(function(){
+module.exports = !__webpack_require__(50) && !__webpack_require__(64)(function(){
   return Object.defineProperty(__webpack_require__(172)('div'), 'a', {get: function(){ return 7; }}).a != 7;
 });
 
@@ -31158,7 +30495,7 @@ module.exports = !__webpack_require__(49) && !__webpack_require__(64)(function()
 /***/ (function(module, exports, __webpack_require__) {
 
 // fallback for non-array-like ES3 and non-enumerable old V8 strings
-var cof = __webpack_require__(106);
+var cof = __webpack_require__(107);
 module.exports = Object('z').propertyIsEnumerable(0) ? Object : function(it){
   return cof(it) == 'String' ? it.split('') : Object(it);
 };
@@ -31169,28 +30506,16 @@ module.exports = Object('z').propertyIsEnumerable(0) ? Object : function(it){
 
 "use strict";
 
-<<<<<<< HEAD:public/bundle.js
-var LIBRARY        = __webpack_require__(106)
-  , $export        = __webpack_require__(31)
-  , redefine       = __webpack_require__(176)
-  , hide           = __webpack_require__(48)
-  , has            = __webpack_require__(39)
-  , Iterators      = __webpack_require__(63)
-  , $iterCreate    = __webpack_require__(316)
-  , setToStringTag = __webpack_require__(109)
-  , getPrototypeOf = __webpack_require__(324)
-=======
-var LIBRARY        = __webpack_require__(110)
+var LIBRARY        = __webpack_require__(111)
   , $export        = __webpack_require__(33)
   , redefine       = __webpack_require__(180)
-  , hide           = __webpack_require__(50)
-  , has            = __webpack_require__(41)
+  , hide           = __webpack_require__(51)
+  , has            = __webpack_require__(42)
   , Iterators      = __webpack_require__(66)
-  , $iterCreate    = __webpack_require__(336)
-  , setToStringTag = __webpack_require__(113)
-  , getPrototypeOf = __webpack_require__(344)
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
-  , ITERATOR       = __webpack_require__(26)('iterator')
+  , $iterCreate    = __webpack_require__(338)
+  , setToStringTag = __webpack_require__(114)
+  , getPrototypeOf = __webpack_require__(346)
+  , ITERATOR       = __webpack_require__(27)('iterator')
   , BUGGY          = !([].keys && 'next' in [].keys()) // Safari has buggy iterators w/o `next`
   , FF_ITERATOR    = '@@iterator'
   , KEYS           = 'keys'
@@ -31258,12 +30583,12 @@ module.exports = function(Base, NAME, Constructor, next, DEFAULT, IS_SET, FORCED
 var pIE            = __webpack_require__(67)
   , createDesc     = __webpack_require__(68)
   , toIObject      = __webpack_require__(35)
-  , toPrimitive    = __webpack_require__(118)
-  , has            = __webpack_require__(41)
+  , toPrimitive    = __webpack_require__(119)
+  , has            = __webpack_require__(42)
   , IE8_DOM_DEFINE = __webpack_require__(173)
   , gOPD           = Object.getOwnPropertyDescriptor;
 
-exports.f = __webpack_require__(49) ? gOPD : function getOwnPropertyDescriptor(O, P){
+exports.f = __webpack_require__(50) ? gOPD : function getOwnPropertyDescriptor(O, P){
   O = toIObject(O);
   P = toPrimitive(P, true);
   if(IE8_DOM_DEFINE)try {
@@ -31278,7 +30603,7 @@ exports.f = __webpack_require__(49) ? gOPD : function getOwnPropertyDescriptor(O
 
 // 19.1.2.7 / 15.2.3.4 Object.getOwnPropertyNames(O)
 var $keys      = __webpack_require__(178)
-  , hiddenKeys = __webpack_require__(109).concat('length', 'prototype');
+  , hiddenKeys = __webpack_require__(110).concat('length', 'prototype');
 
 exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O){
   return $keys(O, hiddenKeys);
@@ -31288,17 +30613,10 @@ exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O){
 /* 178 */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< HEAD:public/bundle.js
-var has          = __webpack_require__(39)
-  , toIObject    = __webpack_require__(33)
-  , arrayIndexOf = __webpack_require__(308)(false)
-  , IE_PROTO     = __webpack_require__(110)('IE_PROTO');
-=======
-var has          = __webpack_require__(41)
+var has          = __webpack_require__(42)
   , toIObject    = __webpack_require__(35)
-  , arrayIndexOf = __webpack_require__(328)(false)
-  , IE_PROTO     = __webpack_require__(114)('IE_PROTO');
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+  , arrayIndexOf = __webpack_require__(330)(false)
+  , IE_PROTO     = __webpack_require__(115)('IE_PROTO');
 
 module.exports = function(object, names){
   var O      = toIObject(object)
@@ -31317,7 +30635,7 @@ module.exports = function(object, names){
 /* 179 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var getKeys   = __webpack_require__(51)
+var getKeys   = __webpack_require__(52)
   , toIObject = __webpack_require__(35)
   , isEnum    = __webpack_require__(67).f;
 module.exports = function(isEntries){
@@ -31338,14 +30656,14 @@ module.exports = function(isEntries){
 /* 180 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(50);
+module.exports = __webpack_require__(51);
 
 /***/ }),
 /* 181 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.1.15 ToLength
-var toInteger = __webpack_require__(116)
+var toInteger = __webpack_require__(117)
   , min       = Math.min;
 module.exports = function(it){
   return it > 0 ? min(toInteger(it), 0x1fffffffffffff) : 0; // pow(2, 53) - 1 == 9007199254740991
@@ -31357,11 +30675,7 @@ module.exports = function(it){
 
 "use strict";
 
-<<<<<<< HEAD:public/bundle.js
-var $at  = __webpack_require__(326)(true);
-=======
-var $at  = __webpack_require__(346)(true);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var $at  = __webpack_require__(348)(true);
 
 // 21.1.3.27 String.prototype[@@iterator]()
 __webpack_require__(175)(String, 'String', function(iterated){
@@ -31390,7 +30704,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = activeElement;
 
-var _ownerDocument = __webpack_require__(52);
+var _ownerDocument = __webpack_require__(53);
 
 var _ownerDocument2 = _interopRequireDefault(_ownerDocument);
 
@@ -31433,19 +30747,15 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = offset;
 
-var _contains = __webpack_require__(53);
+var _contains = __webpack_require__(54);
 
 var _contains2 = _interopRequireDefault(_contains);
 
-<<<<<<< HEAD:public/bundle.js
-var _isWindow = __webpack_require__(81);
-=======
-var _isWindow = __webpack_require__(85);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _isWindow = __webpack_require__(87);
 
 var _isWindow2 = _interopRequireDefault(_isWindow);
 
-var _ownerDocument = __webpack_require__(52);
+var _ownerDocument = __webpack_require__(53);
 
 var _ownerDocument2 = _interopRequireDefault(_ownerDocument);
 
@@ -31488,11 +30798,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = scrollTop;
 
-<<<<<<< HEAD:public/bundle.js
-var _isWindow = __webpack_require__(81);
-=======
-var _isWindow = __webpack_require__(85);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _isWindow = __webpack_require__(87);
 
 var _isWindow2 = _interopRequireDefault(_isWindow);
 
@@ -31635,11 +30941,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = camelizeStyleName;
 
-<<<<<<< HEAD:public/bundle.js
-var _camelize = __webpack_require__(354);
-=======
-var _camelize = __webpack_require__(374);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _camelize = __webpack_require__(376);
 
 var _camelize2 = _interopRequireDefault(_camelize);
 
@@ -31823,7 +31125,7 @@ module.exports = focusNode;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
+/* WEBPACK VAR INJECTION */(function(global) {
 
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -31849,7 +31151,7 @@ module.exports = focusNode;
  * @return {?DOMElement}
  */
 function getActiveElement(doc) /*?DOMElement*/{
-  doc = doc || (typeof document !== 'undefined' ? document : undefined);
+  doc = doc || global.document;
   if (typeof doc === 'undefined') {
     return null;
   }
@@ -31861,10 +31163,7 @@ function getActiveElement(doc) /*?DOMElement*/{
 }
 
 module.exports = getActiveElement;
-<<<<<<< HEAD:public/bundle.js
-=======
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(81)))
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 
 /***/ }),
 /* 193 */
@@ -31969,7 +31268,7 @@ exports.__esModule = true;
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _runTransitionHook = __webpack_require__(126);
+var _runTransitionHook = __webpack_require__(127);
 
 var _runTransitionHook2 = _interopRequireDefault(_runTransitionHook);
 
@@ -32084,17 +31383,13 @@ exports.__esModule = true;
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-<<<<<<< HEAD:public/bundle.js
-var _queryString = __webpack_require__(438);
-=======
-var _queryString = __webpack_require__(458);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _queryString = __webpack_require__(460);
 
-var _runTransitionHook = __webpack_require__(126);
+var _runTransitionHook = __webpack_require__(127);
 
 var _runTransitionHook2 = _interopRequireDefault(_runTransitionHook);
 
-var _LocationUtils = __webpack_require__(54);
+var _LocationUtils = __webpack_require__(55);
 
 var _PathUtils = __webpack_require__(37);
 
@@ -32266,11 +31561,7 @@ module.exports = function hoistNonReactStatics(targetComponent, sourceComponent,
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__root_js__ = __webpack_require__(384);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__root_js__ = __webpack_require__(404);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__root_js__ = __webpack_require__(406);
 
 
 /** Built-in value references. */
@@ -32310,21 +31601,12 @@ module.exports = apply;
 /* 199 */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< HEAD:public/bundle.js
-var baseTimes = __webpack_require__(400),
-    isArguments = __webpack_require__(205),
-    isArray = __webpack_require__(68),
-    isBuffer = __webpack_require__(206),
-    isIndex = __webpack_require__(202),
-    isTypedArray = __webpack_require__(208);
-=======
-var baseTimes = __webpack_require__(420),
+var baseTimes = __webpack_require__(422),
     isArguments = __webpack_require__(209),
     isArray = __webpack_require__(71),
     isBuffer = __webpack_require__(210),
     isIndex = __webpack_require__(206),
     isTypedArray = __webpack_require__(212);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 
 /** Used for built-in method references. */
 var objectProto = Object.prototype;
@@ -32432,13 +31714,8 @@ module.exports = baseAssignValue;
 /* 202 */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< HEAD:public/bundle.js
-var isPrototype = __webpack_require__(126),
-    nativeKeys = __webpack_require__(414);
-=======
-var isPrototype = __webpack_require__(130),
-    nativeKeys = __webpack_require__(434);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var isPrototype = __webpack_require__(131),
+    nativeKeys = __webpack_require__(436);
 
 /** Used for built-in method references. */
 var objectProto = Object.prototype;
@@ -32473,15 +31750,9 @@ module.exports = baseKeys;
 /* 203 */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< HEAD:public/bundle.js
-var identity = __webpack_require__(67),
-    overRest = __webpack_require__(418),
-    setToString = __webpack_require__(419);
-=======
 var identity = __webpack_require__(70),
-    overRest = __webpack_require__(438),
-    setToString = __webpack_require__(439);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+    overRest = __webpack_require__(440),
+    setToString = __webpack_require__(441);
 
 /**
  * The base implementation of `_.rest` which doesn't validate or coerce arguments.
@@ -32502,7 +31773,7 @@ module.exports = baseRest;
 /* 204 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var getNative = __webpack_require__(55);
+var getNative = __webpack_require__(56);
 
 var defineProperty = (function() {
   try {
@@ -32524,11 +31795,7 @@ var freeGlobal = typeof global == 'object' && global && global.Object === Object
 
 module.exports = freeGlobal;
 
-<<<<<<< HEAD:public/bundle.js
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(163)))
-=======
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(81)))
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 
 /***/ }),
 /* 206 */
@@ -32615,13 +31882,8 @@ module.exports = toSource;
 /* 209 */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< HEAD:public/bundle.js
-var baseIsArguments = __webpack_require__(394),
-    isObjectLike = __webpack_require__(55);
-=======
-var baseIsArguments = __webpack_require__(414),
-    isObjectLike = __webpack_require__(57);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var baseIsArguments = __webpack_require__(416),
+    isObjectLike = __webpack_require__(58);
 
 /** Used for built-in method references. */
 var objectProto = Object.prototype;
@@ -32662,13 +31924,8 @@ module.exports = isArguments;
 /* 210 */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< HEAD:public/bundle.js
-/* WEBPACK VAR INJECTION */(function(module) {var root = __webpack_require__(36),
-    stubFalse = __webpack_require__(432);
-=======
 /* WEBPACK VAR INJECTION */(function(module) {var root = __webpack_require__(38),
-    stubFalse = __webpack_require__(452);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+    stubFalse = __webpack_require__(454);
 
 /** Detect free variable `exports`. */
 var freeExports = typeof exports == 'object' && exports && !exports.nodeType && exports;
@@ -32753,15 +32010,9 @@ module.exports = isLength;
 /* 212 */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< HEAD:public/bundle.js
-var baseIsTypedArray = __webpack_require__(397),
-    baseUnary = __webpack_require__(402),
-    nodeUtil = __webpack_require__(416);
-=======
-var baseIsTypedArray = __webpack_require__(417),
-    baseUnary = __webpack_require__(422),
-    nodeUtil = __webpack_require__(436);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var baseIsTypedArray = __webpack_require__(419),
+    baseUnary = __webpack_require__(424),
+    nodeUtil = __webpack_require__(438);
 
 /* Node.js helper references. */
 var nodeIsTypedArray = nodeUtil && nodeUtil.isTypedArray;
@@ -32835,7 +32086,7 @@ module.exports = isUndefined;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_classnames__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__SafeAnchor__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__SafeAnchor__ = __webpack_require__(28);
 
 
 
@@ -32926,7 +32177,7 @@ BreadcrumbItem.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_classnames__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_prop_types_lib_all__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_prop_types_lib_all__ = __webpack_require__(100);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_prop_types_lib_all___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react_prop_types_lib_all__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Button__ = __webpack_require__(74);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_bootstrapUtils__ = __webpack_require__(8);
@@ -33020,13 +32271,9 @@ ButtonGroup.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_classnames__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_dom__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_dom__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react_dom__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils_TransitionEvents__ = __webpack_require__(500);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils_TransitionEvents__ = __webpack_require__(520);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils_TransitionEvents__ = __webpack_require__(522);
 
 
 
@@ -33178,7 +32425,7 @@ CarouselItem.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_classnames__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_classnames__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Button__ = __webpack_require__(74);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__SafeAnchor__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__SafeAnchor__ = __webpack_require__(28);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_bootstrapUtils__ = __webpack_require__(8);
 
 
@@ -33347,7 +32594,7 @@ Grid.defaultProps = defaultProps;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values__ = __webpack_require__(48);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends__);
@@ -33364,7 +32611,7 @@ Grid.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_StyleConfig__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_StyleConfig__ = __webpack_require__(20);
 
 
 
@@ -33843,13 +33090,13 @@ ModalTitle.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_classnames__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_classnames__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_keycode__ = __webpack_require__(127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_keycode__ = __webpack_require__(128);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_keycode___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_keycode__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react_dom__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react_dom__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_react_dom__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_react_prop_types_lib_all__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_react_prop_types_lib_all__ = __webpack_require__(100);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_react_prop_types_lib_all___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_react_prop_types_lib_all__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_warning__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_warning___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_warning__);
@@ -34230,7 +33477,7 @@ Nav.contextTypes = contextTypes;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_classnames__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__SafeAnchor__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__SafeAnchor__ = __webpack_require__(28);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils_createChainedFunction__ = __webpack_require__(18);
 
 
@@ -34420,19 +33667,11 @@ NavbarBrand.contextTypes = contextTypes;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_classnames__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_overlays_lib_Overlay__ = __webpack_require__(578);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_overlays_lib_Overlay__ = __webpack_require__(600);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_overlays_lib_Overlay___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react_overlays_lib_Overlay__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react_prop_types_lib_elementType__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react_prop_types_lib_elementType___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_react_prop_types_lib_elementType__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__Fade__ = __webpack_require__(86);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_overlays_lib_Overlay__ = __webpack_require__(598);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_overlays_lib_Overlay___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react_overlays_lib_Overlay__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react_prop_types_lib_elementType__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react_prop_types_lib_elementType___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_react_prop_types_lib_elementType__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__Fade__ = __webpack_require__(90);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__Fade__ = __webpack_require__(92);
 
 
 
@@ -34572,7 +33811,7 @@ Overlay.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_classnames__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__SafeAnchor__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__SafeAnchor__ = __webpack_require__(28);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils_createChainedFunction__ = __webpack_require__(18);
 
 
@@ -34827,11 +34066,7 @@ PanelGroup.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_warning___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_warning__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_bootstrapUtils__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils_createChainedFunction__ = __webpack_require__(18);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__Fade__ = __webpack_require__(86);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__Fade__ = __webpack_require__(90);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__Fade__ = __webpack_require__(92);
 
 
 
@@ -35298,7 +34533,7 @@ var _prodInvariant = __webpack_require__(11);
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-var PooledClass = __webpack_require__(44);
+var PooledClass = __webpack_require__(45);
 
 var invariant = __webpack_require__(9);
 
@@ -35422,11 +34657,7 @@ var DOMProperty = __webpack_require__(39);
 var ReactDOMComponentTree = __webpack_require__(15);
 var ReactInstrumentation = __webpack_require__(23);
 
-<<<<<<< HEAD:public/bundle.js
-var quoteAttributeValueForBrowser = __webpack_require__(572);
-=======
-var quoteAttributeValueForBrowser = __webpack_require__(592);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var quoteAttributeValueForBrowser = __webpack_require__(594);
 var warning = __webpack_require__(10);
 
 var VALID_ATTRIBUTE_NAME_REGEX = new RegExp('^[' + DOMProperty.ATTRIBUTE_NAME_START_CHAR + '][' + DOMProperty.ATTRIBUTE_NAME_CHAR + ']*$');
@@ -35690,9 +34921,9 @@ module.exports = ReactDOMComponentFlags;
 
 var _assign = __webpack_require__(13);
 
-var LinkedValueUtils = __webpack_require__(145);
+var LinkedValueUtils = __webpack_require__(146);
 var ReactDOMComponentTree = __webpack_require__(15);
-var ReactUpdates = __webpack_require__(28);
+var ReactUpdates = __webpack_require__(29);
 
 var warning = __webpack_require__(10);
 
@@ -36030,19 +35261,11 @@ module.exports = ReactHostComponent;
 
 
 
-<<<<<<< HEAD:public/bundle.js
-var ReactDOMSelection = __webpack_require__(526);
+var ReactDOMSelection = __webpack_require__(548);
 
-var containsNode = __webpack_require__(360);
-var focusNode = __webpack_require__(187);
-var getActiveElement = __webpack_require__(188);
-=======
-var ReactDOMSelection = __webpack_require__(546);
-
-var containsNode = __webpack_require__(380);
+var containsNode = __webpack_require__(382);
 var focusNode = __webpack_require__(191);
 var getActiveElement = __webpack_require__(192);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 
 function isInDocument(node) {
   return containsNode(document.documentElement, node);
@@ -36169,38 +35392,27 @@ module.exports = ReactInputSelection;
 
 var _prodInvariant = __webpack_require__(11);
 
-var DOMLazyTree = __webpack_require__(58);
+var DOMLazyTree = __webpack_require__(59);
 var DOMProperty = __webpack_require__(39);
 var React = __webpack_require__(63);
-var ReactBrowserEventEmitter = __webpack_require__(93);
-var ReactCurrentOwner = __webpack_require__(29);
+var ReactBrowserEventEmitter = __webpack_require__(95);
+var ReactCurrentOwner = __webpack_require__(30);
 var ReactDOMComponentTree = __webpack_require__(15);
-<<<<<<< HEAD:public/bundle.js
-var ReactDOMContainerInfo = __webpack_require__(518);
-var ReactDOMFeatureFlags = __webpack_require__(520);
-var ReactFeatureFlags = __webpack_require__(234);
-var ReactInstanceMap = __webpack_require__(75);
-var ReactInstrumentation = __webpack_require__(23);
-var ReactMarkupChecksum = __webpack_require__(540);
-var ReactReconciler = __webpack_require__(57);
-var ReactUpdateQueue = __webpack_require__(143);
-=======
-var ReactDOMContainerInfo = __webpack_require__(538);
-var ReactDOMFeatureFlags = __webpack_require__(540);
+var ReactDOMContainerInfo = __webpack_require__(540);
+var ReactDOMFeatureFlags = __webpack_require__(542);
 var ReactFeatureFlags = __webpack_require__(238);
 var ReactInstanceMap = __webpack_require__(77);
 var ReactInstrumentation = __webpack_require__(23);
-var ReactMarkupChecksum = __webpack_require__(560);
-var ReactReconciler = __webpack_require__(59);
-var ReactUpdateQueue = __webpack_require__(148);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
-var ReactUpdates = __webpack_require__(28);
+var ReactMarkupChecksum = __webpack_require__(562);
+var ReactReconciler = __webpack_require__(60);
+var ReactUpdateQueue = __webpack_require__(149);
+var ReactUpdates = __webpack_require__(29);
 
 var emptyObject = __webpack_require__(69);
 var instantiateReactComponent = __webpack_require__(249);
 var invariant = __webpack_require__(9);
-var setInnerHTML = __webpack_require__(97);
-var shouldUpdateReactComponent = __webpack_require__(154);
+var setInnerHTML = __webpack_require__(99);
+var shouldUpdateReactComponent = __webpack_require__(155);
 var warning = __webpack_require__(10);
 
 var ATTR_NAME = DOMProperty.ID_ATTRIBUTE_NAME;
@@ -36998,19 +36210,11 @@ module.exports = getTextContentAccessor;
 var _prodInvariant = __webpack_require__(11),
     _assign = __webpack_require__(13);
 
-<<<<<<< HEAD:public/bundle.js
-var ReactCompositeComponent = __webpack_require__(515);
-var ReactEmptyComponent = __webpack_require__(233);
-var ReactHostComponent = __webpack_require__(235);
-
-var getNextDebugID = __webpack_require__(569);
-=======
-var ReactCompositeComponent = __webpack_require__(535);
+var ReactCompositeComponent = __webpack_require__(537);
 var ReactEmptyComponent = __webpack_require__(237);
 var ReactHostComponent = __webpack_require__(239);
 
-var getNextDebugID = __webpack_require__(589);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var getNextDebugID = __webpack_require__(591);
 var invariant = __webpack_require__(9);
 var warning = __webpack_require__(10);
 
@@ -37194,8 +36398,8 @@ module.exports = isTextInputElement;
 
 
 var ExecutionEnvironment = __webpack_require__(17);
-var escapeTextContentForBrowser = __webpack_require__(96);
-var setInnerHTML = __webpack_require__(97);
+var escapeTextContentForBrowser = __webpack_require__(98);
+var setInnerHTML = __webpack_require__(99);
 
 /**
  * Set the textContent property of a node, ensuring that whitespace is preserved
@@ -37252,18 +36456,12 @@ module.exports = setTextContent;
 
 var _prodInvariant = __webpack_require__(11);
 
-var ReactCurrentOwner = __webpack_require__(29);
-<<<<<<< HEAD:public/bundle.js
-var REACT_ELEMENT_TYPE = __webpack_require__(534);
+var ReactCurrentOwner = __webpack_require__(30);
+var REACT_ELEMENT_TYPE = __webpack_require__(556);
 
-var getIteratorFn = __webpack_require__(568);
-=======
-var REACT_ELEMENT_TYPE = __webpack_require__(554);
-
-var getIteratorFn = __webpack_require__(588);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var getIteratorFn = __webpack_require__(590);
 var invariant = __webpack_require__(9);
-var KeyEscapeUtils = __webpack_require__(144);
+var KeyEscapeUtils = __webpack_require__(145);
 var warning = __webpack_require__(10);
 
 var SEPARATOR = '.';
@@ -37429,14 +36627,9 @@ module.exports = traverseAllChildren;
 
 
 var React = __webpack_require__(0),
-    ReactDOM = __webpack_require__(20),
-<<<<<<< HEAD:public/bundle.js
-    Helpers = __webpack_require__(574),
-    IconComponent = __webpack_require__(575),
-=======
-    Helpers = __webpack_require__(594),
-    IconComponent = __webpack_require__(595),
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+    ReactDOM = __webpack_require__(19),
+    Helpers = __webpack_require__(596),
+    IconComponent = __webpack_require__(597),
     Dropzone, DropzoneComponent;
 
 DropzoneComponent = React.createClass({displayName: "DropzoneComponent",
@@ -37481,11 +36674,7 @@ DropzoneComponent = React.createClass({displayName: "DropzoneComponent",
         var self = this,
             options = this.getDjsConfig();
 
-<<<<<<< HEAD:public/bundle.js
-        Dropzone = Dropzone || __webpack_require__(357);
-=======
-        Dropzone = Dropzone || __webpack_require__(377);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+        Dropzone = Dropzone || __webpack_require__(379);
         Dropzone.autoDiscover = false;
 
         if (!this.props.config.postUrl && !this.props.eventHandlers.drop) {
@@ -37691,23 +36880,19 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(20);
+var _reactDom = __webpack_require__(19);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _componentOrElement = __webpack_require__(157);
+var _componentOrElement = __webpack_require__(158);
 
 var _componentOrElement2 = _interopRequireDefault(_componentOrElement);
 
-<<<<<<< HEAD:public/bundle.js
-var _ownerDocument = __webpack_require__(77);
-=======
 var _ownerDocument = __webpack_require__(79);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 
 var _ownerDocument2 = _interopRequireDefault(_ownerDocument);
 
-var _getContainer = __webpack_require__(156);
+var _getContainer = __webpack_require__(157);
 
 var _getContainer2 = _interopRequireDefault(_getContainer);
 
@@ -37816,7 +37001,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _contains = __webpack_require__(53);
+var _contains = __webpack_require__(54);
 
 var _contains2 = _interopRequireDefault(_contains);
 
@@ -37824,7 +37009,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(20);
+var _reactDom = __webpack_require__(19);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -37832,11 +37017,7 @@ var _addEventListener = __webpack_require__(257);
 
 var _addEventListener2 = _interopRequireDefault(_addEventListener);
 
-<<<<<<< HEAD:public/bundle.js
-var _ownerDocument = __webpack_require__(77);
-=======
 var _ownerDocument = __webpack_require__(79);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 
 var _ownerDocument2 = _interopRequireDefault(_ownerDocument);
 
@@ -38005,11 +37186,7 @@ var _classnames = __webpack_require__(7);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
-<<<<<<< HEAD:public/bundle.js
-var _on = __webpack_require__(80);
-=======
-var _on = __webpack_require__(84);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _on = __webpack_require__(86);
 
 var _on2 = _interopRequireDefault(_on);
 
@@ -38021,7 +37198,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(20);
+var _reactDom = __webpack_require__(19);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -38367,15 +37544,11 @@ exports.default = function (node, event, handler, capture) {
   };
 };
 
-<<<<<<< HEAD:public/bundle.js
-var _on = __webpack_require__(80);
-=======
-var _on = __webpack_require__(84);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _on = __webpack_require__(86);
 
 var _on2 = _interopRequireDefault(_on);
 
-var _off = __webpack_require__(121);
+var _off = __webpack_require__(122);
 
 var _off2 = _interopRequireDefault(_off);
 
@@ -38395,15 +37568,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = isOverflowing;
 
-<<<<<<< HEAD:public/bundle.js
-var _isWindow = __webpack_require__(81);
-=======
-var _isWindow = __webpack_require__(85);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _isWindow = __webpack_require__(87);
 
 var _isWindow2 = _interopRequireDefault(_isWindow);
 
-var _ownerDocument = __webpack_require__(52);
+var _ownerDocument = __webpack_require__(53);
 
 var _ownerDocument2 = _interopRequireDefault(_ownerDocument);
 
@@ -38445,13 +37614,8 @@ module.exports = exports['default'];
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_invariant__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__utils_Subscription__ = __webpack_require__(590);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__utils_PropTypes__ = __webpack_require__(257);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__utils_Subscription__ = __webpack_require__(610);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__utils_Subscription__ = __webpack_require__(612);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__utils_PropTypes__ = __webpack_require__(261);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 /* harmony export (immutable) */ __webpack_exports__["a"] = connectAdvanced;
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -38834,13 +37998,8 @@ var storeShape = __WEBPACK_IMPORTED_MODULE_0_react__["PropTypes"].shape({
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash_es_isPlainObject__ = __webpack_require__(124);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__warning__ = __webpack_require__(153);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash_es_isPlainObject__ = __webpack_require__(128);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__warning__ = __webpack_require__(158);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash_es_isPlainObject__ = __webpack_require__(129);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__warning__ = __webpack_require__(159);
 /* harmony export (immutable) */ __webpack_exports__["a"] = verifyPlainObject;
 
 
@@ -39083,13 +38242,8 @@ function routerReducer() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_invariant__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_invariant__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__PropTypes__ = __webpack_require__(156);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ContextUtils__ = __webpack_require__(155);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__PropTypes__ = __webpack_require__(161);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ContextUtils__ = __webpack_require__(160);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__PropTypes__ = __webpack_require__(162);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ContextUtils__ = __webpack_require__(161);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
@@ -39138,6 +38292,11 @@ function resolveToLocation(to, router) {
  * You could use the following component to link to that route:
  *
  *   <Link to={`/posts/${post.id}`} />
+ *
+ * Links may pass along location state and/or query string parameters
+ * in the state/query props, respectively.
+ *
+ *   <Link ... query={{ show: true }} state={{ the: 'state' }} />
  */
 var Link = __WEBPACK_IMPORTED_MODULE_0_react___default.a.createClass({
   displayName: 'Link',
@@ -39151,6 +38310,9 @@ var Link = __WEBPACK_IMPORTED_MODULE_0_react___default.a.createClass({
 
   propTypes: {
     to: oneOfType([string, object, func]),
+    query: object,
+    hash: string,
+    state: object,
     activeStyle: object,
     activeClassName: string,
     onlyActiveOnIndex: bool.isRequired,
@@ -39247,15 +38409,9 @@ function isPromise(obj) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_invariant__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_invariant__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__RouteUtils__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__PatternUtils__ = __webpack_require__(58);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__InternalPropTypes__ = __webpack_require__(78);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__RouteUtils__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__RouteUtils__ = __webpack_require__(41);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__PatternUtils__ = __webpack_require__(61);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__InternalPropTypes__ = __webpack_require__(80);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 
 
 
@@ -39385,11 +38541,7 @@ function assignRouterState(router, _ref) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_lib_useQueries___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_history_lib_useQueries__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_history_lib_useBasename__ = __webpack_require__(194);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_history_lib_useBasename___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_history_lib_useBasename__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_history_lib_createMemoryHistory__ = __webpack_require__(377);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_history_lib_createMemoryHistory__ = __webpack_require__(397);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_history_lib_createMemoryHistory__ = __webpack_require__(399);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_history_lib_createMemoryHistory___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_history_lib_createMemoryHistory__);
 /* harmony export (immutable) */ __webpack_exports__["a"] = createMemoryHistory;
 
@@ -39413,42 +38565,28 @@ function createMemoryHistory(options) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__useRouterHistory__ = __webpack_require__(267);
-/* harmony export (immutable) */ __webpack_exports__["a"] = createRouterHistory;
-=======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__useRouterHistory__ = __webpack_require__(274);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 
 
 var canUseDOM = !!(typeof window !== 'undefined' && window.document && window.document.createElement);
 
-function createRouterHistory(createHistory) {
+/* harmony default export */ __webpack_exports__["a"] = (function (createHistory) {
   var history = void 0;
   if (canUseDOM) history = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__useRouterHistory__["a" /* default */])(createHistory)();
   return history;
-}
+});
 
 /***/ }),
 /* 272 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-<<<<<<< HEAD:public/bundle.js
-/* WEBPACK VAR INJECTION */(function(process) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__routerWarning__ = __webpack_require__(59);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__computeChangedRoutes__ = __webpack_require__(600);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__TransitionUtils__ = __webpack_require__(597);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__isActive__ = __webpack_require__(604);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__getComponents__ = __webpack_require__(601);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__matchRoutes__ = __webpack_require__(606);
-=======
 /* WEBPACK VAR INJECTION */(function(process) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__routerWarning__ = __webpack_require__(62);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__computeChangedRoutes__ = __webpack_require__(625);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__TransitionUtils__ = __webpack_require__(622);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__isActive__ = __webpack_require__(629);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__getComponents__ = __webpack_require__(626);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__matchRoutes__ = __webpack_require__(631);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__computeChangedRoutes__ = __webpack_require__(627);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__TransitionUtils__ = __webpack_require__(624);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__isActive__ = __webpack_require__(631);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__getComponents__ = __webpack_require__(628);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__matchRoutes__ = __webpack_require__(633);
 /* harmony export (immutable) */ __webpack_exports__["a"] = createTransitionManager;
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -39709,75 +38847,40 @@ function createTransitionManager(history, routes) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Router__ = __webpack_require__(596);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Router__ = __webpack_require__(621);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Router__ = __webpack_require__(623);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Router", function() { return __WEBPACK_IMPORTED_MODULE_0__Router__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Link__ = __webpack_require__(266);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Link", function() { return __WEBPACK_IMPORTED_MODULE_1__Link__["a"]; });
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__IndexLink__ = __webpack_require__(592);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__IndexLink__ = __webpack_require__(619);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "IndexLink", function() { return __WEBPACK_IMPORTED_MODULE_2__IndexLink__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__withRouter__ = __webpack_require__(607);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__withRouter__ = __webpack_require__(634);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "withRouter", function() { return __WEBPACK_IMPORTED_MODULE_3__withRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__IndexRedirect__ = __webpack_require__(593);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__IndexRedirect__ = __webpack_require__(620);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "IndexRedirect", function() { return __WEBPACK_IMPORTED_MODULE_4__IndexRedirect__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__IndexRoute__ = __webpack_require__(594);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__IndexLink__ = __webpack_require__(617);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "IndexLink", function() { return __WEBPACK_IMPORTED_MODULE_2__IndexLink__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__withRouter__ = __webpack_require__(632);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "withRouter", function() { return __WEBPACK_IMPORTED_MODULE_3__withRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__IndexRedirect__ = __webpack_require__(618);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "IndexRedirect", function() { return __WEBPACK_IMPORTED_MODULE_4__IndexRedirect__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__IndexRoute__ = __webpack_require__(619);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__IndexRoute__ = __webpack_require__(621);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "IndexRoute", function() { return __WEBPACK_IMPORTED_MODULE_5__IndexRoute__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Redirect__ = __webpack_require__(268);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Redirect", function() { return __WEBPACK_IMPORTED_MODULE_6__Redirect__["a"]; });
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Route__ = __webpack_require__(595);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Route__ = __webpack_require__(620);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Route__ = __webpack_require__(622);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Route", function() { return __WEBPACK_IMPORTED_MODULE_7__Route__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__RouteUtils__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__RouteUtils__ = __webpack_require__(41);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "createRoutes", function() { return __WEBPACK_IMPORTED_MODULE_8__RouteUtils__["a"]; });
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__RouterContext__ = __webpack_require__(157);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__RouterContext__ = __webpack_require__(163);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "RouterContext", function() { return __WEBPACK_IMPORTED_MODULE_9__RouterContext__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__PropTypes__ = __webpack_require__(156);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__PropTypes__ = __webpack_require__(162);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "locationShape", function() { return __WEBPACK_IMPORTED_MODULE_10__PropTypes__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "routerShape", function() { return __WEBPACK_IMPORTED_MODULE_10__PropTypes__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__match__ = __webpack_require__(605);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__RouterContext__ = __webpack_require__(162);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "RouterContext", function() { return __WEBPACK_IMPORTED_MODULE_9__RouterContext__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__PropTypes__ = __webpack_require__(161);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "locationShape", function() { return __WEBPACK_IMPORTED_MODULE_10__PropTypes__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "routerShape", function() { return __WEBPACK_IMPORTED_MODULE_10__PropTypes__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__match__ = __webpack_require__(630);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__match__ = __webpack_require__(632);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "match", function() { return __WEBPACK_IMPORTED_MODULE_11__match__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__useRouterHistory__ = __webpack_require__(274);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "useRouterHistory", function() { return __WEBPACK_IMPORTED_MODULE_12__useRouterHistory__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__PatternUtils__ = __webpack_require__(61);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "formatPattern", function() { return __WEBPACK_IMPORTED_MODULE_13__PatternUtils__["a"]; });
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__applyRouterMiddleware__ = __webpack_require__(598);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__applyRouterMiddleware__ = __webpack_require__(625);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "applyRouterMiddleware", function() { return __WEBPACK_IMPORTED_MODULE_14__applyRouterMiddleware__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__browserHistory__ = __webpack_require__(599);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__browserHistory__ = __webpack_require__(626);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "browserHistory", function() { return __WEBPACK_IMPORTED_MODULE_15__browserHistory__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__hashHistory__ = __webpack_require__(603);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__applyRouterMiddleware__ = __webpack_require__(623);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "applyRouterMiddleware", function() { return __WEBPACK_IMPORTED_MODULE_14__applyRouterMiddleware__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__browserHistory__ = __webpack_require__(624);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "browserHistory", function() { return __WEBPACK_IMPORTED_MODULE_15__browserHistory__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__hashHistory__ = __webpack_require__(628);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__hashHistory__ = __webpack_require__(630);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "hashHistory", function() { return __WEBPACK_IMPORTED_MODULE_16__hashHistory__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__createMemoryHistory__ = __webpack_require__(270);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "createMemoryHistory", function() { return __WEBPACK_IMPORTED_MODULE_17__createMemoryHistory__["a"]; });
@@ -39896,21 +38999,14 @@ module.exports = REACT_ELEMENT_TYPE;
 
 
 
-var ReactCurrentOwner = __webpack_require__(29);
+var ReactCurrentOwner = __webpack_require__(30);
 var ReactComponentTreeHook = __webpack_require__(22);
-var ReactElement = __webpack_require__(45);
+var ReactElement = __webpack_require__(46);
 
-<<<<<<< HEAD:public/bundle.js
-var checkReactTypeSpec = __webpack_require__(616);
+var checkReactTypeSpec = __webpack_require__(643);
 
-var canDefineProperty = __webpack_require__(161);
-var getIteratorFn = __webpack_require__(162);
-=======
-var checkReactTypeSpec = __webpack_require__(641);
-
-var canDefineProperty = __webpack_require__(166);
-var getIteratorFn = __webpack_require__(167);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var canDefineProperty = __webpack_require__(167);
+var getIteratorFn = __webpack_require__(168);
 var warning = __webpack_require__(10);
 
 function getDeclarationErrorAddendum() {
@@ -40166,21 +39262,15 @@ function camelCase(string) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash_isString__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash_isString__ = __webpack_require__(134);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash_isString___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_lodash_isString__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_lodash_isFunction__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_lodash_isFunction__ = __webpack_require__(57);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_lodash_isFunction___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_lodash_isFunction__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash_isEmpty__ = __webpack_require__(426);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash_isEmpty__ = __webpack_require__(448);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash_isEmpty___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_lodash_isEmpty__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_lodash_toString__ = __webpack_require__(436);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash_isEmpty__ = __webpack_require__(446);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash_isEmpty___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_lodash_isEmpty__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_lodash_toString__ = __webpack_require__(456);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_lodash_toString__ = __webpack_require__(458);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_lodash_toString___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_lodash_toString__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_lodash_isSymbol__ = __webpack_require__(134);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_lodash_isSymbol__ = __webpack_require__(135);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_lodash_isSymbol___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_lodash_isSymbol__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_invariant__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_invariant__);
@@ -40225,15 +39315,11 @@ function combineActions() {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash_identity__ = __webpack_require__(70);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash_identity___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_lodash_identity__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_lodash_isFunction__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_lodash_isFunction__ = __webpack_require__(57);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_lodash_isFunction___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_lodash_isFunction__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash_isUndefined__ = __webpack_require__(213);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash_isUndefined___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_lodash_isUndefined__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_lodash_isNull__ = __webpack_require__(428);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_lodash_isNull__ = __webpack_require__(448);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_lodash_isNull__ = __webpack_require__(450);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_lodash_isNull___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_lodash_isNull__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_invariant__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_invariant__);
@@ -40288,25 +39374,17 @@ function createAction(type) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash_isFunction__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash_isFunction__ = __webpack_require__(57);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash_isFunction___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_lodash_isFunction__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_lodash_isPlainObject__ = __webpack_require__(132);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_lodash_isPlainObject__ = __webpack_require__(133);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_lodash_isPlainObject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_lodash_isPlainObject__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash_identity__ = __webpack_require__(70);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash_identity___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_lodash_identity__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_lodash_isNil__ = __webpack_require__(427);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_lodash_isNil__ = __webpack_require__(447);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_lodash_isNil__ = __webpack_require__(449);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_lodash_isNil___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_lodash_isNil__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_lodash_isUndefined__ = __webpack_require__(213);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_lodash_isUndefined___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_lodash_isUndefined__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_lodash_includes__ = __webpack_require__(425);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_lodash_includes__ = __webpack_require__(445);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_lodash_includes__ = __webpack_require__(447);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_lodash_includes___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_lodash_includes__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_invariant__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_invariant__);
@@ -40400,13 +39478,8 @@ function compose() {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash_es_isPlainObject__ = __webpack_require__(124);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_symbol_observable__ = __webpack_require__(631);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash_es_isPlainObject__ = __webpack_require__(128);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_symbol_observable__ = __webpack_require__(655);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash_es_isPlainObject__ = __webpack_require__(129);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_symbol_observable__ = __webpack_require__(657);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_symbol_observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_symbol_observable__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return ActionTypes; });
 /* harmony export (immutable) */ __webpack_exports__["a"] = createStore;
@@ -40666,9 +39739,9 @@ function createStore(reducer, preloadedState, enhancer) {
 "use strict";
 /* WEBPACK VAR INJECTION */(function(process) {Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__createStore__ = __webpack_require__(283);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__combineReducers__ = __webpack_require__(653);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__bindActionCreators__ = __webpack_require__(652);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__applyMiddleware__ = __webpack_require__(651);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__combineReducers__ = __webpack_require__(655);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__bindActionCreators__ = __webpack_require__(654);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__applyMiddleware__ = __webpack_require__(653);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__compose__ = __webpack_require__(282);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__utils_warning__ = __webpack_require__(285);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "createStore", function() { return __WEBPACK_IMPORTED_MODULE_0__createStore__["a"]; });
@@ -40749,29 +39822,17 @@ var _App = __webpack_require__(301);
 
 var _App2 = _interopRequireDefault(_App);
 
-<<<<<<< HEAD:public/bundle.js
-var _component = __webpack_require__(289);
-=======
-var _component = __webpack_require__(307);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _component = __webpack_require__(309);
 
 var _reactRouter = __webpack_require__(273);
 
-<<<<<<< HEAD:public/bundle.js
-var _reactRedux = __webpack_require__(97);
-
-var _redux = __webpack_require__(98);
-
-var _reduxThunk = __webpack_require__(626);
-=======
-var _reactRedux = __webpack_require__(60);
+var _reactRedux = __webpack_require__(40);
 
 var _redux = __webpack_require__(284);
 
-var _reactRouterRedux = __webpack_require__(614);
+var _reactRouterRedux = __webpack_require__(616);
 
-var _reduxThunk = __webpack_require__(650);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _reduxThunk = __webpack_require__(652);
 
 var _reduxThunk2 = _interopRequireDefault(_reduxThunk);
 
@@ -40801,12 +39862,9 @@ var routes = _react2.default.createElement(
 			_react2.default.createElement(_reactRouter.IndexRoute, { component: _component.MainPage }),
 			_react2.default.createElement(_reactRouter.Route, { path: 'main', component: _component.MainPage }),
 			_react2.default.createElement(_reactRouter.Route, { path: 'document_translate', component: _component.DocumentTranslatePage }),
-<<<<<<< HEAD:public/bundle.js
-			_react2.default.createElement(_reactRouter.Route, { path: 'community', component: _component.Community })
-=======
+			_react2.default.createElement(_reactRouter.Route, { path: 'community', component: _component.Community }),
 			_react2.default.createElement(_reactRouter.Route, { path: 'my_library', component: _component.MyLibraryPage }),
 			_react2.default.createElement(_reactRouter.Route, { path: 'public_library', component: _component.PublicLibraryPage })
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 		)
 	)
 );
@@ -40824,7 +39882,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(20);
+var _reactDom = __webpack_require__(19);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -40843,11 +39901,7 @@ _reactDom2.default.render(_routes2.default, document.getElementById('app'));
 "use strict";
 
 
-<<<<<<< HEAD:public/bundle.js
-var _reduxActions = __webpack_require__(623);
-=======
-var _reduxActions = __webpack_require__(101);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _reduxActions = __webpack_require__(103);
 
 var INCREASE_COUNT = 'INCREASE_COUNT';
 var DECREASE_COUNT = 'DECREASE_COUNT';
@@ -40866,7 +39920,7 @@ module.exports = {
 "use strict";
 
 
-var _reduxActions = __webpack_require__(101);
+var _reduxActions = __webpack_require__(103);
 
 var ADD_DOCUMENT_PERSONAL = 'ADD_DOCUMENT_PERSONAL';
 var REMOVE_DOCUMENT_PERSONAL = 'REMOVE_DOCUMENT_PERSONAL';
@@ -40885,7 +39939,7 @@ module.exports = {
 "use strict";
 
 
-var _reduxActions = __webpack_require__(101);
+var _reduxActions = __webpack_require__(103);
 
 var ADD_DOCUMENT_PUBLIC = 'ADD_DOCUMENT_PUBLIC';
 var REMOVE_DOCUMENT_PUBLIC = 'REMOVE_DOCUMENT_PUBLIC';
@@ -40904,7 +39958,7 @@ module.exports = {
 "use strict";
 
 
-var _reduxActions = __webpack_require__(101);
+var _reduxActions = __webpack_require__(103);
 
 var ENABLE_SPINNER = 'ENABLE_SPINNER';
 var DISABLE_SPINNER = 'DISABLE_SPINNER';
@@ -40951,9 +40005,6 @@ module.exports = {
 
 var _actionTypes = __webpack_require__(32);
 
-<<<<<<< HEAD:public/bundle.js
-var _redux = __webpack_require__(98);
-=======
 /**
  * If message is provided, It will be shown instead of default Spinner Loading Message.
  * @param message, optional. display custom spinner message.
@@ -41043,7 +40094,6 @@ module.exports = {
 
 
 var _actionTypes = __webpack_require__(32);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 
 var initialState = {
 	value: 1
@@ -41090,9 +40140,6 @@ var _count = __webpack_require__(296);
 
 var _count2 = _interopRequireDefault(_count);
 
-<<<<<<< HEAD:public/bundle.js
-var _redux = __webpack_require__(98);
-=======
 var _spinner = __webpack_require__(300);
 
 var _spinner2 = _interopRequireDefault(_spinner);
@@ -41104,7 +40151,6 @@ var _personalLib2 = _interopRequireDefault(_personalLib);
 var _publicLib = __webpack_require__(299);
 
 var _publicLib2 = _interopRequireDefault(_publicLib);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -41119,7 +40165,7 @@ module.exports = _extends({}, _count2.default, _spinner2.default, _personalLib2.
 
 var _actionTypes = __webpack_require__(32);
 
-var _lodash = __webpack_require__(135);
+var _lodash = __webpack_require__(136);
 
 var _lodash2 = _interopRequireDefault(_lodash);
 
@@ -41166,7 +40212,7 @@ module.exports = {
 
 var _actionTypes = __webpack_require__(32);
 
-var _lodash = __webpack_require__(135);
+var _lodash = __webpack_require__(136);
 
 var _lodash2 = _interopRequireDefault(_lodash);
 
@@ -41263,25 +40309,17 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-<<<<<<< HEAD:public/bundle.js
-var _Header = __webpack_require__(288);
+var _reactRedux = __webpack_require__(40);
+
+var _Header = __webpack_require__(307);
 
 var _Header2 = _interopRequireDefault(_Header);
 
-var _reactBootstrap = __webpack_require__(72);
-=======
-var _reactRedux = __webpack_require__(60);
-
-var _Header = __webpack_require__(305);
-
-var _Header2 = _interopRequireDefault(_Header);
-
-var _Spinner = __webpack_require__(306);
+var _Spinner = __webpack_require__(308);
 
 var _Spinner2 = _interopRequireDefault(_Spinner);
 
-var _reactBootstrap = __webpack_require__(30);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _reactBootstrap = __webpack_require__(25);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -41360,9 +40398,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRedux = __webpack_require__(97);
+var _reactRedux = __webpack_require__(40);
 
-var _reactBootstrap = __webpack_require__(72);
+var _reactBootstrap = __webpack_require__(25);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -41393,7 +40431,7 @@ var Community = (_dec = (0, _reactRedux.connect)(function (state) {
     };
 
     // Example hardcoded image
-    _this.image = '/static/img/example_manga.jpg';
+    _this.image = '/public/img/example_manga.jpg';
     _this.width = '480px';
     _this.height = '2103px';
     _this.locations = [[83, 1.5, 13, 10], [7, 15, 13, 8], [86, 26.5, 13, 13], [1, 26.5, 16, 10], [78, 46, 16, 10], [21, 47, 16, 10], [85, 64.2, 14, 12], [1, 64.2, 20, 12], [85, 83.05, 14, 16], [1, 83.05, 19, 12]];
@@ -41549,7 +40587,7 @@ var Community = (_dec = (0, _reactRedux.connect)(function (state) {
 exports.default = Community;
 
 /***/ }),
-/* 286 */
+/* 303 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41568,37 +40606,29 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-<<<<<<< HEAD:public/bundle.js
-var _reactRedux = __webpack_require__(97);
+var _reactRedux = __webpack_require__(40);
 
-var _reactBootstrap = __webpack_require__(72);
+var _reactBootstrap = __webpack_require__(25);
 
-var _widget = __webpack_require__(291);
-=======
-var _reactRedux = __webpack_require__(60);
-
-var _reactBootstrap = __webpack_require__(30);
-
-var _lodash = __webpack_require__(135);
+var _lodash = __webpack_require__(136);
 
 var _lodash2 = _interopRequireDefault(_lodash);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 
-var _common = __webpack_require__(168);
+var _common = __webpack_require__(169);
 
-var _widget = __webpack_require__(312);
+var _widget = __webpack_require__(314);
 
 var _reactDropzoneComponent = __webpack_require__(253);
 
 var _reactDropzoneComponent2 = _interopRequireDefault(_reactDropzoneComponent);
 
-var _actions = __webpack_require__(103);
+var _actions = __webpack_require__(83);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _webUtil = __webpack_require__(104);
+var _webUtil = __webpack_require__(84);
 
-var _notificationUtil = __webpack_require__(169);
+var _notificationUtil = __webpack_require__(105);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -41906,11 +40936,7 @@ var DocumentTranslatePage = (_dec = (0, _reactRedux.connect)(function (state) {
 exports.default = DocumentTranslatePage;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 287 */
-=======
-/* 303 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 304 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41929,25 +40955,15 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-<<<<<<< HEAD:public/bundle.js
-var _reactRedux = __webpack_require__(97);
+var _reactRedux = __webpack_require__(40);
 
-var _reactBootstrap = __webpack_require__(72);
-=======
-var _reactRedux = __webpack_require__(60);
+var _reactBootstrap = __webpack_require__(25);
 
-var _reactBootstrap = __webpack_require__(30);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
-
-var _actions = __webpack_require__(103);
+var _actions = __webpack_require__(83);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-<<<<<<< HEAD:public/bundle.js
-var _webUtil = __webpack_require__(292);
-=======
-var _webUtil = __webpack_require__(104);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _webUtil = __webpack_require__(84);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -42058,10 +41074,7 @@ var MainPage = (_dec = (0, _reactRedux.connect)(function (state) {
 exports.default = MainPage;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 288 */
-=======
-/* 304 */
+/* 305 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42076,7 +41089,7 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _dec, _class;
 
-var _reactDom = __webpack_require__(20);
+var _reactDom = __webpack_require__(19);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -42084,17 +41097,17 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRedux = __webpack_require__(60);
+var _reactRedux = __webpack_require__(40);
 
-var _reactBootstrap = __webpack_require__(30);
+var _reactBootstrap = __webpack_require__(25);
 
-var _actions = __webpack_require__(103);
+var _actions = __webpack_require__(83);
 
 var _actions2 = _interopRequireDefault(_actions);
 
-var _webUtil = __webpack_require__(104);
+var _webUtil = __webpack_require__(84);
 
-var _notificationUtil = __webpack_require__(169);
+var _notificationUtil = __webpack_require__(105);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -42253,8 +41266,199 @@ var MyLibraryPage = (_dec = (0, _reactRedux.connect)(function (state) {
 exports.default = MyLibraryPage;
 
 /***/ }),
-/* 305 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 306 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+exports.default = undefined;
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _dec, _class;
+
+var _reactDom = __webpack_require__(19);
+
+var _reactDom2 = _interopRequireDefault(_reactDom);
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactRedux = __webpack_require__(40);
+
+var _reactBootstrap = __webpack_require__(25);
+
+var _actions = __webpack_require__(83);
+
+var _actions2 = _interopRequireDefault(_actions);
+
+var _webUtil = __webpack_require__(84);
+
+var _notificationUtil = __webpack_require__(105);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var PublicLibraryPage = (_dec = (0, _reactRedux.connect)(function (state) {
+	return state;
+}), _dec(_class = function (_React$Component) {
+	_inherits(PublicLibraryPage, _React$Component);
+
+	function PublicLibraryPage() {
+		_classCallCheck(this, PublicLibraryPage);
+
+		return _possibleConstructorReturn(this, (PublicLibraryPage.__proto__ || Object.getPrototypeOf(PublicLibraryPage)).apply(this, arguments));
+	}
+
+	_createClass(PublicLibraryPage, [{
+		key: 'componentDidMount',
+		value: function componentDidMount() {
+			$(_reactDom2.default.findDOMNode(this.publicDocumentList)).dataTable({
+				// responsive: true,
+				// stateSave: true,
+				// paging: true,
+				// searching: true,
+				// order: [ 0, 'asc' ],
+				// columnDefs: [
+				//  	// {searchable: false, targets: 0},
+				//  	// {visible: false, targets: 0},
+				//  	// {orderable: false, targets: 1},
+				//  	// {searchable: false, targets: 1},
+				// ],
+			});
+		}
+	}, {
+		key: 'handleSaveLibrary',
+		value: function handleSaveLibrary(document) {
+			this.props.dispatch(_actions2.default.addDocumentPersonal(document));
+			(0, _webUtil.redirect)('/my_library');
+			(0, _notificationUtil.publishNoti)('info', 'Successfully added document to your personal library!');
+		}
+	}, {
+		key: 'renderTableHeader',
+		value: function renderTableHeader() {
+			return _react2.default.createElement(
+				'thead',
+				null,
+				_react2.default.createElement(
+					'tr',
+					null,
+					_react2.default.createElement(
+						'th',
+						null,
+						'Name'
+					),
+					_react2.default.createElement(
+						'th',
+						null,
+						'Language'
+					),
+					_react2.default.createElement('th', null)
+				)
+			);
+		}
+	}, {
+		key: 'renderTableBody',
+		value: function renderTableBody(list) {
+			var _this2 = this;
+
+			return _react2.default.createElement(
+				'tbody',
+				null,
+				list.map(function (record, idx) {
+					return _this2.renderTableRow(record, idx);
+				})
+			);
+		}
+	}, {
+		key: 'renderTableRow',
+		value: function renderTableRow(record, idx) {
+			var _this3 = this;
+
+			return _react2.default.createElement(
+				'tr',
+				{ key: 'my-library-row-' + idx },
+				_react2.default.createElement(
+					'td',
+					null,
+					record.name
+				),
+				_react2.default.createElement(
+					'td',
+					null,
+					record.lang
+				),
+				_react2.default.createElement(
+					'td',
+					null,
+					_react2.default.createElement('a', { id: 'download-link-' + record.link, href: '' + record.link, download: true }),
+					_react2.default.createElement(
+						_reactBootstrap.Button,
+						{
+							bsSize: 'sm',
+							bsStyle: 'info',
+							onClick: function onClick() {
+								return document.getElementById('download-link-' + record.link).click();
+							}
+						},
+						'Download'
+					),
+					'\u2003',
+					_react2.default.createElement(
+						_reactBootstrap.Button,
+						{
+							bsSize: 'sm',
+							bsStyle: 'info',
+							onClick: function onClick() {
+								return _this3.handleSaveLibrary.call(_this3, record);
+							}
+						},
+						'Add to my library'
+					)
+				)
+			);
+		}
+	}, {
+		key: 'render',
+		value: function render() {
+			var _this4 = this;
+
+			var list = this.props.publicLib.documentList;
+			return _react2.default.createElement(
+				'div',
+				{ id: 'my-library-container' },
+				_react2.default.createElement(
+					_reactBootstrap.Grid,
+					null,
+					_react2.default.createElement(
+						'table',
+						{ ref: function ref(c) {
+								return _this4.publicDocumentList = c;
+							}, className: 'display', cellSpacing: '0', width: '100%' },
+						this.renderTableHeader(),
+						this.renderTableBody(list)
+					)
+				)
+			);
+		}
+	}]);
+
+	return PublicLibraryPage;
+}(_react2.default.Component)) || _class);
+exports.default = PublicLibraryPage;
+
+/***/ }),
+/* 307 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42271,13 +41475,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-<<<<<<< HEAD:public/bundle.js
-var _reactBootstrap = __webpack_require__(72);
-=======
-var _reactBootstrap = __webpack_require__(30);
+var _reactBootstrap = __webpack_require__(25);
 
-var _reactRouterBootstrap = __webpack_require__(613);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _reactRouterBootstrap = __webpack_require__(615);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -42349,11 +41549,6 @@ var Header = function (_React$Component) {
                   _reactBootstrap.NavItem,
                   { eventKey: 3, href: '#' },
                   'Profile'
-               ),
-               _react2.default.createElement(
-                  _reactBootstrap.NavItem,
-                  { eventKey: 6, href: 'community' },
-                  'Community'
                )
             )
          );
@@ -42366,10 +41561,7 @@ var Header = function (_React$Component) {
 exports.default = Header;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 289 */
-=======
-/* 306 */
+/* 308 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42388,9 +41580,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRedux = __webpack_require__(60);
+var _reactRedux = __webpack_require__(40);
 
-var _reactBootstrap = __webpack_require__(30);
+var _reactBootstrap = __webpack_require__(25);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -42474,61 +41666,44 @@ exports.default = Spinner;
 ;
 
 /***/ }),
-/* 307 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 309 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-<<<<<<< HEAD:public/bundle.js
-var _MainPage = __webpack_require__(287);
+var _MainPage = __webpack_require__(304);
 
 var _MainPage2 = _interopRequireDefault(_MainPage);
 
-var _DocumentTranslatePage = __webpack_require__(286);
+var _DocumentTranslatePage = __webpack_require__(303);
 
 var _DocumentTranslatePage2 = _interopRequireDefault(_DocumentTranslatePage);
 
-var _Community = __webpack_require__(285);
-
-var _Community2 = _interopRequireDefault(_Community);
-=======
-var _MainPage = __webpack_require__(303);
-
-var _MainPage2 = _interopRequireDefault(_MainPage);
-
-var _DocumentTranslatePage = __webpack_require__(302);
-
-var _DocumentTranslatePage2 = _interopRequireDefault(_DocumentTranslatePage);
-
-var _MyLibraryPage = __webpack_require__(304);
+var _MyLibraryPage = __webpack_require__(305);
 
 var _MyLibraryPage2 = _interopRequireDefault(_MyLibraryPage);
 
-var _PublicLibraryPage = __webpack_require__(660);
+var _PublicLibraryPage = __webpack_require__(306);
 
 var _PublicLibraryPage2 = _interopRequireDefault(_PublicLibraryPage);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+
+var _Community = __webpack_require__(302);
+
+var _Community2 = _interopRequireDefault(_Community);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 module.exports = {
 	MainPage: _MainPage2.default,
 	DocumentTranslatePage: _DocumentTranslatePage2.default,
-<<<<<<< HEAD:public/bundle.js
-	Community: _Community2.default
-};
-
-/***/ }),
-/* 290 */
-=======
+	Community: _Community2.default,
 	MyLibraryPage: _MyLibraryPage2.default,
 	PublicLibraryPage: _PublicLibraryPage2.default
 };
 
 /***/ }),
-/* 308 */
+/* 310 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42545,7 +41720,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactBootstrap = __webpack_require__(30);
+var _reactBootstrap = __webpack_require__(25);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -42628,7 +41803,7 @@ var Instruction = function (_React$Component) {
 exports.default = Instruction;
 
 /***/ }),
-/* 309 */
+/* 311 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42645,9 +41820,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactBootstrap = __webpack_require__(30);
+var _reactBootstrap = __webpack_require__(25);
 
-var _common = __webpack_require__(168);
+var _common = __webpack_require__(169);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -42733,8 +41908,7 @@ var LanguageSelect = function (_React$Component) {
 exports.default = LanguageSelect;
 
 /***/ }),
-/* 310 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 312 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42842,24 +42016,16 @@ var FileUpload = function (_React$Component) {
 exports.default = FileUpload;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 291 */
-=======
-/* 311 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 313 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-<<<<<<< HEAD:public/bundle.js
-var _FileUpload = __webpack_require__(290);
-=======
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = undefined;
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -42867,7 +42033,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactBootstrap = __webpack_require__(30);
+var _reactBootstrap = __webpack_require__(25);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -42933,21 +42099,17 @@ var SelectDropdown = function (_React$Component) {
 exports.default = SelectDropdown;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 292 */
-=======
-/* 312 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 314 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _Instruction = __webpack_require__(308);
+var _Instruction = __webpack_require__(310);
 
 var _Instruction2 = _interopRequireDefault(_Instruction);
 
-var _LanguageSelect = __webpack_require__(309);
+var _LanguageSelect = __webpack_require__(311);
 
 var _LanguageSelect2 = _interopRequireDefault(_LanguageSelect);
 
@@ -42959,180 +42121,101 @@ module.exports = {
 };
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 293 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = { "default": __webpack_require__(298), __esModule: true };
-=======
-/* 313 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = { "default": __webpack_require__(318), __esModule: true };
-
-/***/ }),
-/* 314 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = { "default": __webpack_require__(320), __esModule: true };
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
-
-/***/ }),
 /* 315 */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< HEAD:public/bundle.js
-module.exports = { "default": __webpack_require__(300), __esModule: true };
-=======
-module.exports = { "default": __webpack_require__(322), __esModule: true };
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+module.exports = { "default": __webpack_require__(320), __esModule: true };
 
 /***/ }),
 /* 316 */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< HEAD:public/bundle.js
-module.exports = { "default": __webpack_require__(302), __esModule: true };
-=======
-module.exports = { "default": __webpack_require__(324), __esModule: true };
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+module.exports = { "default": __webpack_require__(322), __esModule: true };
 
 /***/ }),
 /* 317 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = { "default": __webpack_require__(325), __esModule: true };
+module.exports = { "default": __webpack_require__(324), __esModule: true };
 
 /***/ }),
 /* 318 */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< HEAD:public/bundle.js
-module.exports = { "default": __webpack_require__(305), __esModule: true };
-=======
-__webpack_require__(182);
-__webpack_require__(349);
-module.exports = __webpack_require__(25).Array.from;
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+module.exports = { "default": __webpack_require__(326), __esModule: true };
 
 /***/ }),
 /* 319 */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< HEAD:public/bundle.js
-__webpack_require__(178);
-__webpack_require__(329);
-module.exports = __webpack_require__(25).Array.from;
-=======
-__webpack_require__(351);
-module.exports = __webpack_require__(25).Object.assign;
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+module.exports = { "default": __webpack_require__(327), __esModule: true };
 
 /***/ }),
 /* 320 */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< HEAD:public/bundle.js
-__webpack_require__(331);
-module.exports = __webpack_require__(25).Object.assign;
+__webpack_require__(182);
+__webpack_require__(351);
+module.exports = __webpack_require__(26).Array.from;
 
 /***/ }),
-/* 300 */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(332);
-=======
-__webpack_require__(352);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
-var $Object = __webpack_require__(25).Object;
-module.exports = function create(P, D){
-  return $Object.create(P, D);
-};
-
-/***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 301 */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(336);
-module.exports = __webpack_require__(25).Object.entries;
-
-/***/ }),
-/* 302 */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(333);
-module.exports = __webpack_require__(25).Object.setPrototypeOf;
-
-/***/ }),
-/* 303 */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(337);
-module.exports = __webpack_require__(25).Object.values;
-
-/***/ }),
-/* 304 */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(335);
-__webpack_require__(334);
-__webpack_require__(338);
-__webpack_require__(339);
-module.exports = __webpack_require__(25).Symbol;
-
-/***/ }),
-/* 305 */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(178);
-__webpack_require__(340);
-module.exports = __webpack_require__(116).f('iterator');
-
-/***/ }),
-/* 306 */
-=======
 /* 321 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(356);
-module.exports = __webpack_require__(25).Object.entries;
+__webpack_require__(353);
+module.exports = __webpack_require__(26).Object.assign;
 
 /***/ }),
 /* 322 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(353);
-module.exports = __webpack_require__(25).Object.setPrototypeOf;
+__webpack_require__(354);
+var $Object = __webpack_require__(26).Object;
+module.exports = function create(P, D){
+  return $Object.create(P, D);
+};
 
 /***/ }),
 /* 323 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(357);
-module.exports = __webpack_require__(25).Object.values;
+__webpack_require__(358);
+module.exports = __webpack_require__(26).Object.entries;
 
 /***/ }),
 /* 324 */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(355);
-__webpack_require__(354);
-__webpack_require__(358);
-__webpack_require__(359);
-module.exports = __webpack_require__(25).Symbol;
+module.exports = __webpack_require__(26).Object.setPrototypeOf;
 
 /***/ }),
 /* 325 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(182);
-__webpack_require__(360);
-module.exports = __webpack_require__(120).f('iterator');
+__webpack_require__(359);
+module.exports = __webpack_require__(26).Object.values;
 
 /***/ }),
 /* 326 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(357);
+__webpack_require__(356);
+__webpack_require__(360);
+__webpack_require__(361);
+module.exports = __webpack_require__(26).Symbol;
+
+/***/ }),
+/* 327 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(182);
+__webpack_require__(362);
+module.exports = __webpack_require__(121).f('iterator');
+
+/***/ }),
+/* 328 */
 /***/ (function(module, exports) {
 
 module.exports = function(it){
@@ -43141,34 +42224,20 @@ module.exports = function(it){
 };
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 307 */
-=======
-/* 327 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 329 */
 /***/ (function(module, exports) {
 
 module.exports = function(){ /* empty */ };
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 308 */
-=======
-/* 328 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 330 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // false -> Array#indexOf
 // true  -> Array#includes
-<<<<<<< HEAD:public/bundle.js
-var toIObject = __webpack_require__(33)
-  , toLength  = __webpack_require__(177)
-  , toIndex   = __webpack_require__(327);
-=======
 var toIObject = __webpack_require__(35)
   , toLength  = __webpack_require__(181)
-  , toIndex   = __webpack_require__(347);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+  , toIndex   = __webpack_require__(349);
 module.exports = function(IS_INCLUDES){
   return function($this, el, fromIndex){
     var O      = toIObject($this)
@@ -43187,16 +42256,12 @@ module.exports = function(IS_INCLUDES){
 };
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 309 */
-=======
-/* 329 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 331 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // getting tag from 19.1.3.6 Object.prototype.toString()
-var cof = __webpack_require__(106)
-  , TAG = __webpack_require__(26)('toStringTag')
+var cof = __webpack_require__(107)
+  , TAG = __webpack_require__(27)('toStringTag')
   // ES3 wrong here
   , ARG = cof(function(){ return arguments; }()) == 'Arguments';
 
@@ -43219,16 +42284,12 @@ module.exports = function(it){
 };
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 310 */
-=======
-/* 330 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 332 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var $defineProperty = __webpack_require__(42)
+var $defineProperty = __webpack_require__(43)
   , createDesc      = __webpack_require__(68);
 
 module.exports = function(object, index, value){
@@ -43237,16 +42298,12 @@ module.exports = function(object, index, value){
 };
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 311 */
-=======
-/* 331 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 333 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // all enumerable object keys, includes symbols
-var getKeys = __webpack_require__(51)
-  , gOPS    = __webpack_require__(112)
+var getKeys = __webpack_require__(52)
+  , gOPS    = __webpack_require__(113)
   , pIE     = __webpack_require__(67);
 module.exports = function(it){
   var result     = getKeys(it)
@@ -43261,26 +42318,18 @@ module.exports = function(it){
 };
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 312 */
-=======
-/* 332 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 334 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(34).document && document.documentElement;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 313 */
-=======
-/* 333 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 335 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // check on default Array iterator
 var Iterators  = __webpack_require__(66)
-  , ITERATOR   = __webpack_require__(26)('iterator')
+  , ITERATOR   = __webpack_require__(27)('iterator')
   , ArrayProto = Array.prototype;
 
 module.exports = function(it){
@@ -43288,29 +42337,21 @@ module.exports = function(it){
 };
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 314 */
-=======
-/* 334 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 336 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.2.2 IsArray(argument)
-var cof = __webpack_require__(106);
+var cof = __webpack_require__(107);
 module.exports = Array.isArray || function isArray(arg){
   return cof(arg) == 'Array';
 };
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 315 */
-=======
-/* 335 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 337 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // call something on iterator step with safe closing on error
-var anObject = __webpack_require__(48);
+var anObject = __webpack_require__(49);
 module.exports = function(iterator, fn, value, entries){
   try {
     return entries ? fn(anObject(value)[0], value[1]) : fn(value);
@@ -43323,22 +42364,18 @@ module.exports = function(iterator, fn, value, entries){
 };
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 316 */
-=======
-/* 336 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 338 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var create         = __webpack_require__(111)
+var create         = __webpack_require__(112)
   , descriptor     = __webpack_require__(68)
-  , setToStringTag = __webpack_require__(113)
+  , setToStringTag = __webpack_require__(114)
   , IteratorPrototype = {};
 
 // 25.1.2.1.1 %IteratorPrototype%[@@iterator]()
-__webpack_require__(50)(IteratorPrototype, __webpack_require__(26)('iterator'), function(){ return this; });
+__webpack_require__(51)(IteratorPrototype, __webpack_require__(27)('iterator'), function(){ return this; });
 
 module.exports = function(Constructor, NAME, next){
   Constructor.prototype = create(IteratorPrototype, {next: descriptor(1, next)});
@@ -43346,14 +42383,10 @@ module.exports = function(Constructor, NAME, next){
 };
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 317 */
-=======
-/* 337 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 339 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var ITERATOR     = __webpack_require__(26)('iterator')
+var ITERATOR     = __webpack_require__(27)('iterator')
   , SAFE_CLOSING = false;
 
 try {
@@ -43376,11 +42409,7 @@ module.exports = function(exec, skipClosing){
 };
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 318 */
-=======
-/* 338 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 340 */
 /***/ (function(module, exports) {
 
 module.exports = function(done, value){
@@ -43388,14 +42417,10 @@ module.exports = function(done, value){
 };
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 319 */
-=======
-/* 339 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 341 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var getKeys   = __webpack_require__(51)
+var getKeys   = __webpack_require__(52)
   , toIObject = __webpack_require__(35);
 module.exports = function(object, el){
   var O      = toIObject(object)
@@ -43407,23 +42432,13 @@ module.exports = function(object, el){
 };
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 320 */
+/* 342 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var META     = __webpack_require__(79)('meta')
-  , isObject = __webpack_require__(62)
-  , has      = __webpack_require__(39)
-  , setDesc  = __webpack_require__(40).f
-=======
-/* 340 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var META     = __webpack_require__(83)('meta')
+var META     = __webpack_require__(85)('meta')
   , isObject = __webpack_require__(65)
-  , has      = __webpack_require__(41)
-  , setDesc  = __webpack_require__(42).f
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+  , has      = __webpack_require__(42)
+  , setDesc  = __webpack_require__(43).f
   , id       = 0;
 var isExtensible = Object.isExtensible || function(){
   return true;
@@ -43475,20 +42490,16 @@ var meta = module.exports = {
 };
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 321 */
-=======
-/* 341 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 343 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 // 19.1.2.1 Object.assign(target, source, ...)
-var getKeys  = __webpack_require__(51)
-  , gOPS     = __webpack_require__(112)
+var getKeys  = __webpack_require__(52)
+  , gOPS     = __webpack_require__(113)
   , pIE      = __webpack_require__(67)
-  , toObject = __webpack_require__(117)
+  , toObject = __webpack_require__(118)
   , IObject  = __webpack_require__(174)
   , $assign  = Object.assign;
 
@@ -43518,18 +42529,14 @@ module.exports = !$assign || __webpack_require__(64)(function(){
 } : $assign;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 322 */
-=======
-/* 342 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 344 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var dP       = __webpack_require__(42)
-  , anObject = __webpack_require__(48)
-  , getKeys  = __webpack_require__(51);
+var dP       = __webpack_require__(43)
+  , anObject = __webpack_require__(49)
+  , getKeys  = __webpack_require__(52);
 
-module.exports = __webpack_require__(49) ? Object.defineProperties : function defineProperties(O, Properties){
+module.exports = __webpack_require__(50) ? Object.defineProperties : function defineProperties(O, Properties){
   anObject(O);
   var keys   = getKeys(Properties)
     , length = keys.length
@@ -43540,11 +42547,7 @@ module.exports = __webpack_require__(49) ? Object.defineProperties : function de
 };
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 323 */
-=======
-/* 343 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 345 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // fallback for IE11 buggy Object.getOwnPropertyNames with iframe and window
@@ -43569,17 +42572,13 @@ module.exports.f = function getOwnPropertyNames(it){
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 324 */
-=======
-/* 344 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 346 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.9 / 15.2.3.2 Object.getPrototypeOf(O)
-var has         = __webpack_require__(41)
-  , toObject    = __webpack_require__(117)
-  , IE_PROTO    = __webpack_require__(114)('IE_PROTO')
+var has         = __webpack_require__(42)
+  , toObject    = __webpack_require__(118)
+  , IE_PROTO    = __webpack_require__(115)('IE_PROTO')
   , ObjectProto = Object.prototype;
 
 module.exports = Object.getPrototypeOf || function(O){
@@ -43591,17 +42590,13 @@ module.exports = Object.getPrototypeOf || function(O){
 };
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 325 */
-=======
-/* 345 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 347 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // Works with __proto__ only. Old v8 can't work with null proto objects.
 /* eslint-disable no-proto */
 var isObject = __webpack_require__(65)
-  , anObject = __webpack_require__(48);
+  , anObject = __webpack_require__(49);
 var check = function(O, proto){
   anObject(O);
   if(!isObject(proto) && proto !== null)throw TypeError(proto + ": can't set as prototype!");
@@ -43610,7 +42605,7 @@ module.exports = {
   set: Object.setPrototypeOf || ('__proto__' in {} ? // eslint-disable-line
     function(test, buggy, set){
       try {
-        set = __webpack_require__(107)(Function.call, __webpack_require__(176).f(Object.prototype, '__proto__').set, 2);
+        set = __webpack_require__(108)(Function.call, __webpack_require__(176).f(Object.prototype, '__proto__').set, 2);
         set(test, []);
         buggy = !(test instanceof Array);
       } catch(e){ buggy = true; }
@@ -43625,15 +42620,11 @@ module.exports = {
 };
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 326 */
-=======
-/* 346 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 348 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var toInteger = __webpack_require__(116)
-  , defined   = __webpack_require__(108);
+var toInteger = __webpack_require__(117)
+  , defined   = __webpack_require__(109);
 // true  -> String#at
 // false -> String#codePointAt
 module.exports = function(TO_STRING){
@@ -43651,14 +42642,10 @@ module.exports = function(TO_STRING){
 };
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 327 */
-=======
-/* 347 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 349 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var toInteger = __webpack_require__(116)
+var toInteger = __webpack_require__(117)
   , max       = Math.max
   , min       = Math.min;
 module.exports = function(index, length){
@@ -43667,58 +42654,34 @@ module.exports = function(index, length){
 };
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 328 */
+/* 350 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var classof   = __webpack_require__(309)
-=======
-/* 348 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var classof   = __webpack_require__(329)
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
-  , ITERATOR  = __webpack_require__(26)('iterator')
+var classof   = __webpack_require__(331)
+  , ITERATOR  = __webpack_require__(27)('iterator')
   , Iterators = __webpack_require__(66);
-module.exports = __webpack_require__(25).getIteratorMethod = function(it){
+module.exports = __webpack_require__(26).getIteratorMethod = function(it){
   if(it != undefined)return it[ITERATOR]
     || it['@@iterator']
     || Iterators[classof(it)];
 };
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 329 */
-=======
-/* 349 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 351 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-<<<<<<< HEAD:public/bundle.js
-var ctx            = __webpack_require__(103)
-  , $export        = __webpack_require__(31)
-  , toObject       = __webpack_require__(113)
-  , call           = __webpack_require__(315)
-  , isArrayIter    = __webpack_require__(313)
-  , toLength       = __webpack_require__(177)
-  , createProperty = __webpack_require__(310)
-  , getIterFn      = __webpack_require__(328);
-
-$export($export.S + $export.F * !__webpack_require__(317)(function(iter){ Array.from(iter); }), 'Array', {
-=======
-var ctx            = __webpack_require__(107)
+var ctx            = __webpack_require__(108)
   , $export        = __webpack_require__(33)
-  , toObject       = __webpack_require__(117)
-  , call           = __webpack_require__(335)
-  , isArrayIter    = __webpack_require__(333)
+  , toObject       = __webpack_require__(118)
+  , call           = __webpack_require__(337)
+  , isArrayIter    = __webpack_require__(335)
   , toLength       = __webpack_require__(181)
-  , createProperty = __webpack_require__(330)
-  , getIterFn      = __webpack_require__(348);
+  , createProperty = __webpack_require__(332)
+  , getIterFn      = __webpack_require__(350);
 
-$export($export.S + $export.F * !__webpack_require__(337)(function(iter){ Array.from(iter); }), 'Array', {
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+$export($export.S + $export.F * !__webpack_require__(339)(function(iter){ Array.from(iter); }), 'Array', {
   // 22.1.2.1 Array.from(arrayLike, mapfn = undefined, thisArg = undefined)
   from: function from(arrayLike/*, mapfn = undefined, thisArg = undefined*/){
     var O       = toObject(arrayLike)
@@ -43748,26 +42711,15 @@ $export($export.S + $export.F * !__webpack_require__(337)(function(iter){ Array.
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 330 */
-=======
-/* 350 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 352 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-<<<<<<< HEAD:public/bundle.js
-var addToUnscopables = __webpack_require__(307)
-  , step             = __webpack_require__(318)
-  , Iterators        = __webpack_require__(63)
-  , toIObject        = __webpack_require__(33);
-=======
-var addToUnscopables = __webpack_require__(327)
-  , step             = __webpack_require__(338)
+var addToUnscopables = __webpack_require__(329)
+  , step             = __webpack_require__(340)
   , Iterators        = __webpack_require__(66)
   , toIObject        = __webpack_require__(35);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 
 // 22.1.3.4 Array.prototype.entries()
 // 22.1.3.13 Array.prototype.keys()
@@ -43799,123 +42751,68 @@ addToUnscopables('values');
 addToUnscopables('entries');
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 331 */
-=======
-/* 351 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 353 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.3.1 Object.assign(target, source)
 var $export = __webpack_require__(33);
 
-<<<<<<< HEAD:public/bundle.js
-$export($export.S + $export.F, 'Object', {assign: __webpack_require__(321)});
+$export($export.S + $export.F, 'Object', {assign: __webpack_require__(343)});
 
 /***/ }),
-/* 332 */
-=======
-$export($export.S + $export.F, 'Object', {assign: __webpack_require__(341)});
-
-/***/ }),
-/* 352 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 354 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var $export = __webpack_require__(33)
 // 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
-$export($export.S, 'Object', {create: __webpack_require__(111)});
+$export($export.S, 'Object', {create: __webpack_require__(112)});
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 333 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// 19.1.3.19 Object.setPrototypeOf(O, proto)
-var $export = __webpack_require__(31);
-$export($export.S, 'Object', {setPrototypeOf: __webpack_require__(325).set});
-
-/***/ }),
-/* 334 */
-=======
-/* 353 */
+/* 355 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.3.19 Object.setPrototypeOf(O, proto)
 var $export = __webpack_require__(33);
-$export($export.S, 'Object', {setPrototypeOf: __webpack_require__(345).set});
+$export($export.S, 'Object', {setPrototypeOf: __webpack_require__(347).set});
 
 /***/ }),
-/* 354 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 356 */
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 335 */
-=======
-/* 355 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 357 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 // ECMAScript 6 symbols shim
-<<<<<<< HEAD:public/bundle.js
-var global         = __webpack_require__(32)
-  , has            = __webpack_require__(39)
-  , DESCRIPTORS    = __webpack_require__(47)
-  , $export        = __webpack_require__(31)
-  , redefine       = __webpack_require__(176)
-  , META           = __webpack_require__(320).KEY
-  , $fails         = __webpack_require__(61)
-  , shared         = __webpack_require__(111)
-  , setToStringTag = __webpack_require__(109)
-  , uid            = __webpack_require__(79)
-  , wks            = __webpack_require__(26)
-  , wksExt         = __webpack_require__(116)
-  , wksDefine      = __webpack_require__(115)
-  , keyOf          = __webpack_require__(319)
-  , enumKeys       = __webpack_require__(311)
-  , isArray        = __webpack_require__(314)
-  , anObject       = __webpack_require__(46)
-  , toIObject      = __webpack_require__(33)
-  , toPrimitive    = __webpack_require__(114)
-  , createDesc     = __webpack_require__(65)
-  , _create        = __webpack_require__(107)
-  , gOPNExt        = __webpack_require__(323)
-  , $GOPD          = __webpack_require__(172)
-  , $DP            = __webpack_require__(40)
-  , $keys          = __webpack_require__(49)
-=======
 var global         = __webpack_require__(34)
-  , has            = __webpack_require__(41)
-  , DESCRIPTORS    = __webpack_require__(49)
+  , has            = __webpack_require__(42)
+  , DESCRIPTORS    = __webpack_require__(50)
   , $export        = __webpack_require__(33)
   , redefine       = __webpack_require__(180)
-  , META           = __webpack_require__(340).KEY
+  , META           = __webpack_require__(342).KEY
   , $fails         = __webpack_require__(64)
-  , shared         = __webpack_require__(115)
-  , setToStringTag = __webpack_require__(113)
-  , uid            = __webpack_require__(83)
-  , wks            = __webpack_require__(26)
-  , wksExt         = __webpack_require__(120)
-  , wksDefine      = __webpack_require__(119)
-  , keyOf          = __webpack_require__(339)
-  , enumKeys       = __webpack_require__(331)
-  , isArray        = __webpack_require__(334)
-  , anObject       = __webpack_require__(48)
+  , shared         = __webpack_require__(116)
+  , setToStringTag = __webpack_require__(114)
+  , uid            = __webpack_require__(85)
+  , wks            = __webpack_require__(27)
+  , wksExt         = __webpack_require__(121)
+  , wksDefine      = __webpack_require__(120)
+  , keyOf          = __webpack_require__(341)
+  , enumKeys       = __webpack_require__(333)
+  , isArray        = __webpack_require__(336)
+  , anObject       = __webpack_require__(49)
   , toIObject      = __webpack_require__(35)
-  , toPrimitive    = __webpack_require__(118)
+  , toPrimitive    = __webpack_require__(119)
   , createDesc     = __webpack_require__(68)
-  , _create        = __webpack_require__(111)
-  , gOPNExt        = __webpack_require__(343)
+  , _create        = __webpack_require__(112)
+  , gOPNExt        = __webpack_require__(345)
   , $GOPD          = __webpack_require__(176)
-  , $DP            = __webpack_require__(42)
-  , $keys          = __webpack_require__(51)
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+  , $DP            = __webpack_require__(43)
+  , $keys          = __webpack_require__(52)
   , gOPD           = $GOPD.f
   , dP             = $DP.f
   , gOPN           = gOPNExt.f
@@ -44040,9 +42937,9 @@ if(!USE_NATIVE){
   $DP.f   = $defineProperty;
   __webpack_require__(177).f = gOPNExt.f = $getOwnPropertyNames;
   __webpack_require__(67).f  = $propertyIsEnumerable;
-  __webpack_require__(112).f = $getOwnPropertySymbols;
+  __webpack_require__(113).f = $getOwnPropertySymbols;
 
-  if(DESCRIPTORS && !__webpack_require__(110)){
+  if(DESCRIPTORS && !__webpack_require__(111)){
     redefine(ObjectProto, 'propertyIsEnumerable', $propertyIsEnumerable, true);
   }
 
@@ -44117,7 +43014,7 @@ $JSON && $export($export.S + $export.F * (!USE_NATIVE || $fails(function(){
 });
 
 // 19.4.3.4 Symbol.prototype[@@toPrimitive](hint)
-$Symbol[PROTOTYPE][TO_PRIMITIVE] || __webpack_require__(50)($Symbol[PROTOTYPE], TO_PRIMITIVE, $Symbol[PROTOTYPE].valueOf);
+$Symbol[PROTOTYPE][TO_PRIMITIVE] || __webpack_require__(51)($Symbol[PROTOTYPE], TO_PRIMITIVE, $Symbol[PROTOTYPE].valueOf);
 // 19.4.3.5 Symbol.prototype[@@toStringTag]
 setToStringTag($Symbol, 'Symbol');
 // 20.2.1.9 Math[@@toStringTag]
@@ -44126,11 +43023,7 @@ setToStringTag(Math, 'Math', true);
 setToStringTag(global.JSON, 'JSON', true);
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 336 */
-=======
-/* 356 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 358 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // https://github.com/tc39/proposal-object-values-entries
@@ -44144,11 +43037,7 @@ $export($export.S, 'Object', {
 });
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 337 */
-=======
-/* 357 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 359 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // https://github.com/tc39/proposal-object-values-entries
@@ -44162,44 +43051,26 @@ $export($export.S, 'Object', {
 });
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 338 */
-=======
-/* 358 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(119)('asyncIterator');
-
-/***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 339 */
-=======
-/* 359 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(119)('observable');
-
-/***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 340 */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(330);
-var global        = __webpack_require__(32)
-  , hide          = __webpack_require__(48)
-  , Iterators     = __webpack_require__(63)
-=======
 /* 360 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(350);
+__webpack_require__(120)('asyncIterator');
+
+/***/ }),
+/* 361 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(120)('observable');
+
+/***/ }),
+/* 362 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(352);
 var global        = __webpack_require__(34)
-  , hide          = __webpack_require__(50)
+  , hide          = __webpack_require__(51)
   , Iterators     = __webpack_require__(66)
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
-  , TO_STRING_TAG = __webpack_require__(26)('toStringTag');
+  , TO_STRING_TAG = __webpack_require__(27)('toStringTag');
 
 for(var collections = ['NodeList', 'DOMTokenList', 'MediaList', 'StyleSheetList', 'CSSRuleList'], i = 0; i < 5; i++){
   var NAME       = collections[i]
@@ -44210,11 +43081,7 @@ for(var collections = ['NodeList', 'DOMTokenList', 'MediaList', 'StyleSheetList'
 }
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 341 */
-=======
-/* 361 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 363 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44237,11 +43104,7 @@ function addClass(element, className) {
 module.exports = exports['default'];
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 342 */
-=======
-/* 362 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 364 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44252,19 +43115,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.hasClass = exports.removeClass = exports.addClass = undefined;
 
-<<<<<<< HEAD:public/bundle.js
-var _addClass = __webpack_require__(341);
+var _addClass = __webpack_require__(363);
 
 var _addClass2 = _interopRequireDefault(_addClass);
 
-var _removeClass = __webpack_require__(343);
-=======
-var _addClass = __webpack_require__(361);
-
-var _addClass2 = _interopRequireDefault(_addClass);
-
-var _removeClass = __webpack_require__(363);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _removeClass = __webpack_require__(365);
 
 var _removeClass2 = _interopRequireDefault(_removeClass);
 
@@ -44280,11 +43135,7 @@ exports.hasClass = _hasClass2.default;
 exports.default = { addClass: _addClass2.default, removeClass: _removeClass2.default, hasClass: _hasClass2.default };
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 343 */
-=======
-/* 363 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 365 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44295,11 +43146,7 @@ module.exports = function removeClass(element, className) {
 };
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 344 */
-=======
-/* 364 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 366 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44310,15 +43157,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = filterEvents;
 
-var _contains = __webpack_require__(53);
+var _contains = __webpack_require__(54);
 
 var _contains2 = _interopRequireDefault(_contains);
 
-<<<<<<< HEAD:public/bundle.js
-var _querySelectorAll = __webpack_require__(349);
-=======
-var _querySelectorAll = __webpack_require__(369);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _querySelectorAll = __webpack_require__(371);
 
 var _querySelectorAll2 = _interopRequireDefault(_querySelectorAll);
 
@@ -44338,11 +43181,7 @@ function filterEvents(selector, handler) {
 module.exports = exports['default'];
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 345 */
-=======
-/* 365 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 367 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44353,31 +43192,19 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.listen = exports.filter = exports.off = exports.on = undefined;
 
-<<<<<<< HEAD:public/bundle.js
-var _on = __webpack_require__(80);
-=======
-var _on = __webpack_require__(84);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _on = __webpack_require__(86);
 
 var _on2 = _interopRequireDefault(_on);
 
-var _off = __webpack_require__(121);
+var _off = __webpack_require__(122);
 
 var _off2 = _interopRequireDefault(_off);
 
-<<<<<<< HEAD:public/bundle.js
-var _filter = __webpack_require__(344);
+var _filter = __webpack_require__(366);
 
 var _filter2 = _interopRequireDefault(_filter);
 
-var _listen = __webpack_require__(346);
-=======
-var _filter = __webpack_require__(364);
-
-var _filter2 = _interopRequireDefault(_filter);
-
-var _listen = __webpack_require__(366);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _listen = __webpack_require__(368);
 
 var _listen2 = _interopRequireDefault(_listen);
 
@@ -44390,11 +43217,7 @@ exports.listen = _listen2.default;
 exports.default = { on: _on2.default, off: _off2.default, filter: _filter2.default, listen: _listen2.default };
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 346 */
-=======
-/* 366 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 368 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44408,15 +43231,11 @@ var _inDOM = __webpack_require__(36);
 
 var _inDOM2 = _interopRequireDefault(_inDOM);
 
-<<<<<<< HEAD:public/bundle.js
-var _on = __webpack_require__(80);
-=======
-var _on = __webpack_require__(84);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _on = __webpack_require__(86);
 
 var _on2 = _interopRequireDefault(_on);
 
-var _off = __webpack_require__(121);
+var _off = __webpack_require__(122);
 
 var _off2 = _interopRequireDefault(_off);
 
@@ -44437,11 +43256,7 @@ exports.default = listen;
 module.exports = exports['default'];
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 347 */
-=======
-/* 367 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 369 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44452,15 +43267,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = offsetParent;
 
-var _ownerDocument = __webpack_require__(52);
+var _ownerDocument = __webpack_require__(53);
 
 var _ownerDocument2 = _interopRequireDefault(_ownerDocument);
 
-<<<<<<< HEAD:public/bundle.js
-var _style = __webpack_require__(82);
-=======
-var _style = __webpack_require__(86);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _style = __webpack_require__(88);
 
 var _style2 = _interopRequireDefault(_style);
 
@@ -44483,11 +43294,7 @@ function offsetParent(node) {
 module.exports = exports['default'];
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 348 */
-=======
-/* 368 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 370 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44505,11 +43312,7 @@ var _offset = __webpack_require__(185);
 
 var _offset2 = _interopRequireDefault(_offset);
 
-<<<<<<< HEAD:public/bundle.js
-var _offsetParent = __webpack_require__(347);
-=======
-var _offsetParent = __webpack_require__(367);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _offsetParent = __webpack_require__(369);
 
 var _offsetParent2 = _interopRequireDefault(_offsetParent);
 
@@ -44517,19 +43320,11 @@ var _scrollTop = __webpack_require__(186);
 
 var _scrollTop2 = _interopRequireDefault(_scrollTop);
 
-<<<<<<< HEAD:public/bundle.js
-var _scrollLeft = __webpack_require__(350);
+var _scrollLeft = __webpack_require__(372);
 
 var _scrollLeft2 = _interopRequireDefault(_scrollLeft);
 
-var _style = __webpack_require__(82);
-=======
-var _scrollLeft = __webpack_require__(370);
-
-var _scrollLeft2 = _interopRequireDefault(_scrollLeft);
-
-var _style = __webpack_require__(86);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _style = __webpack_require__(88);
 
 var _style2 = _interopRequireDefault(_style);
 
@@ -44566,11 +43361,7 @@ function position(node, offsetParent) {
 module.exports = exports['default'];
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 349 */
-=======
-/* 369 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 371 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44609,11 +43400,7 @@ function qsa(element, selector) {
 module.exports = exports['default'];
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 350 */
-=======
-/* 370 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 372 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44624,11 +43411,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = scrollTop;
 
-<<<<<<< HEAD:public/bundle.js
-var _isWindow = __webpack_require__(81);
-=======
-var _isWindow = __webpack_require__(85);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _isWindow = __webpack_require__(87);
 
 var _isWindow2 = _interopRequireDefault(_isWindow);
 
@@ -44644,11 +43427,7 @@ function scrollTop(node, val) {
 module.exports = exports['default'];
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 351 */
-=======
-/* 371 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 373 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44709,11 +43488,7 @@ function _getComputedStyle(node) {
 module.exports = exports['default'];
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 352 */
-=======
-/* 372 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 374 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44729,11 +43504,7 @@ function removeStyle(node, key) {
 module.exports = exports['default'];
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 353 */
-=======
-/* 373 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 375 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44751,11 +43522,7 @@ function isTransform(property) {
 module.exports = exports["default"];
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 354 */
-=======
-/* 374 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 376 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44775,11 +43542,7 @@ function camelize(string) {
 module.exports = exports["default"];
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 355 */
-=======
-/* 375 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 377 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44798,11 +43561,7 @@ function hyphenate(string) {
 module.exports = exports['default'];
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 356 */
-=======
-/* 376 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 378 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44813,11 +43572,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = hyphenateStyleName;
 
-<<<<<<< HEAD:public/bundle.js
-var _hyphenate = __webpack_require__(355);
-=======
-var _hyphenate = __webpack_require__(375);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _hyphenate = __webpack_require__(377);
 
 var _hyphenate2 = _interopRequireDefault(_hyphenate);
 
@@ -44835,11 +43590,7 @@ function hyphenateStyleName(string) {
 module.exports = exports['default'];
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 357 */
-=======
-/* 377 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 379 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(module) {
@@ -46613,11 +45364,7 @@ module.exports = exports['default'];
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(82)(module)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 358 */
-=======
-/* 378 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 380 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46654,11 +45401,7 @@ function camelize(string) {
 module.exports = camelize;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 359 */
-=======
-/* 379 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 381 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46675,11 +45418,7 @@ module.exports = camelize;
 
 
 
-<<<<<<< HEAD:public/bundle.js
-var camelize = __webpack_require__(358);
-=======
-var camelize = __webpack_require__(378);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var camelize = __webpack_require__(380);
 
 var msPattern = /^-ms-/;
 
@@ -46707,11 +45446,7 @@ function camelizeStyleName(string) {
 module.exports = camelizeStyleName;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 360 */
-=======
-/* 380 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 382 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46728,11 +45463,7 @@ module.exports = camelizeStyleName;
  * 
  */
 
-<<<<<<< HEAD:public/bundle.js
-var isTextNode = __webpack_require__(368);
-=======
-var isTextNode = __webpack_require__(388);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var isTextNode = __webpack_require__(390);
 
 /*eslint-disable no-bitwise */
 
@@ -46760,11 +45491,7 @@ function containsNode(outerNode, innerNode) {
 module.exports = containsNode;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 361 */
-=======
-/* 381 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 383 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46897,11 +45624,7 @@ module.exports = createArrayFromMixed;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 362 */
-=======
-/* 382 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 384 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46922,13 +45645,8 @@ module.exports = createArrayFromMixed;
 
 var ExecutionEnvironment = __webpack_require__(17);
 
-<<<<<<< HEAD:public/bundle.js
-var createArrayFromMixed = __webpack_require__(361);
-var getMarkupWrap = __webpack_require__(363);
-=======
-var createArrayFromMixed = __webpack_require__(381);
-var getMarkupWrap = __webpack_require__(383);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var createArrayFromMixed = __webpack_require__(383);
+var getMarkupWrap = __webpack_require__(385);
 var invariant = __webpack_require__(9);
 
 /**
@@ -46996,11 +45714,7 @@ module.exports = createNodesFromMarkup;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 363 */
-=======
-/* 383 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 385 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47101,11 +45815,7 @@ module.exports = getMarkupWrap;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 364 */
-=======
-/* 384 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 386 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47149,11 +45859,7 @@ function getUnboundedScrollPosition(scrollable) {
 module.exports = getUnboundedScrollPosition;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 365 */
-=======
-/* 385 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 387 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47191,11 +45897,7 @@ function hyphenate(string) {
 module.exports = hyphenate;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 366 */
-=======
-/* 386 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 388 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47212,11 +45914,7 @@ module.exports = hyphenate;
 
 
 
-<<<<<<< HEAD:public/bundle.js
-var hyphenate = __webpack_require__(365);
-=======
-var hyphenate = __webpack_require__(385);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var hyphenate = __webpack_require__(387);
 
 var msPattern = /^ms-/;
 
@@ -47243,11 +45941,7 @@ function hyphenateStyleName(string) {
 module.exports = hyphenateStyleName;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 367 */
-=======
-/* 387 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 389 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47277,11 +45971,7 @@ function isNode(object) {
 module.exports = isNode;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 368 */
-=======
-/* 388 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 390 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47298,11 +45988,7 @@ module.exports = isNode;
  * @typechecks
  */
 
-<<<<<<< HEAD:public/bundle.js
-var isNode = __webpack_require__(367);
-=======
-var isNode = __webpack_require__(387);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var isNode = __webpack_require__(389);
 
 /**
  * @param {*} object The object to check.
@@ -47315,11 +46001,7 @@ function isTextNode(object) {
 module.exports = isTextNode;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 369 */
-=======
-/* 389 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 391 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47354,11 +46036,7 @@ function memoizeStringOnly(callback) {
 module.exports = memoizeStringOnly;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 370 */
-=======
-/* 390 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 392 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47386,11 +46064,7 @@ if (ExecutionEnvironment.canUseDOM) {
 module.exports = performance || {};
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 371 */
-=======
-/* 391 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 393 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47407,11 +46081,7 @@ module.exports = performance || {};
  * @typechecks
  */
 
-<<<<<<< HEAD:public/bundle.js
-var performance = __webpack_require__(370);
-=======
-var performance = __webpack_require__(390);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var performance = __webpack_require__(392);
 
 var performanceNow;
 
@@ -47433,11 +46103,7 @@ if (performance.now) {
 module.exports = performanceNow;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 372 */
-=======
-/* 392 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 394 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47499,11 +46165,7 @@ var loopAsync = exports.loopAsync = function loopAsync(turns, work, callback) {
 };
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 373 */
-=======
-/* 393 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 395 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47512,7 +46174,7 @@ var loopAsync = exports.loopAsync = function loopAsync(turns, work, callback) {
 exports.__esModule = true;
 exports.replaceLocation = exports.pushLocation = exports.startListener = exports.getCurrentLocation = exports.go = exports.getUserConfirmation = undefined;
 
-var _BrowserProtocol = __webpack_require__(123);
+var _BrowserProtocol = __webpack_require__(124);
 
 Object.defineProperty(exports, 'getUserConfirmation', {
   enumerable: true,
@@ -47531,13 +46193,9 @@ var _warning = __webpack_require__(16);
 
 var _warning2 = _interopRequireDefault(_warning);
 
-var _LocationUtils = __webpack_require__(54);
+var _LocationUtils = __webpack_require__(55);
 
-<<<<<<< HEAD:public/bundle.js
-var _DOMUtils = __webpack_require__(84);
-=======
-var _DOMUtils = __webpack_require__(88);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _DOMUtils = __webpack_require__(90);
 
 var _DOMStateStorage = __webpack_require__(193);
 
@@ -47650,11 +46308,7 @@ var replaceLocation = exports.replaceLocation = function replaceLocation(locatio
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 374 */
-=======
-/* 394 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 396 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47663,7 +46317,7 @@ var replaceLocation = exports.replaceLocation = function replaceLocation(locatio
 exports.__esModule = true;
 exports.replaceLocation = exports.pushLocation = exports.getCurrentLocation = exports.go = exports.getUserConfirmation = undefined;
 
-var _BrowserProtocol = __webpack_require__(123);
+var _BrowserProtocol = __webpack_require__(124);
 
 Object.defineProperty(exports, 'getUserConfirmation', {
   enumerable: true,
@@ -47678,7 +46332,7 @@ Object.defineProperty(exports, 'go', {
   }
 });
 
-var _LocationUtils = __webpack_require__(54);
+var _LocationUtils = __webpack_require__(55);
 
 var _PathUtils = __webpack_require__(37);
 
@@ -47697,11 +46351,7 @@ var replaceLocation = exports.replaceLocation = function replaceLocation(locatio
 };
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 375 */
-=======
-/* 395 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 397 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47715,27 +46365,19 @@ var _invariant = __webpack_require__(14);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
-var _ExecutionEnvironment = __webpack_require__(124);
+var _ExecutionEnvironment = __webpack_require__(125);
 
-var _BrowserProtocol = __webpack_require__(123);
+var _BrowserProtocol = __webpack_require__(124);
 
 var BrowserProtocol = _interopRequireWildcard(_BrowserProtocol);
 
-<<<<<<< HEAD:public/bundle.js
-var _RefreshProtocol = __webpack_require__(374);
+var _RefreshProtocol = __webpack_require__(396);
 
 var RefreshProtocol = _interopRequireWildcard(_RefreshProtocol);
 
-var _DOMUtils = __webpack_require__(84);
-=======
-var _RefreshProtocol = __webpack_require__(394);
+var _DOMUtils = __webpack_require__(90);
 
-var RefreshProtocol = _interopRequireWildcard(_RefreshProtocol);
-
-var _DOMUtils = __webpack_require__(88);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
-
-var _createHistory = __webpack_require__(125);
+var _createHistory = __webpack_require__(126);
 
 var _createHistory2 = _interopRequireDefault(_createHistory);
 
@@ -47809,11 +46451,7 @@ exports.default = createBrowserHistory;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 376 */
-=======
-/* 396 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 398 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47831,21 +46469,15 @@ var _invariant = __webpack_require__(14);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
-var _ExecutionEnvironment = __webpack_require__(124);
+var _ExecutionEnvironment = __webpack_require__(125);
 
-<<<<<<< HEAD:public/bundle.js
-var _DOMUtils = __webpack_require__(84);
+var _DOMUtils = __webpack_require__(90);
 
-var _HashProtocol = __webpack_require__(373);
-=======
-var _DOMUtils = __webpack_require__(88);
-
-var _HashProtocol = __webpack_require__(393);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _HashProtocol = __webpack_require__(395);
 
 var HashProtocol = _interopRequireWildcard(_HashProtocol);
 
-var _createHistory = __webpack_require__(125);
+var _createHistory = __webpack_require__(126);
 
 var _createHistory2 = _interopRequireDefault(_createHistory);
 
@@ -47973,11 +46605,7 @@ exports.default = createHashHistory;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 377 */
-=======
-/* 397 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 399 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47995,19 +46623,15 @@ var _invariant = __webpack_require__(14);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
-var _LocationUtils = __webpack_require__(54);
+var _LocationUtils = __webpack_require__(55);
 
 var _PathUtils = __webpack_require__(37);
 
-var _createHistory = __webpack_require__(125);
+var _createHistory = __webpack_require__(126);
 
 var _createHistory2 = _interopRequireDefault(_createHistory);
 
-<<<<<<< HEAD:public/bundle.js
-var _Actions = __webpack_require__(83);
-=======
-var _Actions = __webpack_require__(87);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _Actions = __webpack_require__(89);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -48128,23 +46752,13 @@ exports.default = createMemoryHistory;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 378 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Symbol_js__ = __webpack_require__(193);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__getRawTag_js__ = __webpack_require__(381);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__objectToString_js__ = __webpack_require__(382);
-=======
-/* 398 */
+/* 400 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Symbol_js__ = __webpack_require__(197);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__getRawTag_js__ = __webpack_require__(401);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__objectToString_js__ = __webpack_require__(402);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__getRawTag_js__ = __webpack_require__(403);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__objectToString_js__ = __webpack_require__(404);
 
 
 
@@ -48176,11 +46790,7 @@ function baseGetTag(value) {
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 379 */
-=======
-/* 399 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 401 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -48189,25 +46799,14 @@ var freeGlobal = typeof global == 'object' && global && global.Object === Object
 
 /* harmony default export */ __webpack_exports__["a"] = (freeGlobal);
 
-<<<<<<< HEAD:public/bundle.js
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(163)))
-
-/***/ }),
-/* 380 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__overArg_js__ = __webpack_require__(383);
-=======
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(81)))
 
 /***/ }),
-/* 400 */
+/* 402 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__overArg_js__ = __webpack_require__(403);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__overArg_js__ = __webpack_require__(405);
 
 
 /** Built-in value references. */
@@ -48217,11 +46816,7 @@ var getPrototype = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__overArg_js
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 381 */
-=======
-/* 401 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 403 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -48275,11 +46870,7 @@ function getRawTag(value) {
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 382 */
-=======
-/* 402 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 404 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -48308,11 +46899,7 @@ function objectToString(value) {
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 383 */
-=======
-/* 403 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 405 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -48334,19 +46921,11 @@ function overArg(func, transform) {
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 384 */
+/* 406 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__freeGlobal_js__ = __webpack_require__(379);
-=======
-/* 404 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__freeGlobal_js__ = __webpack_require__(399);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__freeGlobal_js__ = __webpack_require__(401);
 
 
 /** Detect free variable `self`. */
@@ -48359,11 +46938,7 @@ var root = __WEBPACK_IMPORTED_MODULE_0__freeGlobal_js__["a" /* default */] || fr
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 385 */
-=======
-/* 405 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 407 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -48399,14 +46974,10 @@ function isObjectLike(value) {
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 386 */
-=======
-/* 406 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 408 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var getNative = __webpack_require__(55),
+var getNative = __webpack_require__(56),
     root = __webpack_require__(38);
 
 /* Built-in method references that are verified to be native. */
@@ -48416,14 +46987,10 @@ module.exports = DataView;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 387 */
-=======
-/* 407 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 409 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var getNative = __webpack_require__(55),
+var getNative = __webpack_require__(56),
     root = __webpack_require__(38);
 
 /* Built-in method references that are verified to be native. */
@@ -48433,14 +47000,10 @@ module.exports = Map;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 388 */
-=======
-/* 408 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 410 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var getNative = __webpack_require__(55),
+var getNative = __webpack_require__(56),
     root = __webpack_require__(38);
 
 /* Built-in method references that are verified to be native. */
@@ -48450,14 +47013,10 @@ module.exports = Promise;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 389 */
-=======
-/* 409 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 411 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var getNative = __webpack_require__(55),
+var getNative = __webpack_require__(56),
     root = __webpack_require__(38);
 
 /* Built-in method references that are verified to be native. */
@@ -48467,14 +47026,10 @@ module.exports = Set;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 390 */
-=======
-/* 410 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 412 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var getNative = __webpack_require__(55),
+var getNative = __webpack_require__(56),
     root = __webpack_require__(38);
 
 /* Built-in method references that are verified to be native. */
@@ -48484,15 +47039,11 @@ module.exports = WeakMap;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 391 */
-=======
-/* 411 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 413 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var baseAssignValue = __webpack_require__(201),
-    eq = __webpack_require__(131);
+    eq = __webpack_require__(132);
 
 /** Used for built-in method references. */
 var objectProto = Object.prototype;
@@ -48522,11 +47073,7 @@ module.exports = assignValue;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 392 */
-=======
-/* 412 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 414 */
 /***/ (function(module, exports) {
 
 /**
@@ -48556,21 +47103,12 @@ module.exports = baseFindIndex;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 393 */
+/* 415 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseFindIndex = __webpack_require__(392),
-    baseIsNaN = __webpack_require__(395),
-    strictIndexOf = __webpack_require__(421);
-=======
-/* 413 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var baseFindIndex = __webpack_require__(412),
-    baseIsNaN = __webpack_require__(415),
-    strictIndexOf = __webpack_require__(441);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var baseFindIndex = __webpack_require__(414),
+    baseIsNaN = __webpack_require__(417),
+    strictIndexOf = __webpack_require__(443);
 
 /**
  * The base implementation of `_.indexOf` without `fromIndex` bounds checks.
@@ -48591,15 +47129,11 @@ module.exports = baseIndexOf;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 394 */
-=======
-/* 414 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 416 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseGetTag = __webpack_require__(43),
-    isObjectLike = __webpack_require__(57);
+var baseGetTag = __webpack_require__(44),
+    isObjectLike = __webpack_require__(58);
 
 /** `Object#toString` result references. */
 var argsTag = '[object Arguments]';
@@ -48619,11 +47153,7 @@ module.exports = baseIsArguments;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 395 */
-=======
-/* 415 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 417 */
 /***/ (function(module, exports) {
 
 /**
@@ -48641,23 +47171,13 @@ module.exports = baseIsNaN;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 396 */
+/* 418 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isFunction = __webpack_require__(54),
-    isMasked = __webpack_require__(413),
-    isObject = __webpack_require__(70),
-    toSource = __webpack_require__(204);
-=======
-/* 416 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var isFunction = __webpack_require__(56),
-    isMasked = __webpack_require__(433),
+var isFunction = __webpack_require__(57),
+    isMasked = __webpack_require__(435),
     isObject = __webpack_require__(73),
     toSource = __webpack_require__(208);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 
 /**
  * Used to match `RegExp`
@@ -48704,16 +47224,12 @@ module.exports = baseIsNative;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 397 */
-=======
-/* 417 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 419 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseGetTag = __webpack_require__(43),
+var baseGetTag = __webpack_require__(44),
     isLength = __webpack_require__(211),
-    isObjectLike = __webpack_require__(57);
+    isObjectLike = __webpack_require__(58);
 
 /** `Object#toString` result references. */
 var argsTag = '[object Arguments]',
@@ -48774,21 +47290,12 @@ module.exports = baseIsTypedArray;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 398 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var isObject = __webpack_require__(70),
-    isPrototype = __webpack_require__(126),
-    nativeKeysIn = __webpack_require__(415);
-=======
-/* 418 */
+/* 420 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var isObject = __webpack_require__(73),
-    isPrototype = __webpack_require__(130),
-    nativeKeysIn = __webpack_require__(435);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+    isPrototype = __webpack_require__(131),
+    nativeKeysIn = __webpack_require__(437);
 
 /** Used for built-in method references. */
 var objectProto = Object.prototype;
@@ -48822,21 +47329,12 @@ module.exports = baseKeysIn;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 399 */
+/* 421 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var constant = __webpack_require__(423),
-    defineProperty = __webpack_require__(200),
-    identity = __webpack_require__(67);
-=======
-/* 419 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var constant = __webpack_require__(443),
+var constant = __webpack_require__(445),
     defineProperty = __webpack_require__(204),
     identity = __webpack_require__(70);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 
 /**
  * The base implementation of `setToString` without support for hot loop shorting.
@@ -48859,11 +47357,7 @@ module.exports = baseSetToString;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 400 */
-=======
-/* 420 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 422 */
 /***/ (function(module, exports) {
 
 /**
@@ -48889,17 +47383,13 @@ module.exports = baseTimes;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 401 */
-=======
-/* 421 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 423 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Symbol = __webpack_require__(129),
+var Symbol = __webpack_require__(130),
     arrayMap = __webpack_require__(200),
     isArray = __webpack_require__(71),
-    isSymbol = __webpack_require__(134);
+    isSymbol = __webpack_require__(135);
 
 /** Used as references for various `Number` constants. */
 var INFINITY = 1 / 0;
@@ -48936,11 +47426,7 @@ module.exports = baseToString;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 402 */
-=======
-/* 422 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 424 */
 /***/ (function(module, exports) {
 
 /**
@@ -48960,11 +47446,7 @@ module.exports = baseUnary;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 403 */
-=======
-/* 423 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 425 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var arrayMap = __webpack_require__(200);
@@ -48989,19 +47471,11 @@ module.exports = baseValues;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 404 */
+/* 426 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var assignValue = __webpack_require__(391),
-    baseAssignValue = __webpack_require__(197);
-=======
-/* 424 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var assignValue = __webpack_require__(411),
+var assignValue = __webpack_require__(413),
     baseAssignValue = __webpack_require__(201);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 
 /**
  * Copies properties of `source` to `object`.
@@ -49043,11 +47517,7 @@ module.exports = copyObject;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 405 */
-=======
-/* 425 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 427 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var root = __webpack_require__(38);
@@ -49059,19 +47529,11 @@ module.exports = coreJsData;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 406 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var baseRest = __webpack_require__(199),
-    isIterateeCall = __webpack_require__(412);
-=======
-/* 426 */
+/* 428 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var baseRest = __webpack_require__(203),
-    isIterateeCall = __webpack_require__(432);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+    isIterateeCall = __webpack_require__(434);
 
 /**
  * Creates a function like `_.assign`.
@@ -49110,14 +47572,10 @@ module.exports = createAssigner;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 407 */
-=======
-/* 427 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 429 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var eq = __webpack_require__(131);
+var eq = __webpack_require__(132);
 
 /** Used for built-in method references. */
 var objectProto = Object.prototype;
@@ -49149,11 +47607,7 @@ module.exports = customDefaultsAssignIn;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 408 */
-=======
-/* 428 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 430 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var overArg = __webpack_require__(207);
@@ -49165,14 +47619,10 @@ module.exports = getPrototype;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 409 */
-=======
-/* 429 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 431 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Symbol = __webpack_require__(129);
+var Symbol = __webpack_require__(130);
 
 /** Used for built-in method references. */
 var objectProto = Object.prototype;
@@ -49221,29 +47671,16 @@ module.exports = getRawTag;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 410 */
+/* 432 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var DataView = __webpack_require__(386),
-    Map = __webpack_require__(387),
-    Promise = __webpack_require__(388),
-    Set = __webpack_require__(389),
-    WeakMap = __webpack_require__(390),
-    baseGetTag = __webpack_require__(41),
-    toSource = __webpack_require__(204);
-=======
-/* 430 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var DataView = __webpack_require__(406),
-    Map = __webpack_require__(407),
-    Promise = __webpack_require__(408),
-    Set = __webpack_require__(409),
-    WeakMap = __webpack_require__(410),
-    baseGetTag = __webpack_require__(43),
+var DataView = __webpack_require__(408),
+    Map = __webpack_require__(409),
+    Promise = __webpack_require__(410),
+    Set = __webpack_require__(411),
+    WeakMap = __webpack_require__(412),
+    baseGetTag = __webpack_require__(44),
     toSource = __webpack_require__(208);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 
 /** `Object#toString` result references. */
 var mapTag = '[object Map]',
@@ -49298,11 +47735,7 @@ module.exports = getTag;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 411 */
-=======
-/* 431 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 433 */
 /***/ (function(module, exports) {
 
 /**
@@ -49321,14 +47754,10 @@ module.exports = getValue;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 412 */
-=======
-/* 432 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 434 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var eq = __webpack_require__(131),
+var eq = __webpack_require__(132),
     isArrayLike = __webpack_require__(72),
     isIndex = __webpack_require__(206),
     isObject = __webpack_require__(73);
@@ -49361,17 +47790,10 @@ module.exports = isIterateeCall;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 413 */
+/* 435 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var coreJsData = __webpack_require__(405);
-=======
-/* 433 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var coreJsData = __webpack_require__(425);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var coreJsData = __webpack_require__(427);
 
 /** Used to detect methods masquerading as native. */
 var maskSrcKey = (function() {
@@ -49394,11 +47816,7 @@ module.exports = isMasked;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 414 */
-=======
-/* 434 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 436 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var overArg = __webpack_require__(207);
@@ -49410,11 +47828,7 @@ module.exports = nativeKeys;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 415 */
-=======
-/* 435 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 437 */
 /***/ (function(module, exports) {
 
 /**
@@ -49440,11 +47854,7 @@ module.exports = nativeKeysIn;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 416 */
-=======
-/* 436 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 438 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(module) {var freeGlobal = __webpack_require__(205);
@@ -49473,11 +47883,7 @@ module.exports = nodeUtil;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(82)(module)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 417 */
-=======
-/* 437 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 439 */
 /***/ (function(module, exports) {
 
 /** Used for built-in method references. */
@@ -49505,11 +47911,7 @@ module.exports = objectToString;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 418 */
-=======
-/* 438 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 440 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var apply = __webpack_require__(198);
@@ -49551,19 +47953,11 @@ module.exports = overRest;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 419 */
+/* 441 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseSetToString = __webpack_require__(399),
-    shortOut = __webpack_require__(420);
-=======
-/* 439 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var baseSetToString = __webpack_require__(419),
-    shortOut = __webpack_require__(440);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var baseSetToString = __webpack_require__(421),
+    shortOut = __webpack_require__(442);
 
 /**
  * Sets the `toString` method of `func` to return `string`.
@@ -49579,11 +47973,7 @@ module.exports = setToString;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 420 */
-=======
-/* 440 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 442 */
 /***/ (function(module, exports) {
 
 /** Used to detect hot functions by number of calls within a span of milliseconds. */
@@ -49626,11 +48016,7 @@ module.exports = shortOut;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 421 */
-=======
-/* 441 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 443 */
 /***/ (function(module, exports) {
 
 /**
@@ -49659,21 +48045,12 @@ module.exports = strictIndexOf;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 422 */
+/* 444 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var copyObject = __webpack_require__(404),
-    createAssigner = __webpack_require__(406),
-    keysIn = __webpack_require__(430);
-=======
-/* 442 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var copyObject = __webpack_require__(424),
-    createAssigner = __webpack_require__(426),
-    keysIn = __webpack_require__(450);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var copyObject = __webpack_require__(426),
+    createAssigner = __webpack_require__(428),
+    keysIn = __webpack_require__(452);
 
 /**
  * This method is like `_.assignIn` except that it accepts `customizer`
@@ -49712,11 +48089,7 @@ module.exports = assignInWith;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 423 */
-=======
-/* 443 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 445 */
 /***/ (function(module, exports) {
 
 /**
@@ -49748,23 +48121,13 @@ module.exports = constant;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 424 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var apply = __webpack_require__(194),
-    assignInWith = __webpack_require__(422),
-    baseRest = __webpack_require__(199),
-    customDefaultsAssignIn = __webpack_require__(407);
-=======
-/* 444 */
+/* 446 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var apply = __webpack_require__(198),
-    assignInWith = __webpack_require__(442),
+    assignInWith = __webpack_require__(444),
     baseRest = __webpack_require__(203),
-    customDefaultsAssignIn = __webpack_require__(427);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+    customDefaultsAssignIn = __webpack_require__(429);
 
 /**
  * Assigns own and inherited enumerable string keyed properties of source
@@ -49796,25 +48159,14 @@ module.exports = defaults;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 425 */
+/* 447 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseIndexOf = __webpack_require__(393),
-    isArrayLike = __webpack_require__(69),
-    isString = __webpack_require__(129),
-    toInteger = __webpack_require__(434),
-    values = __webpack_require__(437);
-=======
-/* 445 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var baseIndexOf = __webpack_require__(413),
+var baseIndexOf = __webpack_require__(415),
     isArrayLike = __webpack_require__(72),
-    isString = __webpack_require__(133),
-    toInteger = __webpack_require__(454),
-    values = __webpack_require__(457);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+    isString = __webpack_require__(134),
+    toInteger = __webpack_require__(456),
+    values = __webpack_require__(459);
 
 /* Built-in method references for those with the same name as other `lodash` methods. */
 var nativeMax = Math.max;
@@ -49866,31 +48218,17 @@ module.exports = includes;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 426 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var baseKeys = __webpack_require__(198),
-    getTag = __webpack_require__(410),
-    isArguments = __webpack_require__(205),
-    isArray = __webpack_require__(68),
-    isArrayLike = __webpack_require__(69),
-    isBuffer = __webpack_require__(206),
-    isPrototype = __webpack_require__(126),
-    isTypedArray = __webpack_require__(208);
-=======
-/* 446 */
+/* 448 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var baseKeys = __webpack_require__(202),
-    getTag = __webpack_require__(430),
+    getTag = __webpack_require__(432),
     isArguments = __webpack_require__(209),
     isArray = __webpack_require__(71),
     isArrayLike = __webpack_require__(72),
     isBuffer = __webpack_require__(210),
-    isPrototype = __webpack_require__(130),
+    isPrototype = __webpack_require__(131),
     isTypedArray = __webpack_require__(212);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 
 /** `Object#toString` result references. */
 var mapTag = '[object Map]',
@@ -49963,11 +48301,7 @@ module.exports = isEmpty;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 427 */
-=======
-/* 447 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 449 */
 /***/ (function(module, exports) {
 
 /**
@@ -49998,11 +48332,7 @@ module.exports = isNil;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 428 */
-=======
-/* 448 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 450 */
 /***/ (function(module, exports) {
 
 /**
@@ -50030,11 +48360,7 @@ module.exports = isNull;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 429 */
-=======
-/* 449 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 451 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var arrayLikeKeys = __webpack_require__(199),
@@ -50077,21 +48403,12 @@ module.exports = keys;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 430 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var arrayLikeKeys = __webpack_require__(195),
-    baseKeysIn = __webpack_require__(398),
-    isArrayLike = __webpack_require__(69);
-=======
-/* 450 */
+/* 452 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var arrayLikeKeys = __webpack_require__(199),
-    baseKeysIn = __webpack_require__(418),
+    baseKeysIn = __webpack_require__(420),
     isArrayLike = __webpack_require__(72);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 
 /**
  * Creates an array of the own and inherited enumerable property names of `object`.
@@ -50124,11 +48441,7 @@ module.exports = keysIn;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 431 */
-=======
-/* 451 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 453 */
 /***/ (function(module, exports) {
 
 /**
@@ -50154,11 +48467,7 @@ module.exports = last;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 432 */
-=======
-/* 452 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 454 */
 /***/ (function(module, exports) {
 
 /**
@@ -50182,17 +48491,10 @@ module.exports = stubFalse;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 433 */
+/* 455 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var toNumber = __webpack_require__(435);
-=======
-/* 453 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var toNumber = __webpack_require__(455);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var toNumber = __webpack_require__(457);
 
 /** Used as references for various `Number` constants. */
 var INFINITY = 1 / 0,
@@ -50237,17 +48539,10 @@ module.exports = toFinite;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 434 */
+/* 456 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var toFinite = __webpack_require__(433);
-=======
-/* 454 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var toFinite = __webpack_require__(453);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var toFinite = __webpack_require__(455);
 
 /**
  * Converts `value` to an integer.
@@ -50286,15 +48581,11 @@ module.exports = toInteger;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 435 */
-=======
-/* 455 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 457 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var isObject = __webpack_require__(73),
-    isSymbol = __webpack_require__(134);
+    isSymbol = __webpack_require__(135);
 
 /** Used as references for various `Number` constants. */
 var NAN = 0 / 0;
@@ -50362,17 +48653,10 @@ module.exports = toNumber;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 436 */
+/* 458 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseToString = __webpack_require__(401);
-=======
-/* 456 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var baseToString = __webpack_require__(421);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var baseToString = __webpack_require__(423);
 
 /**
  * Converts `value` to a string. An empty string is returned for `null`
@@ -50403,19 +48687,11 @@ module.exports = toString;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 437 */
+/* 459 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var baseValues = __webpack_require__(403),
-    keys = __webpack_require__(429);
-=======
-/* 457 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var baseValues = __webpack_require__(423),
-    keys = __webpack_require__(449);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var baseValues = __webpack_require__(425),
+    keys = __webpack_require__(451);
 
 /**
  * Creates an array of the own enumerable string keyed property values of `object`.
@@ -50451,20 +48727,12 @@ module.exports = values;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 438 */
-=======
-/* 458 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 460 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-<<<<<<< HEAD:public/bundle.js
-var strictUriEncode = __webpack_require__(630);
-=======
-var strictUriEncode = __webpack_require__(654);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var strictUriEncode = __webpack_require__(656);
 var objectAssign = __webpack_require__(13);
 
 function encoderForArrayFormat(opts) {
@@ -50669,11 +48937,7 @@ exports.stringify = function (obj, opts) {
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 439 */
-=======
-/* 459 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 461 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -50719,15 +48983,11 @@ var Accordion = function (_React$Component) {
 /* harmony default export */ __webpack_exports__["a"] = (Accordion);
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 440 */
-=======
-/* 460 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 462 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values__ = __webpack_require__(48);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends__);
@@ -50744,7 +49004,7 @@ var Accordion = function (_React$Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_StyleConfig__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_StyleConfig__ = __webpack_require__(20);
 
 
 
@@ -50843,11 +49103,7 @@ Alert.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__["bsStyles"])(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values___default()(__WEBPACK_IMPORTED_MODULE_9__utils_StyleConfig__["c" /* State */]), __WEBPACK_IMPORTED_MODULE_9__utils_StyleConfig__["c" /* State */].INFO, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__["bsClass"])('alert', Alert)));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 441 */
-=======
-/* 461 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 463 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -50947,11 +49203,7 @@ Badge.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__utils_bootstrapUtils__["bsClass"])('badge', Badge));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 442 */
-=======
-/* 462 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 464 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -51017,11 +49269,7 @@ Breadcrumb.Item = __WEBPACK_IMPORTED_MODULE_7__BreadcrumbItem__["a" /* default *
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__["bsClass"])('breadcrumb', Breadcrumb));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 443 */
-=======
-/* 463 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 465 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -51084,11 +49332,7 @@ var ButtonToolbar = function (_React$Component) {
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__["bsClass"])('btn-toolbar', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__["bsSizes"])(__WEBPACK_IMPORTED_MODULE_7__Button__["a" /* default */].SIZES, ButtonToolbar)));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 444 */
-=======
-/* 464 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 466 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -51106,16 +49350,10 @@ var ButtonToolbar = function (_React$Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_classnames__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__CarouselCaption__ = __webpack_require__(445);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__CarouselItem__ = __webpack_require__(212);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__Glyphicon__ = __webpack_require__(132);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__CarouselCaption__ = __webpack_require__(465);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__CarouselCaption__ = __webpack_require__(467);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__CarouselItem__ = __webpack_require__(216);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__Glyphicon__ = __webpack_require__(137);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__SafeAnchor__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__Glyphicon__ = __webpack_require__(138);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__SafeAnchor__ = __webpack_require__(28);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__utils_bootstrapUtils__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__utils_ValidComponentChildren__ = __webpack_require__(21);
 
@@ -51532,11 +49770,7 @@ Carousel.Item = __WEBPACK_IMPORTED_MODULE_8__CarouselItem__["a" /* default */];
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_11__utils_bootstrapUtils__["bsClass"])('carousel', Carousel));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 445 */
-=======
-/* 465 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 467 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -51611,11 +49845,7 @@ CarouselCaption.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__["bsClass"])('carousel-caption', CarouselCaption));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 446 */
-=======
-/* 466 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 468 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -51745,11 +49975,7 @@ Checkbox.defaultProps = defaultProps;
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 447 */
-=======
-/* 467 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 469 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -51771,7 +49997,7 @@ Checkbox.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_prop_types_lib_elementType___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react_prop_types_lib_elementType__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_capitalize__ = __webpack_require__(231);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils_StyleConfig__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils_StyleConfig__ = __webpack_require__(20);
 
 
 
@@ -51870,11 +50096,7 @@ Clearfix.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__["bsClass"])('clearfix', Clearfix));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 448 */
-=======
-/* 468 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 470 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -51895,7 +50117,7 @@ Clearfix.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_prop_types_lib_elementType__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_prop_types_lib_elementType___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react_prop_types_lib_elementType__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_StyleConfig__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_StyleConfig__ = __webpack_require__(20);
 
 
 
@@ -52136,11 +50358,7 @@ Col.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__["bsClass"])('col', Col));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 449 */
-=======
-/* 469 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 471 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -52235,11 +50453,7 @@ ControlLabel.contextTypes = contextTypes;
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 450 */
-=======
-/* 470 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 472 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -52255,13 +50469,8 @@ ControlLabel.contextTypes = contextTypes;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_extends__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_react__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Dropdown__ = __webpack_require__(85);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__utils_splitComponentProps__ = __webpack_require__(87);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Dropdown__ = __webpack_require__(89);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__utils_splitComponentProps__ = __webpack_require__(91);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Dropdown__ = __webpack_require__(91);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__utils_splitComponentProps__ = __webpack_require__(93);
 
 
 
@@ -52338,11 +50547,7 @@ DropdownButton.propTypes = propTypes;
 /* harmony default export */ __webpack_exports__["a"] = (DropdownButton);
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 451 */
-=======
-/* 471 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 473 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -52350,11 +50555,7 @@ DropdownButton.propTypes = propTypes;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_objectWithoutProperties__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_objectWithoutProperties___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_objectWithoutProperties__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_core_js_array_from__ = __webpack_require__(293);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_core_js_array_from__ = __webpack_require__(313);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_core_js_array_from__ = __webpack_require__(315);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_core_js_array_from___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_core_js_array_from__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_classCallCheck__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_classCallCheck__);
@@ -52364,11 +50565,11 @@ DropdownButton.propTypes = propTypes;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_classnames__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_classnames__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_keycode__ = __webpack_require__(127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_keycode__ = __webpack_require__(128);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_keycode___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_keycode__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_react_dom__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_react_dom__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_react_dom__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_react_overlays_lib_RootCloseWrapper__ = __webpack_require__(255);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_react_overlays_lib_RootCloseWrapper___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_react_overlays_lib_RootCloseWrapper__);
@@ -52535,11 +50736,7 @@ DropdownMenu.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_11__utils_bootstrapUtils__["bsClass"])('dropdown-menu', DropdownMenu));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 452 */
-=======
-/* 472 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 474 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -52626,11 +50823,7 @@ Form.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__["bsClass"])('form', Form));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 453 */
-=======
-/* 473 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 475 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -52652,15 +50845,10 @@ Form.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_prop_types_lib_elementType___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react_prop_types_lib_elementType__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_warning__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_warning___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_warning__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__FormControlFeedback__ = __webpack_require__(454);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__FormControlStatic__ = __webpack_require__(455);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__FormControlFeedback__ = __webpack_require__(474);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__FormControlStatic__ = __webpack_require__(475);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__FormControlFeedback__ = __webpack_require__(476);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__FormControlStatic__ = __webpack_require__(477);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__utils_bootstrapUtils__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__utils_StyleConfig__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__utils_StyleConfig__ = __webpack_require__(20);
 
 
 
@@ -52769,11 +50957,7 @@ FormControl.Static = __WEBPACK_IMPORTED_MODULE_10__FormControlStatic__["a" /* de
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 454 */
-=======
-/* 474 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 476 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -52791,7 +50975,7 @@ FormControl.Static = __WEBPACK_IMPORTED_MODULE_10__FormControlStatic__["a" /* de
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_classnames__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Glyphicon__ = __webpack_require__(137);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Glyphicon__ = __webpack_require__(138);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__ = __webpack_require__(8);
 
 
@@ -52877,11 +51061,7 @@ FormControlFeedback.contextTypes = contextTypes;
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__["bsClass"])('form-control-feedback', FormControlFeedback));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 455 */
-=======
-/* 475 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 477 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -52956,11 +51136,7 @@ FormControlStatic.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__["bsClass"])('form-control-static', FormControlStatic));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 456 */
-=======
-/* 476 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 478 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -52979,7 +51155,7 @@ FormControlStatic.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__utils_bootstrapUtils__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils_StyleConfig__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils_StyleConfig__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_ValidComponentChildren__ = __webpack_require__(21);
 
 
@@ -53072,11 +51248,7 @@ FormGroup.childContextTypes = childContextTypes;
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__utils_bootstrapUtils__["bsClass"])('form-group', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__utils_bootstrapUtils__["bsSizes"])([__WEBPACK_IMPORTED_MODULE_8__utils_StyleConfig__["b" /* Size */].LARGE, __WEBPACK_IMPORTED_MODULE_8__utils_StyleConfig__["b" /* Size */].SMALL], FormGroup)));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 457 */
-=======
-/* 477 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 479 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53136,11 +51308,7 @@ var HelpBlock = function (_React$Component) {
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__utils_bootstrapUtils__["bsClass"])('help-block', HelpBlock));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 458 */
-=======
-/* 478 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 480 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53238,11 +51406,7 @@ Image.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__utils_bootstrapUtils__["bsClass"])('img', Image));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 459 */
-=======
-/* 479 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 481 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53260,15 +51424,10 @@ Image.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_classnames__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__InputGroupAddon__ = __webpack_require__(460);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__InputGroupButton__ = __webpack_require__(461);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__InputGroupAddon__ = __webpack_require__(480);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__InputGroupButton__ = __webpack_require__(481);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__InputGroupAddon__ = __webpack_require__(482);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__InputGroupButton__ = __webpack_require__(483);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_bootstrapUtils__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils_StyleConfig__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils_StyleConfig__ = __webpack_require__(20);
 
 
 
@@ -53316,11 +51475,7 @@ InputGroup.Button = __WEBPACK_IMPORTED_MODULE_8__InputGroupButton__["a" /* defau
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__utils_bootstrapUtils__["bsClass"])('input-group', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__utils_bootstrapUtils__["bsSizes"])([__WEBPACK_IMPORTED_MODULE_10__utils_StyleConfig__["b" /* Size */].LARGE, __WEBPACK_IMPORTED_MODULE_10__utils_StyleConfig__["b" /* Size */].SMALL], InputGroup)));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 460 */
-=======
-/* 480 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 482 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53380,11 +51535,7 @@ var InputGroupAddon = function (_React$Component) {
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__utils_bootstrapUtils__["bsClass"])('input-group-addon', InputGroupAddon));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 461 */
-=======
-/* 481 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 483 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53444,11 +51595,7 @@ var InputGroupButton = function (_React$Component) {
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__utils_bootstrapUtils__["bsClass"])('input-group-btn', InputGroupButton));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 462 */
-=======
-/* 482 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 484 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53523,15 +51670,11 @@ Jumbotron.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__["bsClass"])('jumbotron', Jumbotron));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 463 */
-=======
-/* 483 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 485 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values__ = __webpack_require__(48);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends__);
@@ -53548,7 +51691,7 @@ Jumbotron.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_StyleConfig__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_StyleConfig__ = __webpack_require__(20);
 
 
 
@@ -53617,11 +51760,7 @@ var Label = function (_React$Component) {
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__["bsClass"])('label', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__["bsStyles"])([].concat(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values___default()(__WEBPACK_IMPORTED_MODULE_9__utils_StyleConfig__["c" /* State */]), [__WEBPACK_IMPORTED_MODULE_9__utils_StyleConfig__["d" /* Style */].DEFAULT, __WEBPACK_IMPORTED_MODULE_9__utils_StyleConfig__["d" /* Style */].PRIMARY]), __WEBPACK_IMPORTED_MODULE_9__utils_StyleConfig__["d" /* Style */].DEFAULT, Label)));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 464 */
-=======
-/* 484 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 486 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53728,11 +51867,7 @@ ListGroup.propTypes = propTypes;
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__utils_bootstrapUtils__["bsClass"])('list-group', ListGroup));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 465 */
-=======
-/* 485 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 487 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53807,11 +51942,7 @@ MediaBody.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__["bsClass"])('media-body', MediaBody));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 466 */
-=======
-/* 486 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 488 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53886,11 +52017,7 @@ MediaHeading.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__["bsClass"])('media-heading', MediaHeading));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 467 */
-=======
-/* 487 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 489 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53908,7 +52035,7 @@ MediaHeading.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_classnames__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Media__ = __webpack_require__(138);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Media__ = __webpack_require__(139);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__ = __webpack_require__(8);
 
 
@@ -53967,11 +52094,7 @@ MediaLeft.propTypes = propTypes;
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__["bsClass"])('media-left', MediaLeft));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 468 */
-=======
-/* 488 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 490 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54031,11 +52154,7 @@ var MediaList = function (_React$Component) {
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__utils_bootstrapUtils__["bsClass"])('media-list', MediaList));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 469 */
-=======
-/* 489 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 491 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54095,11 +52214,7 @@ var MediaListItem = function (_React$Component) {
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__utils_bootstrapUtils__["bsClass"])('media', MediaListItem));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 470 */
-=======
-/* 490 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 492 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54117,7 +52232,7 @@ var MediaListItem = function (_React$Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_classnames__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Media__ = __webpack_require__(138);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Media__ = __webpack_require__(139);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__ = __webpack_require__(8);
 
 
@@ -54176,11 +52291,7 @@ MediaRight.propTypes = propTypes;
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__["bsClass"])('media-right', MediaRight));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 471 */
-=======
-/* 491 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 493 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54198,9 +52309,9 @@ MediaRight.propTypes = propTypes;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_classnames__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_prop_types_lib_all__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_prop_types_lib_all__ = __webpack_require__(100);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_prop_types_lib_all___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react_prop_types_lib_all__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__SafeAnchor__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__SafeAnchor__ = __webpack_require__(28);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_bootstrapUtils__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils_createChainedFunction__ = __webpack_require__(18);
 
@@ -54364,11 +52475,7 @@ MenuItem.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__utils_bootstrapUtils__["bsClass"])('dropdown', MenuItem));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 472 */
-=======
-/* 492 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 494 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54384,13 +52491,9 @@ MenuItem.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_extends__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_classnames__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_classnames__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_dom_helpers_events__ = __webpack_require__(345);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_dom_helpers_events__ = __webpack_require__(365);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_dom_helpers_events__ = __webpack_require__(367);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_dom_helpers_events___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_dom_helpers_events__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_dom_helpers_ownerDocument__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_dom_helpers_ownerDocument__ = __webpack_require__(53);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_dom_helpers_ownerDocument___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_dom_helpers_ownerDocument__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_dom_helpers_util_inDOM__ = __webpack_require__(36);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_dom_helpers_util_inDOM___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_dom_helpers_util_inDOM__);
@@ -54398,37 +52501,24 @@ MenuItem.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_dom_helpers_util_scrollbarSize___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_dom_helpers_util_scrollbarSize__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_react_dom__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_react_dom__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11_react_dom__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_react_overlays_lib_Modal__ = __webpack_require__(576);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_react_overlays_lib_Modal__ = __webpack_require__(596);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_react_overlays_lib_Modal__ = __webpack_require__(598);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_react_overlays_lib_Modal___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12_react_overlays_lib_Modal__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_react_overlays_lib_utils_isOverflowing__ = __webpack_require__(258);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_react_overlays_lib_utils_isOverflowing___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13_react_overlays_lib_utils_isOverflowing__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_react_prop_types_lib_elementType__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_react_prop_types_lib_elementType___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14_react_prop_types_lib_elementType__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__Fade__ = __webpack_require__(86);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__ModalBody__ = __webpack_require__(216);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__ModalDialog__ = __webpack_require__(473);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__ModalFooter__ = __webpack_require__(217);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__ModalHeader__ = __webpack_require__(218);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__ModalTitle__ = __webpack_require__(219);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__Fade__ = __webpack_require__(90);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__Fade__ = __webpack_require__(92);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__ModalBody__ = __webpack_require__(220);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__ModalDialog__ = __webpack_require__(493);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__ModalDialog__ = __webpack_require__(495);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__ModalFooter__ = __webpack_require__(221);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__ModalHeader__ = __webpack_require__(222);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__ModalTitle__ = __webpack_require__(223);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__utils_bootstrapUtils__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__utils_createChainedFunction__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__utils_splitComponentProps__ = __webpack_require__(91);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__utils_StyleConfig__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__utils_splitComponentProps__ = __webpack_require__(93);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__utils_StyleConfig__ = __webpack_require__(20);
 
 
 
@@ -54704,11 +52794,7 @@ Modal.BACKDROP_TRANSITION_DURATION = 150;
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_21__utils_bootstrapUtils__["bsClass"])('modal', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_21__utils_bootstrapUtils__["bsSizes"])([__WEBPACK_IMPORTED_MODULE_24__utils_StyleConfig__["b" /* Size */].LARGE, __WEBPACK_IMPORTED_MODULE_24__utils_StyleConfig__["b" /* Size */].SMALL], Modal)));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 473 */
-=======
-/* 493 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 495 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54727,7 +52813,7 @@ Modal.BACKDROP_TRANSITION_DURATION = 150;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__utils_bootstrapUtils__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils_StyleConfig__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils_StyleConfig__ = __webpack_require__(20);
 
 
 
@@ -54803,11 +52889,7 @@ ModalDialog.propTypes = propTypes;
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__utils_bootstrapUtils__["bsClass"])('modal', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__utils_bootstrapUtils__["bsSizes"])([__WEBPACK_IMPORTED_MODULE_8__utils_StyleConfig__["b" /* Size */].LARGE, __WEBPACK_IMPORTED_MODULE_8__utils_StyleConfig__["b" /* Size */].SMALL], ModalDialog)));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 474 */
-=======
-/* 494 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 496 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54825,13 +52907,8 @@ ModalDialog.propTypes = propTypes;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_classnames__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Dropdown__ = __webpack_require__(85);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils_splitComponentProps__ = __webpack_require__(87);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Dropdown__ = __webpack_require__(89);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils_splitComponentProps__ = __webpack_require__(91);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Dropdown__ = __webpack_require__(91);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils_splitComponentProps__ = __webpack_require__(93);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_ValidComponentChildren__ = __webpack_require__(21);
 
 
@@ -54941,11 +53018,7 @@ NavDropdown.propTypes = propTypes;
 /* harmony default export */ __webpack_exports__["a"] = (NavDropdown);
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 475 */
-=======
-/* 495 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 497 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54965,25 +53038,15 @@ NavDropdown.propTypes = propTypes;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_prop_types_lib_elementType__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_prop_types_lib_elementType___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react_prop_types_lib_elementType__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_uncontrollable__ = __webpack_require__(99);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_uncontrollable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_uncontrollable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__Grid__ = __webpack_require__(214);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__NavbarBrand__ = __webpack_require__(222);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__NavbarCollapse__ = __webpack_require__(476);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__NavbarHeader__ = __webpack_require__(477);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__NavbarToggle__ = __webpack_require__(478);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_uncontrollable__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_uncontrollable__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_uncontrollable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_uncontrollable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__Grid__ = __webpack_require__(218);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__NavbarBrand__ = __webpack_require__(226);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__NavbarCollapse__ = __webpack_require__(496);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__NavbarHeader__ = __webpack_require__(497);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__NavbarToggle__ = __webpack_require__(498);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__NavbarCollapse__ = __webpack_require__(498);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__NavbarHeader__ = __webpack_require__(499);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__NavbarToggle__ = __webpack_require__(500);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__utils_bootstrapUtils__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__utils_StyleConfig__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__utils_StyleConfig__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__utils_createChainedFunction__ = __webpack_require__(18);
 
 
@@ -55263,11 +53326,7 @@ UncontrollableNavbar.Link = createSimpleWrapper('a', 'link', 'NavbarLink');
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_14__utils_bootstrapUtils__["bsStyles"])([__WEBPACK_IMPORTED_MODULE_15__utils_StyleConfig__["d" /* Style */].DEFAULT, __WEBPACK_IMPORTED_MODULE_15__utils_StyleConfig__["d" /* Style */].INVERSE], __WEBPACK_IMPORTED_MODULE_15__utils_StyleConfig__["d" /* Style */].DEFAULT, UncontrollableNavbar));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 476 */
-=======
-/* 496 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 498 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55283,7 +53342,7 @@ UncontrollableNavbar.Link = createSimpleWrapper('a', 'link', 'NavbarLink');
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Collapse__ = __webpack_require__(136);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Collapse__ = __webpack_require__(137);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__utils_bootstrapUtils__ = __webpack_require__(8);
 
 
@@ -55339,11 +53398,7 @@ NavbarCollapse.contextTypes = contextTypes;
 /* harmony default export */ __webpack_exports__["a"] = (NavbarCollapse);
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 477 */
-=======
-/* 497 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 499 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55407,11 +53462,7 @@ NavbarHeader.contextTypes = contextTypes;
 /* harmony default export */ __webpack_exports__["a"] = (NavbarHeader);
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 478 */
-=======
-/* 498 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 500 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55514,11 +53565,7 @@ NavbarToggle.contextTypes = contextTypes;
 /* harmony default export */ __webpack_exports__["a"] = (NavbarToggle);
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 479 */
-=======
-/* 499 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 501 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55532,11 +53579,11 @@ NavbarToggle.contextTypes = contextTypes;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_inherits__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_extends__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_extends__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_dom_helpers_query_contains__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_dom_helpers_query_contains__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_dom_helpers_query_contains___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_dom_helpers_query_contains__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_dom__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_dom__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react_dom__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_warning__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_warning___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_warning__);
@@ -55854,11 +53901,7 @@ OverlayTrigger.defaultProps = defaultProps;
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 480 */
-=======
-/* 500 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 502 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55927,32 +53970,19 @@ var PageHeader = function (_React$Component) {
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__utils_bootstrapUtils__["bsClass"])('page-header', PageHeader));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 481 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__PagerItem__ = __webpack_require__(224);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils_deprecationWarning__ = __webpack_require__(501);
-=======
-/* 501 */
+/* 503 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__PagerItem__ = __webpack_require__(228);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils_deprecationWarning__ = __webpack_require__(521);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils_deprecationWarning__ = __webpack_require__(523);
 
 
 
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_1__utils_deprecationWarning__["a" /* default */].wrapper(__WEBPACK_IMPORTED_MODULE_0__PagerItem__["a" /* default */], '`<PageItem>`', '`<Pager.Item>`'));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 482 */
-=======
-/* 502 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 504 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -56036,11 +54066,7 @@ Pager.Item = __WEBPACK_IMPORTED_MODULE_7__PagerItem__["a" /* default */];
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__["bsClass"])('pager', Pager));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 483 */
-=======
-/* 503 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 505 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -56060,11 +54086,7 @@ Pager.Item = __WEBPACK_IMPORTED_MODULE_7__PagerItem__["a" /* default */];
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_prop_types_lib_elementType__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_prop_types_lib_elementType___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react_prop_types_lib_elementType__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__PaginationButton__ = __webpack_require__(484);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__PaginationButton__ = __webpack_require__(504);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__PaginationButton__ = __webpack_require__(506);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_bootstrapUtils__ = __webpack_require__(8);
 
 
@@ -56328,11 +54350,7 @@ Pagination.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__utils_bootstrapUtils__["bsClass"])('pagination', Pagination));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 484 */
-=======
-/* 504 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 506 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -56352,7 +54370,7 @@ Pagination.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_prop_types_lib_elementType__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_prop_types_lib_elementType___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react_prop_types_lib_elementType__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__SafeAnchor__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__SafeAnchor__ = __webpack_require__(28);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_createChainedFunction__ = __webpack_require__(18);
 
 
@@ -56453,15 +54471,11 @@ PaginationButton.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (PaginationButton);
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 485 */
-=======
-/* 505 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 507 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values__ = __webpack_require__(48);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_objectWithoutProperties__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_objectWithoutProperties___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_objectWithoutProperties__);
@@ -56477,9 +54491,9 @@ PaginationButton.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_classnames__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Collapse__ = __webpack_require__(136);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Collapse__ = __webpack_require__(137);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_bootstrapUtils__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils_StyleConfig__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils_StyleConfig__ = __webpack_require__(20);
 
 
 
@@ -56708,11 +54722,7 @@ Panel.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__utils_bootstrapUtils__["bsClass"])('panel', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__utils_bootstrapUtils__["bsStyles"])([].concat(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values___default()(__WEBPACK_IMPORTED_MODULE_10__utils_StyleConfig__["c" /* State */]), [__WEBPACK_IMPORTED_MODULE_10__utils_StyleConfig__["d" /* Style */].DEFAULT, __WEBPACK_IMPORTED_MODULE_10__utils_StyleConfig__["d" /* Style */].PRIMARY]), __WEBPACK_IMPORTED_MODULE_10__utils_StyleConfig__["d" /* Style */].DEFAULT, Panel)));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 486 */
-=======
-/* 506 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 508 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -56730,7 +54740,7 @@ Panel.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_classnames__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_prop_types_lib_isRequiredForA11y__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_prop_types_lib_isRequiredForA11y__ = __webpack_require__(101);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_prop_types_lib_isRequiredForA11y___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react_prop_types_lib_isRequiredForA11y__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__ = __webpack_require__(8);
 
@@ -56856,15 +54866,11 @@ Popover.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__["bsClass"])('popover', Popover));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 487 */
-=======
-/* 507 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 509 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values__ = __webpack_require__(48);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends__);
@@ -56881,7 +54887,7 @@ Popover.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_StyleConfig__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_StyleConfig__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils_ValidComponentChildren__ = __webpack_require__(21);
 
 
@@ -57049,11 +55055,7 @@ ProgressBar.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__["bsClass"])('progress-bar', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__["bsStyles"])(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values___default()(__WEBPACK_IMPORTED_MODULE_9__utils_StyleConfig__["c" /* State */]), ProgressBar)));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 488 */
-=======
-/* 508 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 510 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -57183,11 +55185,7 @@ Radio.defaultProps = defaultProps;
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 489 */
-=======
-/* 509 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 511 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -57288,11 +55286,7 @@ ResponsiveEmbed.defaultProps = defaultProps;
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 490 */
-=======
-/* 510 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 512 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -57367,11 +55361,7 @@ Row.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__["bsClass"])('row', Row));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 491 */
-=======
-/* 511 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 513 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -57387,17 +55377,10 @@ Row.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_extends__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_react__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Button__ = __webpack_require__(71);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Dropdown__ = __webpack_require__(85);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__SplitToggle__ = __webpack_require__(492);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_splitComponentProps__ = __webpack_require__(87);
-=======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Button__ = __webpack_require__(74);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Dropdown__ = __webpack_require__(89);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__SplitToggle__ = __webpack_require__(512);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_splitComponentProps__ = __webpack_require__(91);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Dropdown__ = __webpack_require__(91);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__SplitToggle__ = __webpack_require__(514);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_splitComponentProps__ = __webpack_require__(93);
 
 
 
@@ -57493,11 +55476,7 @@ SplitButton.Toggle = __WEBPACK_IMPORTED_MODULE_8__SplitToggle__["a" /* default *
 /* harmony default export */ __webpack_exports__["a"] = (SplitButton);
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 492 */
-=======
-/* 512 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 514 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -57544,11 +55523,7 @@ SplitToggle.defaultProps = __WEBPACK_IMPORTED_MODULE_5__DropdownToggle__["a" /* 
 /* harmony default export */ __webpack_exports__["a"] = (SplitToggle);
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 493 */
-=======
-/* 513 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 515 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -57562,8 +55537,8 @@ SplitToggle.defaultProps = __WEBPACK_IMPORTED_MODULE_5__DropdownToggle__["a" /* 
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_extends__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__TabContainer__ = __webpack_require__(139);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__TabContent__ = __webpack_require__(140);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__TabContainer__ = __webpack_require__(140);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__TabContent__ = __webpack_require__(141);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__TabPane__ = __webpack_require__(230);
 
 
@@ -57619,11 +55594,7 @@ Tab.Pane = __WEBPACK_IMPORTED_MODULE_7__TabPane__["a" /* default */];
 /* harmony default export */ __webpack_exports__["a"] = (Tab);
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 494 */
-=======
-/* 514 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 516 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -57719,11 +55690,7 @@ Table.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__utils_bootstrapUtils__["bsClass"])('table', Table));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 495 */
-=======
-/* 515 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 517 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -57739,18 +55706,14 @@ Table.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react_prop_types_lib_isRequiredForA11y__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react_prop_types_lib_isRequiredForA11y__ = __webpack_require__(101);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react_prop_types_lib_isRequiredForA11y___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react_prop_types_lib_isRequiredForA11y__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_uncontrollable__ = __webpack_require__(99);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_uncontrollable__ = __webpack_require__(102);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_uncontrollable__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_uncontrollable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_uncontrollable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Nav__ = __webpack_require__(224);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__NavItem__ = __webpack_require__(225);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__TabContainer__ = __webpack_require__(139);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__TabContent__ = __webpack_require__(140);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__TabContainer__ = __webpack_require__(140);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__TabContent__ = __webpack_require__(141);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__utils_bootstrapUtils__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__utils_ValidComponentChildren__ = __webpack_require__(21);
 
@@ -57921,11 +55884,7 @@ __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_12__utils_bootstrapUtils__["bsCl
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_7_uncontrollable___default()(Tabs, { activeKey: 'onSelect' }));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 496 */
-=======
-/* 516 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 518 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -57943,7 +55902,7 @@ __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_12__utils_bootstrapUtils__["bsCl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_classnames__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__SafeAnchor__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__SafeAnchor__ = __webpack_require__(28);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__ = __webpack_require__(8);
 
 
@@ -58008,11 +55967,7 @@ Thumbnail.propTypes = propTypes;
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__["bsClass"])('thumbnail', Thumbnail));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 497 */
-=======
-/* 517 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 519 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -58030,7 +55985,7 @@ Thumbnail.propTypes = propTypes;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_classnames__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_prop_types_lib_isRequiredForA11y__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_prop_types_lib_isRequiredForA11y__ = __webpack_require__(101);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_prop_types_lib_isRequiredForA11y___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react_prop_types_lib_isRequiredForA11y__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__ = __webpack_require__(8);
 
@@ -58144,11 +56099,7 @@ Tooltip.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__["bsClass"])('tooltip', Tooltip));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 498 */
-=======
-/* 518 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 520 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -58167,7 +56118,7 @@ Tooltip.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__utils_bootstrapUtils__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils_StyleConfig__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils_StyleConfig__ = __webpack_require__(20);
 
 
 
@@ -58210,15 +56161,11 @@ var Well = function (_React$Component) {
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__utils_bootstrapUtils__["bsClass"])('well', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__utils_bootstrapUtils__["bsSizes"])([__WEBPACK_IMPORTED_MODULE_8__utils_StyleConfig__["b" /* Size */].LARGE, __WEBPACK_IMPORTED_MODULE_8__utils_StyleConfig__["b" /* Size */].SMALL], Well)));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 499 */
-=======
-/* 519 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 521 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_prop_types_lib_utils_createChainableTypeChecker__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_prop_types_lib_utils_createChainableTypeChecker__ = __webpack_require__(102);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_prop_types_lib_utils_createChainableTypeChecker___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react_prop_types_lib_utils_createChainableTypeChecker__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ValidComponentChildren__ = __webpack_require__(21);
 /* harmony export (immutable) */ __webpack_exports__["a"] = requiredRoles;
@@ -58284,11 +56231,7 @@ function exclusiveRoles() {
 }
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 500 */
-=======
-/* 520 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 522 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -58403,11 +56346,7 @@ var ReactTransitionEvents = {
 /* harmony default export */ __webpack_exports__["a"] = (ReactTransitionEvents);
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 501 */
-=======
-/* 521 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 523 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -58417,7 +56356,7 @@ var ReactTransitionEvents = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_possibleConstructorReturn__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_inherits__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_inherits__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_typeof__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_typeof__ = __webpack_require__(106);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_typeof___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_typeof__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_warning__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_warning___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_warning__);
@@ -58491,11 +56430,7 @@ function _resetWarned() {
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 502 */
-=======
-/* 522 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 524 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -58514,11 +56449,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 503 */
-=======
-/* 523 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 525 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -58597,11 +56528,7 @@ var ARIADOMPropertyConfig = {
 module.exports = ARIADOMPropertyConfig;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 504 */
-=======
-/* 524 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 526 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -58630,11 +56557,7 @@ var AutoFocusUtils = {
 module.exports = AutoFocusUtils;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 505 */
-=======
-/* 525 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 527 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -58650,19 +56573,11 @@ module.exports = AutoFocusUtils;
 
 
 
-<<<<<<< HEAD:public/bundle.js
-var EventPropagators = __webpack_require__(74);
-var ExecutionEnvironment = __webpack_require__(17);
-var FallbackCompositionState = __webpack_require__(511);
-var SyntheticCompositionEvent = __webpack_require__(554);
-var SyntheticInputEvent = __webpack_require__(557);
-=======
 var EventPropagators = __webpack_require__(76);
 var ExecutionEnvironment = __webpack_require__(17);
-var FallbackCompositionState = __webpack_require__(531);
-var SyntheticCompositionEvent = __webpack_require__(574);
-var SyntheticInputEvent = __webpack_require__(577);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var FallbackCompositionState = __webpack_require__(533);
+var SyntheticCompositionEvent = __webpack_require__(576);
+var SyntheticInputEvent = __webpack_require__(579);
 
 var END_KEYCODES = [9, 13, 27, 32]; // Tab, Return, Esc, Space
 var START_KEYCODE = 229;
@@ -59032,11 +56947,7 @@ var BeforeInputEventPlugin = {
 module.exports = BeforeInputEventPlugin;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 506 */
-=======
-/* 526 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 528 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -59056,17 +56967,10 @@ var CSSProperty = __webpack_require__(232);
 var ExecutionEnvironment = __webpack_require__(17);
 var ReactInstrumentation = __webpack_require__(23);
 
-<<<<<<< HEAD:public/bundle.js
-var camelizeStyleName = __webpack_require__(359);
-var dangerousStyleValue = __webpack_require__(564);
-var hyphenateStyleName = __webpack_require__(366);
-var memoizeStringOnly = __webpack_require__(369);
-=======
-var camelizeStyleName = __webpack_require__(379);
-var dangerousStyleValue = __webpack_require__(584);
-var hyphenateStyleName = __webpack_require__(386);
-var memoizeStringOnly = __webpack_require__(389);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var camelizeStyleName = __webpack_require__(381);
+var dangerousStyleValue = __webpack_require__(586);
+var hyphenateStyleName = __webpack_require__(388);
+var memoizeStringOnly = __webpack_require__(391);
 var warning = __webpack_require__(10);
 
 var processStyleName = memoizeStringOnly(function (styleName) {
@@ -59258,11 +57162,7 @@ module.exports = CSSPropertyOperations;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 507 */
-=======
-/* 527 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 529 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -59278,20 +57178,15 @@ module.exports = CSSPropertyOperations;
 
 
 
-<<<<<<< HEAD:public/bundle.js
-var EventPluginHub = __webpack_require__(73);
-var EventPropagators = __webpack_require__(74);
-=======
 var EventPluginHub = __webpack_require__(75);
 var EventPropagators = __webpack_require__(76);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 var ExecutionEnvironment = __webpack_require__(17);
 var ReactDOMComponentTree = __webpack_require__(15);
-var ReactUpdates = __webpack_require__(28);
+var ReactUpdates = __webpack_require__(29);
 var SyntheticEvent = __webpack_require__(31);
 
-var getEventTarget = __webpack_require__(152);
-var isEventSupported = __webpack_require__(153);
+var getEventTarget = __webpack_require__(153);
+var isEventSupported = __webpack_require__(154);
 var isTextInputElement = __webpack_require__(250);
 
 var eventTypes = {
@@ -59593,11 +57488,7 @@ var ChangeEventPlugin = {
 module.exports = ChangeEventPlugin;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 508 */
-=======
-/* 528 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 530 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -59615,14 +57506,10 @@ module.exports = ChangeEventPlugin;
 
 var _prodInvariant = __webpack_require__(11);
 
-var DOMLazyTree = __webpack_require__(58);
+var DOMLazyTree = __webpack_require__(59);
 var ExecutionEnvironment = __webpack_require__(17);
 
-<<<<<<< HEAD:public/bundle.js
-var createNodesFromMarkup = __webpack_require__(362);
-=======
-var createNodesFromMarkup = __webpack_require__(382);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var createNodesFromMarkup = __webpack_require__(384);
 var emptyFunction = __webpack_require__(24);
 var invariant = __webpack_require__(9);
 
@@ -59655,11 +57542,7 @@ module.exports = Danger;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 509 */
-=======
-/* 529 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 531 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -59690,11 +57573,7 @@ var DefaultEventPluginOrder = ['ResponderEventPlugin', 'SimpleEventPlugin', 'Tap
 module.exports = DefaultEventPluginOrder;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 510 */
-=======
-/* 530 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 532 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -59710,13 +57589,9 @@ module.exports = DefaultEventPluginOrder;
 
 
 
-<<<<<<< HEAD:public/bundle.js
-var EventPropagators = __webpack_require__(74);
-=======
 var EventPropagators = __webpack_require__(76);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 var ReactDOMComponentTree = __webpack_require__(15);
-var SyntheticMouseEvent = __webpack_require__(94);
+var SyntheticMouseEvent = __webpack_require__(96);
 
 var eventTypes = {
   mouseEnter: {
@@ -59803,11 +57678,7 @@ var EnterLeaveEventPlugin = {
 module.exports = EnterLeaveEventPlugin;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 511 */
-=======
-/* 531 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 533 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -59825,7 +57696,7 @@ module.exports = EnterLeaveEventPlugin;
 
 var _assign = __webpack_require__(13);
 
-var PooledClass = __webpack_require__(44);
+var PooledClass = __webpack_require__(45);
 
 var getTextContentAccessor = __webpack_require__(248);
 
@@ -59907,11 +57778,7 @@ PooledClass.addPoolingTo(FallbackCompositionState);
 module.exports = FallbackCompositionState;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 512 */
-=======
-/* 532 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 534 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -60128,11 +57995,7 @@ var HTMLDOMPropertyConfig = {
 module.exports = HTMLDOMPropertyConfig;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 513 */
-=======
-/* 533 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 535 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -60148,11 +58011,11 @@ module.exports = HTMLDOMPropertyConfig;
 
 
 
-var ReactReconciler = __webpack_require__(59);
+var ReactReconciler = __webpack_require__(60);
 
 var instantiateReactComponent = __webpack_require__(249);
-var KeyEscapeUtils = __webpack_require__(144);
-var shouldUpdateReactComponent = __webpack_require__(154);
+var KeyEscapeUtils = __webpack_require__(145);
+var shouldUpdateReactComponent = __webpack_require__(155);
 var traverseAllChildren = __webpack_require__(252);
 var warning = __webpack_require__(10);
 
@@ -60292,11 +58155,7 @@ module.exports = ReactChildReconciler;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 514 */
-=======
-/* 534 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 536 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -60312,13 +58171,8 @@ module.exports = ReactChildReconciler;
 
 
 
-<<<<<<< HEAD:public/bundle.js
-var DOMChildrenOperations = __webpack_require__(136);
-var ReactDOMIDOperations = __webpack_require__(521);
-=======
-var DOMChildrenOperations = __webpack_require__(141);
-var ReactDOMIDOperations = __webpack_require__(541);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var DOMChildrenOperations = __webpack_require__(142);
+var ReactDOMIDOperations = __webpack_require__(543);
 
 /**
  * Abstracts away all functionality of the reconciler that requires knowledge of
@@ -60336,11 +58190,7 @@ var ReactComponentBrowserEnvironment = {
 module.exports = ReactComponentBrowserEnvironment;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 515 */
-=======
-/* 535 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 537 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -60360,31 +58210,22 @@ var _prodInvariant = __webpack_require__(11),
     _assign = __webpack_require__(13);
 
 var React = __webpack_require__(63);
-var ReactComponentEnvironment = __webpack_require__(146);
-var ReactCurrentOwner = __webpack_require__(29);
-<<<<<<< HEAD:public/bundle.js
-var ReactErrorUtils = __webpack_require__(142);
-var ReactInstanceMap = __webpack_require__(75);
-=======
-var ReactErrorUtils = __webpack_require__(147);
+var ReactComponentEnvironment = __webpack_require__(147);
+var ReactCurrentOwner = __webpack_require__(30);
+var ReactErrorUtils = __webpack_require__(148);
 var ReactInstanceMap = __webpack_require__(77);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 var ReactInstrumentation = __webpack_require__(23);
 var ReactNodeTypes = __webpack_require__(242);
-var ReactReconciler = __webpack_require__(59);
+var ReactReconciler = __webpack_require__(60);
 
 if (process.env.NODE_ENV !== 'production') {
-<<<<<<< HEAD:public/bundle.js
-  var checkReactTypeSpec = __webpack_require__(563);
-=======
-  var checkReactTypeSpec = __webpack_require__(583);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+  var checkReactTypeSpec = __webpack_require__(585);
 }
 
 var emptyObject = __webpack_require__(69);
 var invariant = __webpack_require__(9);
-var shallowEqual = __webpack_require__(122);
-var shouldUpdateReactComponent = __webpack_require__(154);
+var shallowEqual = __webpack_require__(123);
+var shouldUpdateReactComponent = __webpack_require__(155);
 var warning = __webpack_require__(10);
 
 var CompositeTypes = {
@@ -61257,11 +59098,7 @@ module.exports = ReactCompositeComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 516 */
-=======
-/* 536 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 538 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -61280,27 +59117,15 @@ module.exports = ReactCompositeComponent;
 
 
 var ReactDOMComponentTree = __webpack_require__(15);
-<<<<<<< HEAD:public/bundle.js
-var ReactDefaultInjection = __webpack_require__(533);
-var ReactMount = __webpack_require__(237);
-var ReactReconciler = __webpack_require__(57);
-var ReactUpdates = __webpack_require__(28);
-var ReactVersion = __webpack_require__(548);
-
-var findDOMNode = __webpack_require__(565);
-var getHostComponentFromComposite = __webpack_require__(243);
-var renderSubtreeIntoContainer = __webpack_require__(573);
-=======
-var ReactDefaultInjection = __webpack_require__(553);
+var ReactDefaultInjection = __webpack_require__(555);
 var ReactMount = __webpack_require__(241);
-var ReactReconciler = __webpack_require__(59);
-var ReactUpdates = __webpack_require__(28);
-var ReactVersion = __webpack_require__(568);
+var ReactReconciler = __webpack_require__(60);
+var ReactUpdates = __webpack_require__(29);
+var ReactVersion = __webpack_require__(570);
 
-var findDOMNode = __webpack_require__(585);
+var findDOMNode = __webpack_require__(587);
 var getHostComponentFromComposite = __webpack_require__(247);
-var renderSubtreeIntoContainer = __webpack_require__(593);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var renderSubtreeIntoContainer = __webpack_require__(595);
 var warning = __webpack_require__(10);
 
 ReactDefaultInjection.inject();
@@ -61377,15 +59202,9 @@ if (process.env.NODE_ENV !== 'production') {
 
 if (process.env.NODE_ENV !== 'production') {
   var ReactInstrumentation = __webpack_require__(23);
-<<<<<<< HEAD:public/bundle.js
-  var ReactDOMUnknownPropertyHook = __webpack_require__(530);
-  var ReactDOMNullInputValuePropHook = __webpack_require__(524);
-  var ReactDOMInvalidARIAHook = __webpack_require__(523);
-=======
-  var ReactDOMUnknownPropertyHook = __webpack_require__(550);
-  var ReactDOMNullInputValuePropHook = __webpack_require__(544);
-  var ReactDOMInvalidARIAHook = __webpack_require__(543);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+  var ReactDOMUnknownPropertyHook = __webpack_require__(552);
+  var ReactDOMNullInputValuePropHook = __webpack_require__(546);
+  var ReactDOMInvalidARIAHook = __webpack_require__(545);
 
   ReactInstrumentation.debugTool.addHook(ReactDOMUnknownPropertyHook);
   ReactInstrumentation.debugTool.addHook(ReactDOMNullInputValuePropHook);
@@ -61396,11 +59215,7 @@ module.exports = ReactDOM;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 517 */
-=======
-/* 537 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 539 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -61421,52 +59236,31 @@ module.exports = ReactDOM;
 var _prodInvariant = __webpack_require__(11),
     _assign = __webpack_require__(13);
 
-<<<<<<< HEAD:public/bundle.js
-var AutoFocusUtils = __webpack_require__(504);
-var CSSPropertyOperations = __webpack_require__(506);
-var DOMLazyTree = __webpack_require__(56);
-var DOMNamespaces = __webpack_require__(137);
-var DOMProperty = __webpack_require__(37);
-var DOMPropertyOperations = __webpack_require__(230);
-var EventPluginHub = __webpack_require__(73);
-var EventPluginRegistry = __webpack_require__(88);
-var ReactBrowserEventEmitter = __webpack_require__(89);
-var ReactDOMComponentFlags = __webpack_require__(231);
-var ReactDOMComponentTree = __webpack_require__(15);
-var ReactDOMInput = __webpack_require__(522);
-var ReactDOMOption = __webpack_require__(525);
-var ReactDOMSelect = __webpack_require__(232);
-var ReactDOMTextarea = __webpack_require__(528);
-var ReactInstrumentation = __webpack_require__(23);
-var ReactMultiChild = __webpack_require__(541);
-var ReactServerRenderingTransaction = __webpack_require__(546);
-=======
-var AutoFocusUtils = __webpack_require__(524);
-var CSSPropertyOperations = __webpack_require__(526);
-var DOMLazyTree = __webpack_require__(58);
-var DOMNamespaces = __webpack_require__(142);
+var AutoFocusUtils = __webpack_require__(526);
+var CSSPropertyOperations = __webpack_require__(528);
+var DOMLazyTree = __webpack_require__(59);
+var DOMNamespaces = __webpack_require__(143);
 var DOMProperty = __webpack_require__(39);
 var DOMPropertyOperations = __webpack_require__(234);
 var EventPluginHub = __webpack_require__(75);
-var EventPluginRegistry = __webpack_require__(92);
-var ReactBrowserEventEmitter = __webpack_require__(93);
+var EventPluginRegistry = __webpack_require__(94);
+var ReactBrowserEventEmitter = __webpack_require__(95);
 var ReactDOMComponentFlags = __webpack_require__(235);
 var ReactDOMComponentTree = __webpack_require__(15);
-var ReactDOMInput = __webpack_require__(542);
-var ReactDOMOption = __webpack_require__(545);
+var ReactDOMInput = __webpack_require__(544);
+var ReactDOMOption = __webpack_require__(547);
 var ReactDOMSelect = __webpack_require__(236);
-var ReactDOMTextarea = __webpack_require__(548);
+var ReactDOMTextarea = __webpack_require__(550);
 var ReactInstrumentation = __webpack_require__(23);
-var ReactMultiChild = __webpack_require__(561);
-var ReactServerRenderingTransaction = __webpack_require__(566);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var ReactMultiChild = __webpack_require__(563);
+var ReactServerRenderingTransaction = __webpack_require__(568);
 
 var emptyFunction = __webpack_require__(24);
-var escapeTextContentForBrowser = __webpack_require__(96);
+var escapeTextContentForBrowser = __webpack_require__(98);
 var invariant = __webpack_require__(9);
-var isEventSupported = __webpack_require__(153);
-var shallowEqual = __webpack_require__(122);
-var validateDOMNesting = __webpack_require__(155);
+var isEventSupported = __webpack_require__(154);
+var shallowEqual = __webpack_require__(123);
+var validateDOMNesting = __webpack_require__(156);
 var warning = __webpack_require__(10);
 
 var Flags = ReactDOMComponentFlags;
@@ -62428,11 +60222,7 @@ module.exports = ReactDOMComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 518 */
-=======
-/* 538 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 540 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62448,7 +60238,7 @@ module.exports = ReactDOMComponent;
 
 
 
-var validateDOMNesting = __webpack_require__(155);
+var validateDOMNesting = __webpack_require__(156);
 
 var DOC_NODE_TYPE = 9;
 
@@ -62471,11 +60261,7 @@ module.exports = ReactDOMContainerInfo;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 519 */
-=======
-/* 539 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 541 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62493,7 +60279,7 @@ module.exports = ReactDOMContainerInfo;
 
 var _assign = __webpack_require__(13);
 
-var DOMLazyTree = __webpack_require__(58);
+var DOMLazyTree = __webpack_require__(59);
 var ReactDOMComponentTree = __webpack_require__(15);
 
 var ReactDOMEmptyComponent = function (instantiate) {
@@ -62540,11 +60326,7 @@ _assign(ReactDOMEmptyComponent.prototype, {
 module.exports = ReactDOMEmptyComponent;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 520 */
-=======
-/* 540 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 542 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62568,11 +60350,7 @@ var ReactDOMFeatureFlags = {
 module.exports = ReactDOMFeatureFlags;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 521 */
-=======
-/* 541 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 543 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62588,7 +60366,7 @@ module.exports = ReactDOMFeatureFlags;
 
 
 
-var DOMChildrenOperations = __webpack_require__(141);
+var DOMChildrenOperations = __webpack_require__(142);
 var ReactDOMComponentTree = __webpack_require__(15);
 
 /**
@@ -62611,11 +60389,7 @@ var ReactDOMIDOperations = {
 module.exports = ReactDOMIDOperations;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 522 */
-=======
-/* 542 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 544 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62635,9 +60409,9 @@ var _prodInvariant = __webpack_require__(11),
     _assign = __webpack_require__(13);
 
 var DOMPropertyOperations = __webpack_require__(234);
-var LinkedValueUtils = __webpack_require__(145);
+var LinkedValueUtils = __webpack_require__(146);
 var ReactDOMComponentTree = __webpack_require__(15);
-var ReactUpdates = __webpack_require__(28);
+var ReactUpdates = __webpack_require__(29);
 
 var invariant = __webpack_require__(9);
 var warning = __webpack_require__(10);
@@ -62899,11 +60673,7 @@ module.exports = ReactDOMInput;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 523 */
-=======
-/* 543 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 545 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63002,11 +60772,7 @@ module.exports = ReactDOMInvalidARIAHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 524 */
-=======
-/* 544 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 546 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63055,11 +60821,7 @@ module.exports = ReactDOMNullInputValuePropHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 525 */
-=======
-/* 545 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 547 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63188,11 +60950,7 @@ module.exports = ReactDOMOption;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 526 */
-=======
-/* 546 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 548 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63210,13 +60968,8 @@ module.exports = ReactDOMOption;
 
 var ExecutionEnvironment = __webpack_require__(17);
 
-<<<<<<< HEAD:public/bundle.js
-var getNodeForCharacterOffset = __webpack_require__(570);
-var getTextContentAccessor = __webpack_require__(244);
-=======
-var getNodeForCharacterOffset = __webpack_require__(590);
+var getNodeForCharacterOffset = __webpack_require__(592);
 var getTextContentAccessor = __webpack_require__(248);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 
 /**
  * While `isCollapsed` is available on the Selection object and `collapsed`
@@ -63414,11 +61167,7 @@ var ReactDOMSelection = {
 module.exports = ReactDOMSelection;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 527 */
-=======
-/* 547 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 549 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63437,13 +61186,13 @@ module.exports = ReactDOMSelection;
 var _prodInvariant = __webpack_require__(11),
     _assign = __webpack_require__(13);
 
-var DOMChildrenOperations = __webpack_require__(141);
-var DOMLazyTree = __webpack_require__(58);
+var DOMChildrenOperations = __webpack_require__(142);
+var DOMLazyTree = __webpack_require__(59);
 var ReactDOMComponentTree = __webpack_require__(15);
 
-var escapeTextContentForBrowser = __webpack_require__(96);
+var escapeTextContentForBrowser = __webpack_require__(98);
 var invariant = __webpack_require__(9);
-var validateDOMNesting = __webpack_require__(155);
+var validateDOMNesting = __webpack_require__(156);
 
 /**
  * Text nodes violate a couple assumptions that React makes about components:
@@ -63588,11 +61337,7 @@ module.exports = ReactDOMTextComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 528 */
-=======
-/* 548 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 550 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63611,9 +61356,9 @@ module.exports = ReactDOMTextComponent;
 var _prodInvariant = __webpack_require__(11),
     _assign = __webpack_require__(13);
 
-var LinkedValueUtils = __webpack_require__(145);
+var LinkedValueUtils = __webpack_require__(146);
 var ReactDOMComponentTree = __webpack_require__(15);
-var ReactUpdates = __webpack_require__(28);
+var ReactUpdates = __webpack_require__(29);
 
 var invariant = __webpack_require__(9);
 var warning = __webpack_require__(10);
@@ -63758,11 +61503,7 @@ module.exports = ReactDOMTextarea;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 529 */
-=======
-/* 549 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 551 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63904,11 +61645,7 @@ module.exports = {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 530 */
-=======
-/* 550 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 552 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63925,7 +61662,7 @@ module.exports = {
 
 
 var DOMProperty = __webpack_require__(39);
-var EventPluginRegistry = __webpack_require__(92);
+var EventPluginRegistry = __webpack_require__(94);
 var ReactComponentTreeHook = __webpack_require__(22);
 
 var warning = __webpack_require__(10);
@@ -64026,11 +61763,7 @@ module.exports = ReactDOMUnknownPropertyHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 531 */
-=======
-/* 551 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 553 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -64047,21 +61780,12 @@ module.exports = ReactDOMUnknownPropertyHook;
 
 
 
-<<<<<<< HEAD:public/bundle.js
-var ReactInvalidSetStateWarningHook = __webpack_require__(539);
-var ReactHostOperationHistoryHook = __webpack_require__(537);
+var ReactInvalidSetStateWarningHook = __webpack_require__(561);
+var ReactHostOperationHistoryHook = __webpack_require__(559);
 var ReactComponentTreeHook = __webpack_require__(22);
 var ExecutionEnvironment = __webpack_require__(17);
 
-var performanceNow = __webpack_require__(371);
-=======
-var ReactInvalidSetStateWarningHook = __webpack_require__(559);
-var ReactHostOperationHistoryHook = __webpack_require__(557);
-var ReactComponentTreeHook = __webpack_require__(22);
-var ExecutionEnvironment = __webpack_require__(17);
-
-var performanceNow = __webpack_require__(391);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var performanceNow = __webpack_require__(393);
 var warning = __webpack_require__(10);
 
 var hooks = [];
@@ -64406,11 +62130,7 @@ module.exports = ReactDebugTool;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 532 */
-=======
-/* 552 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 554 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -64428,8 +62148,8 @@ module.exports = ReactDebugTool;
 
 var _assign = __webpack_require__(13);
 
-var ReactUpdates = __webpack_require__(28);
-var Transaction = __webpack_require__(95);
+var ReactUpdates = __webpack_require__(29);
+var Transaction = __webpack_require__(97);
 
 var emptyFunction = __webpack_require__(24);
 
@@ -64483,11 +62203,7 @@ var ReactDefaultBatchingStrategy = {
 module.exports = ReactDefaultBatchingStrategy;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 533 */
-=======
-/* 553 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 555 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -64503,47 +62219,25 @@ module.exports = ReactDefaultBatchingStrategy;
 
 
 
-<<<<<<< HEAD:public/bundle.js
-var ARIADOMPropertyConfig = __webpack_require__(503);
-var BeforeInputEventPlugin = __webpack_require__(505);
-var ChangeEventPlugin = __webpack_require__(507);
-var DefaultEventPluginOrder = __webpack_require__(509);
-var EnterLeaveEventPlugin = __webpack_require__(510);
-var HTMLDOMPropertyConfig = __webpack_require__(512);
-var ReactComponentBrowserEnvironment = __webpack_require__(514);
-var ReactDOMComponent = __webpack_require__(517);
+var ARIADOMPropertyConfig = __webpack_require__(525);
+var BeforeInputEventPlugin = __webpack_require__(527);
+var ChangeEventPlugin = __webpack_require__(529);
+var DefaultEventPluginOrder = __webpack_require__(531);
+var EnterLeaveEventPlugin = __webpack_require__(532);
+var HTMLDOMPropertyConfig = __webpack_require__(534);
+var ReactComponentBrowserEnvironment = __webpack_require__(536);
+var ReactDOMComponent = __webpack_require__(539);
 var ReactDOMComponentTree = __webpack_require__(15);
-var ReactDOMEmptyComponent = __webpack_require__(519);
-var ReactDOMTreeTraversal = __webpack_require__(529);
-var ReactDOMTextComponent = __webpack_require__(527);
-var ReactDefaultBatchingStrategy = __webpack_require__(532);
-var ReactEventListener = __webpack_require__(536);
-var ReactInjection = __webpack_require__(538);
-var ReactReconcileTransaction = __webpack_require__(544);
-var SVGDOMPropertyConfig = __webpack_require__(549);
-var SelectEventPlugin = __webpack_require__(550);
-var SimpleEventPlugin = __webpack_require__(551);
-=======
-var ARIADOMPropertyConfig = __webpack_require__(523);
-var BeforeInputEventPlugin = __webpack_require__(525);
-var ChangeEventPlugin = __webpack_require__(527);
-var DefaultEventPluginOrder = __webpack_require__(529);
-var EnterLeaveEventPlugin = __webpack_require__(530);
-var HTMLDOMPropertyConfig = __webpack_require__(532);
-var ReactComponentBrowserEnvironment = __webpack_require__(534);
-var ReactDOMComponent = __webpack_require__(537);
-var ReactDOMComponentTree = __webpack_require__(15);
-var ReactDOMEmptyComponent = __webpack_require__(539);
-var ReactDOMTreeTraversal = __webpack_require__(549);
-var ReactDOMTextComponent = __webpack_require__(547);
-var ReactDefaultBatchingStrategy = __webpack_require__(552);
-var ReactEventListener = __webpack_require__(556);
-var ReactInjection = __webpack_require__(558);
-var ReactReconcileTransaction = __webpack_require__(564);
-var SVGDOMPropertyConfig = __webpack_require__(569);
-var SelectEventPlugin = __webpack_require__(570);
-var SimpleEventPlugin = __webpack_require__(571);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var ReactDOMEmptyComponent = __webpack_require__(541);
+var ReactDOMTreeTraversal = __webpack_require__(551);
+var ReactDOMTextComponent = __webpack_require__(549);
+var ReactDefaultBatchingStrategy = __webpack_require__(554);
+var ReactEventListener = __webpack_require__(558);
+var ReactInjection = __webpack_require__(560);
+var ReactReconcileTransaction = __webpack_require__(566);
+var SVGDOMPropertyConfig = __webpack_require__(571);
+var SelectEventPlugin = __webpack_require__(572);
+var SimpleEventPlugin = __webpack_require__(573);
 
 var alreadyInjected = false;
 
@@ -64600,11 +62294,7 @@ module.exports = {
 };
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 534 */
-=======
-/* 554 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 556 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -64629,11 +62319,7 @@ var REACT_ELEMENT_TYPE = typeof Symbol === 'function' && Symbol['for'] && Symbol
 module.exports = REACT_ELEMENT_TYPE;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 535 */
-=======
-/* 555 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 557 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -64649,11 +62335,7 @@ module.exports = REACT_ELEMENT_TYPE;
 
 
 
-<<<<<<< HEAD:public/bundle.js
-var EventPluginHub = __webpack_require__(73);
-=======
 var EventPluginHub = __webpack_require__(75);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 
 function runEventQueueInBatch(events) {
   EventPluginHub.enqueueEvents(events);
@@ -64675,11 +62357,7 @@ var ReactEventEmitterMixin = {
 module.exports = ReactEventEmitterMixin;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 536 */
-=======
-/* 556 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 558 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -64699,17 +62377,12 @@ var _assign = __webpack_require__(13);
 
 var EventListener = __webpack_require__(190);
 var ExecutionEnvironment = __webpack_require__(17);
-var PooledClass = __webpack_require__(44);
+var PooledClass = __webpack_require__(45);
 var ReactDOMComponentTree = __webpack_require__(15);
-var ReactUpdates = __webpack_require__(28);
+var ReactUpdates = __webpack_require__(29);
 
-<<<<<<< HEAD:public/bundle.js
-var getEventTarget = __webpack_require__(147);
-var getUnboundedScrollPosition = __webpack_require__(364);
-=======
-var getEventTarget = __webpack_require__(152);
-var getUnboundedScrollPosition = __webpack_require__(384);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var getEventTarget = __webpack_require__(153);
+var getUnboundedScrollPosition = __webpack_require__(386);
 
 /**
  * Find the deepest React component completely containing the root of the
@@ -64844,11 +62517,7 @@ var ReactEventListener = {
 module.exports = ReactEventListener;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 537 */
-=======
-/* 557 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 559 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -64887,11 +62556,7 @@ var ReactHostOperationHistoryHook = {
 module.exports = ReactHostOperationHistoryHook;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 538 */
-=======
-/* 558 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 560 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -64907,24 +62572,14 @@ module.exports = ReactHostOperationHistoryHook;
 
 
 
-<<<<<<< HEAD:public/bundle.js
-var DOMProperty = __webpack_require__(37);
-var EventPluginHub = __webpack_require__(73);
-var EventPluginUtils = __webpack_require__(138);
-var ReactComponentEnvironment = __webpack_require__(141);
-var ReactEmptyComponent = __webpack_require__(233);
-var ReactBrowserEventEmitter = __webpack_require__(89);
-var ReactHostComponent = __webpack_require__(235);
-=======
 var DOMProperty = __webpack_require__(39);
 var EventPluginHub = __webpack_require__(75);
-var EventPluginUtils = __webpack_require__(143);
-var ReactComponentEnvironment = __webpack_require__(146);
+var EventPluginUtils = __webpack_require__(144);
+var ReactComponentEnvironment = __webpack_require__(147);
 var ReactEmptyComponent = __webpack_require__(237);
-var ReactBrowserEventEmitter = __webpack_require__(93);
+var ReactBrowserEventEmitter = __webpack_require__(95);
 var ReactHostComponent = __webpack_require__(239);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
-var ReactUpdates = __webpack_require__(28);
+var ReactUpdates = __webpack_require__(29);
 
 var ReactInjection = {
   Component: ReactComponentEnvironment.injection,
@@ -64940,11 +62595,7 @@ var ReactInjection = {
 module.exports = ReactInjection;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 539 */
-=======
-/* 559 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 561 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -64987,11 +62638,7 @@ module.exports = ReactInvalidSetStateWarningHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 540 */
-=======
-/* 560 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 562 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -65007,11 +62654,7 @@ module.exports = ReactInvalidSetStateWarningHook;
 
 
 
-<<<<<<< HEAD:public/bundle.js
-var adler32 = __webpack_require__(562);
-=======
-var adler32 = __webpack_require__(582);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var adler32 = __webpack_require__(584);
 
 var TAG_END = /\/?>/;
 var COMMENT_START = /^<\!\-\-/;
@@ -65050,11 +62693,7 @@ var ReactMarkupChecksum = {
 module.exports = ReactMarkupChecksum;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 541 */
-=======
-/* 561 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 563 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -65072,29 +62711,16 @@ module.exports = ReactMarkupChecksum;
 
 var _prodInvariant = __webpack_require__(11);
 
-<<<<<<< HEAD:public/bundle.js
-var ReactComponentEnvironment = __webpack_require__(141);
-var ReactInstanceMap = __webpack_require__(75);
-var ReactInstrumentation = __webpack_require__(23);
-
-var ReactCurrentOwner = __webpack_require__(29);
-var ReactReconciler = __webpack_require__(57);
-var ReactChildReconciler = __webpack_require__(513);
-
-var emptyFunction = __webpack_require__(24);
-var flattenChildren = __webpack_require__(566);
-=======
-var ReactComponentEnvironment = __webpack_require__(146);
+var ReactComponentEnvironment = __webpack_require__(147);
 var ReactInstanceMap = __webpack_require__(77);
 var ReactInstrumentation = __webpack_require__(23);
 
-var ReactCurrentOwner = __webpack_require__(29);
-var ReactReconciler = __webpack_require__(59);
-var ReactChildReconciler = __webpack_require__(533);
+var ReactCurrentOwner = __webpack_require__(30);
+var ReactReconciler = __webpack_require__(60);
+var ReactChildReconciler = __webpack_require__(535);
 
 var emptyFunction = __webpack_require__(24);
-var flattenChildren = __webpack_require__(586);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var flattenChildren = __webpack_require__(588);
 var invariant = __webpack_require__(9);
 
 /**
@@ -65523,11 +63149,7 @@ module.exports = ReactMultiChild;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 542 */
-=======
-/* 562 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 564 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -65627,11 +63249,7 @@ module.exports = ReactOwner;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 543 */
-=======
-/* 563 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 565 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -65662,11 +63280,7 @@ module.exports = ReactPropTypeLocationNames;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 544 */
-=======
-/* 564 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 566 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -65685,12 +63299,12 @@ module.exports = ReactPropTypeLocationNames;
 var _assign = __webpack_require__(13);
 
 var CallbackQueue = __webpack_require__(233);
-var PooledClass = __webpack_require__(44);
-var ReactBrowserEventEmitter = __webpack_require__(93);
+var PooledClass = __webpack_require__(45);
+var ReactBrowserEventEmitter = __webpack_require__(95);
 var ReactInputSelection = __webpack_require__(240);
 var ReactInstrumentation = __webpack_require__(23);
-var Transaction = __webpack_require__(95);
-var ReactUpdateQueue = __webpack_require__(148);
+var Transaction = __webpack_require__(97);
+var ReactUpdateQueue = __webpack_require__(149);
 
 /**
  * Ensures that, when possible, the selection range (currently selected text
@@ -65850,11 +63464,7 @@ module.exports = ReactReconcileTransaction;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 545 */
-=======
-/* 565 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 567 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -65871,11 +63481,7 @@ module.exports = ReactReconcileTransaction;
 
 
 
-<<<<<<< HEAD:public/bundle.js
-var ReactOwner = __webpack_require__(542);
-=======
-var ReactOwner = __webpack_require__(562);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var ReactOwner = __webpack_require__(564);
 
 var ReactRef = {};
 
@@ -65952,11 +63558,7 @@ ReactRef.detachRefs = function (instance, element) {
 module.exports = ReactRef;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 546 */
-=======
-/* 566 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 568 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -65974,14 +63576,10 @@ module.exports = ReactRef;
 
 var _assign = __webpack_require__(13);
 
-var PooledClass = __webpack_require__(44);
-var Transaction = __webpack_require__(95);
+var PooledClass = __webpack_require__(45);
+var Transaction = __webpack_require__(97);
 var ReactInstrumentation = __webpack_require__(23);
-<<<<<<< HEAD:public/bundle.js
-var ReactServerUpdateQueue = __webpack_require__(547);
-=======
-var ReactServerUpdateQueue = __webpack_require__(567);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var ReactServerUpdateQueue = __webpack_require__(569);
 
 /**
  * Executed within the scope of the `Transaction` instance. Consider these as
@@ -66056,11 +63654,7 @@ module.exports = ReactServerRenderingTransaction;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 547 */
-=======
-/* 567 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 569 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -66079,7 +63673,7 @@ module.exports = ReactServerRenderingTransaction;
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-var ReactUpdateQueue = __webpack_require__(148);
+var ReactUpdateQueue = __webpack_require__(149);
 
 var warning = __webpack_require__(10);
 
@@ -66205,11 +63799,7 @@ module.exports = ReactServerUpdateQueue;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 548 */
-=======
-/* 568 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 570 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -66228,11 +63818,7 @@ module.exports = ReactServerUpdateQueue;
 module.exports = '15.4.2';
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 549 */
-=======
-/* 569 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 571 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -66539,11 +64125,7 @@ Object.keys(ATTRS).forEach(function (key) {
 module.exports = SVGDOMPropertyConfig;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 550 */
-=======
-/* 570 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 572 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -66559,11 +64141,7 @@ module.exports = SVGDOMPropertyConfig;
 
 
 
-<<<<<<< HEAD:public/bundle.js
-var EventPropagators = __webpack_require__(74);
-=======
 var EventPropagators = __webpack_require__(76);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 var ExecutionEnvironment = __webpack_require__(17);
 var ReactDOMComponentTree = __webpack_require__(15);
 var ReactInputSelection = __webpack_require__(240);
@@ -66571,7 +64149,7 @@ var SyntheticEvent = __webpack_require__(31);
 
 var getActiveElement = __webpack_require__(192);
 var isTextInputElement = __webpack_require__(250);
-var shallowEqual = __webpack_require__(122);
+var shallowEqual = __webpack_require__(123);
 
 var skipSelectionChangeEvent = ExecutionEnvironment.canUseDOM && 'documentMode' in document && document.documentMode <= 11;
 
@@ -66743,11 +64321,7 @@ var SelectEventPlugin = {
 module.exports = SelectEventPlugin;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 551 */
-=======
-/* 571 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 573 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -66766,40 +64340,23 @@ module.exports = SelectEventPlugin;
 
 var _prodInvariant = __webpack_require__(11);
 
-<<<<<<< HEAD:public/bundle.js
-var EventListener = __webpack_require__(186);
-var EventPropagators = __webpack_require__(74);
-var ReactDOMComponentTree = __webpack_require__(15);
-var SyntheticAnimationEvent = __webpack_require__(552);
-var SyntheticClipboardEvent = __webpack_require__(553);
-var SyntheticEvent = __webpack_require__(30);
-var SyntheticFocusEvent = __webpack_require__(556);
-var SyntheticKeyboardEvent = __webpack_require__(558);
-var SyntheticMouseEvent = __webpack_require__(90);
-var SyntheticDragEvent = __webpack_require__(555);
-var SyntheticTouchEvent = __webpack_require__(559);
-var SyntheticTransitionEvent = __webpack_require__(560);
-var SyntheticUIEvent = __webpack_require__(76);
-var SyntheticWheelEvent = __webpack_require__(561);
-=======
 var EventListener = __webpack_require__(190);
 var EventPropagators = __webpack_require__(76);
 var ReactDOMComponentTree = __webpack_require__(15);
-var SyntheticAnimationEvent = __webpack_require__(572);
-var SyntheticClipboardEvent = __webpack_require__(573);
+var SyntheticAnimationEvent = __webpack_require__(574);
+var SyntheticClipboardEvent = __webpack_require__(575);
 var SyntheticEvent = __webpack_require__(31);
-var SyntheticFocusEvent = __webpack_require__(576);
-var SyntheticKeyboardEvent = __webpack_require__(578);
-var SyntheticMouseEvent = __webpack_require__(94);
-var SyntheticDragEvent = __webpack_require__(575);
-var SyntheticTouchEvent = __webpack_require__(579);
-var SyntheticTransitionEvent = __webpack_require__(580);
+var SyntheticFocusEvent = __webpack_require__(578);
+var SyntheticKeyboardEvent = __webpack_require__(580);
+var SyntheticMouseEvent = __webpack_require__(96);
+var SyntheticDragEvent = __webpack_require__(577);
+var SyntheticTouchEvent = __webpack_require__(581);
+var SyntheticTransitionEvent = __webpack_require__(582);
 var SyntheticUIEvent = __webpack_require__(78);
-var SyntheticWheelEvent = __webpack_require__(581);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var SyntheticWheelEvent = __webpack_require__(583);
 
 var emptyFunction = __webpack_require__(24);
-var getEventCharCode = __webpack_require__(150);
+var getEventCharCode = __webpack_require__(151);
 var invariant = __webpack_require__(9);
 
 /**
@@ -66998,11 +64555,7 @@ module.exports = SimpleEventPlugin;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 552 */
-=======
-/* 572 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 574 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -67046,11 +64599,7 @@ SyntheticEvent.augmentClass(SyntheticAnimationEvent, AnimationEventInterface);
 module.exports = SyntheticAnimationEvent;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 553 */
-=======
-/* 573 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 575 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -67093,11 +64642,7 @@ SyntheticEvent.augmentClass(SyntheticClipboardEvent, ClipboardEventInterface);
 module.exports = SyntheticClipboardEvent;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 554 */
-=======
-/* 574 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 576 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -67138,11 +64683,7 @@ SyntheticEvent.augmentClass(SyntheticCompositionEvent, CompositionEventInterface
 module.exports = SyntheticCompositionEvent;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 555 */
-=======
-/* 575 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 577 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -67158,7 +64699,7 @@ module.exports = SyntheticCompositionEvent;
 
 
 
-var SyntheticMouseEvent = __webpack_require__(94);
+var SyntheticMouseEvent = __webpack_require__(96);
 
 /**
  * @interface DragEvent
@@ -67183,11 +64724,7 @@ SyntheticMouseEvent.augmentClass(SyntheticDragEvent, DragEventInterface);
 module.exports = SyntheticDragEvent;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 556 */
-=======
-/* 576 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 578 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -67203,11 +64740,7 @@ module.exports = SyntheticDragEvent;
 
 
 
-<<<<<<< HEAD:public/bundle.js
-var SyntheticUIEvent = __webpack_require__(76);
-=======
 var SyntheticUIEvent = __webpack_require__(78);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 
 /**
  * @interface FocusEvent
@@ -67232,11 +64765,7 @@ SyntheticUIEvent.augmentClass(SyntheticFocusEvent, FocusEventInterface);
 module.exports = SyntheticFocusEvent;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 557 */
-=======
-/* 577 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 579 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -67278,11 +64807,7 @@ SyntheticEvent.augmentClass(SyntheticInputEvent, InputEventInterface);
 module.exports = SyntheticInputEvent;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 558 */
-=======
-/* 578 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 580 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -67298,19 +64823,11 @@ module.exports = SyntheticInputEvent;
 
 
 
-<<<<<<< HEAD:public/bundle.js
-var SyntheticUIEvent = __webpack_require__(76);
-
-var getEventCharCode = __webpack_require__(145);
-var getEventKey = __webpack_require__(567);
-var getEventModifierState = __webpack_require__(146);
-=======
 var SyntheticUIEvent = __webpack_require__(78);
 
-var getEventCharCode = __webpack_require__(150);
-var getEventKey = __webpack_require__(587);
-var getEventModifierState = __webpack_require__(151);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var getEventCharCode = __webpack_require__(151);
+var getEventKey = __webpack_require__(589);
+var getEventModifierState = __webpack_require__(152);
 
 /**
  * @interface KeyboardEvent
@@ -67379,11 +64896,7 @@ SyntheticUIEvent.augmentClass(SyntheticKeyboardEvent, KeyboardEventInterface);
 module.exports = SyntheticKeyboardEvent;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 559 */
-=======
-/* 579 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 581 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -67399,13 +64912,9 @@ module.exports = SyntheticKeyboardEvent;
 
 
 
-<<<<<<< HEAD:public/bundle.js
-var SyntheticUIEvent = __webpack_require__(76);
-=======
 var SyntheticUIEvent = __webpack_require__(78);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 
-var getEventModifierState = __webpack_require__(151);
+var getEventModifierState = __webpack_require__(152);
 
 /**
  * @interface TouchEvent
@@ -67437,11 +64946,7 @@ SyntheticUIEvent.augmentClass(SyntheticTouchEvent, TouchEventInterface);
 module.exports = SyntheticTouchEvent;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 560 */
-=======
-/* 580 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 582 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -67485,11 +64990,7 @@ SyntheticEvent.augmentClass(SyntheticTransitionEvent, TransitionEventInterface);
 module.exports = SyntheticTransitionEvent;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 561 */
-=======
-/* 581 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 583 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -67505,7 +65006,7 @@ module.exports = SyntheticTransitionEvent;
 
 
 
-var SyntheticMouseEvent = __webpack_require__(94);
+var SyntheticMouseEvent = __webpack_require__(96);
 
 /**
  * @interface WheelEvent
@@ -67548,11 +65049,7 @@ SyntheticMouseEvent.augmentClass(SyntheticWheelEvent, WheelEventInterface);
 module.exports = SyntheticWheelEvent;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 562 */
-=======
-/* 582 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 584 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -67601,11 +65098,7 @@ function adler32(data) {
 module.exports = adler32;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 563 */
-=======
-/* 583 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 585 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -67623,13 +65116,8 @@ module.exports = adler32;
 
 var _prodInvariant = __webpack_require__(11);
 
-<<<<<<< HEAD:public/bundle.js
-var ReactPropTypeLocationNames = __webpack_require__(543);
-var ReactPropTypesSecret = __webpack_require__(239);
-=======
-var ReactPropTypeLocationNames = __webpack_require__(563);
+var ReactPropTypeLocationNames = __webpack_require__(565);
 var ReactPropTypesSecret = __webpack_require__(243);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 
 var invariant = __webpack_require__(9);
 var warning = __webpack_require__(10);
@@ -67703,11 +65191,7 @@ module.exports = checkReactTypeSpec;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 564 */
-=======
-/* 584 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 586 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -67792,11 +65276,7 @@ module.exports = dangerousStyleValue;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 565 */
-=======
-/* 585 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 587 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -67814,13 +65294,9 @@ module.exports = dangerousStyleValue;
 
 var _prodInvariant = __webpack_require__(11);
 
-var ReactCurrentOwner = __webpack_require__(29);
+var ReactCurrentOwner = __webpack_require__(30);
 var ReactDOMComponentTree = __webpack_require__(15);
-<<<<<<< HEAD:public/bundle.js
-var ReactInstanceMap = __webpack_require__(75);
-=======
 var ReactInstanceMap = __webpack_require__(77);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 
 var getHostComponentFromComposite = __webpack_require__(247);
 var invariant = __webpack_require__(9);
@@ -67866,11 +65342,7 @@ module.exports = findDOMNode;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 566 */
-=======
-/* 586 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 588 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -67887,7 +65359,7 @@ module.exports = findDOMNode;
 
 
 
-var KeyEscapeUtils = __webpack_require__(144);
+var KeyEscapeUtils = __webpack_require__(145);
 var traverseAllChildren = __webpack_require__(252);
 var warning = __webpack_require__(10);
 
@@ -67952,11 +65424,7 @@ module.exports = flattenChildren;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 567 */
-=======
-/* 587 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 589 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -67972,7 +65440,7 @@ module.exports = flattenChildren;
 
 
 
-var getEventCharCode = __webpack_require__(150);
+var getEventCharCode = __webpack_require__(151);
 
 /**
  * Normalization of deprecated HTML5 `key` values
@@ -68063,11 +65531,7 @@ function getEventKey(nativeEvent) {
 module.exports = getEventKey;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 568 */
-=======
-/* 588 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 590 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -68113,11 +65577,7 @@ function getIteratorFn(maybeIterable) {
 module.exports = getIteratorFn;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 569 */
-=======
-/* 589 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 591 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -68143,11 +65603,7 @@ function getNextDebugID() {
 module.exports = getNextDebugID;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 570 */
-=======
-/* 590 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 592 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -68226,11 +65682,7 @@ function getNodeForCharacterOffset(root, offset) {
 module.exports = getNodeForCharacterOffset;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 571 */
-=======
-/* 591 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 593 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -68336,11 +65788,7 @@ function getVendorPrefixedEventName(eventName) {
 module.exports = getVendorPrefixedEventName;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 572 */
-=======
-/* 592 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 594 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -68356,7 +65804,7 @@ module.exports = getVendorPrefixedEventName;
 
 
 
-var escapeTextContentForBrowser = __webpack_require__(96);
+var escapeTextContentForBrowser = __webpack_require__(98);
 
 /**
  * Escapes attribute value to prevent scripting attacks.
@@ -68371,11 +65819,7 @@ function quoteAttributeValueForBrowser(value) {
 module.exports = quoteAttributeValueForBrowser;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 573 */
-=======
-/* 593 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 595 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -68396,11 +65840,7 @@ var ReactMount = __webpack_require__(241);
 module.exports = ReactMount.renderSubtreeIntoContainer;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 574 */
-=======
-/* 594 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 596 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -68514,11 +65954,7 @@ module.exports = Helpers;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 575 */
-=======
-/* 595 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 597 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -68538,11 +65974,7 @@ module.exports = Icon;
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 576 */
-=======
-/* 596 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 598 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -68563,7 +65995,7 @@ var _warning = __webpack_require__(16);
 
 var _warning2 = _interopRequireDefault(_warning);
 
-var _componentOrElement = __webpack_require__(157);
+var _componentOrElement = __webpack_require__(158);
 
 var _componentOrElement2 = _interopRequireDefault(_componentOrElement);
 
@@ -68575,19 +66007,11 @@ var _Portal = __webpack_require__(254);
 
 var _Portal2 = _interopRequireDefault(_Portal);
 
-<<<<<<< HEAD:public/bundle.js
-var _ModalManager = __webpack_require__(577);
-
-var _ModalManager2 = _interopRequireDefault(_ModalManager);
-
-var _ownerDocument = __webpack_require__(77);
-=======
-var _ModalManager = __webpack_require__(597);
+var _ModalManager = __webpack_require__(599);
 
 var _ModalManager2 = _interopRequireDefault(_ModalManager);
 
 var _ownerDocument = __webpack_require__(79);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 
 var _ownerDocument2 = _interopRequireDefault(_ownerDocument);
 
@@ -68595,11 +66019,7 @@ var _addEventListener = __webpack_require__(257);
 
 var _addEventListener2 = _interopRequireDefault(_addEventListener);
 
-<<<<<<< HEAD:public/bundle.js
-var _addFocusListener = __webpack_require__(580);
-=======
-var _addFocusListener = __webpack_require__(600);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _addFocusListener = __webpack_require__(602);
 
 var _addFocusListener2 = _interopRequireDefault(_addFocusListener);
 
@@ -68611,11 +66031,11 @@ var _activeElement = __webpack_require__(183);
 
 var _activeElement2 = _interopRequireDefault(_activeElement);
 
-var _contains = __webpack_require__(53);
+var _contains = __webpack_require__(54);
 
 var _contains2 = _interopRequireDefault(_contains);
 
-var _getContainer = __webpack_require__(156);
+var _getContainer = __webpack_require__(157);
 
 var _getContainer2 = _interopRequireDefault(_getContainer);
 
@@ -69113,11 +66533,7 @@ exports.default = Modal;
 module.exports = exports['default'];
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 577 */
-=======
-/* 597 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 599 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -69129,19 +66545,11 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-<<<<<<< HEAD:public/bundle.js
-var _style = __webpack_require__(82);
+var _style = __webpack_require__(88);
 
 var _style2 = _interopRequireDefault(_style);
 
-var _class = __webpack_require__(342);
-=======
-var _style = __webpack_require__(86);
-
-var _style2 = _interopRequireDefault(_style);
-
-var _class = __webpack_require__(362);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _class = __webpack_require__(364);
 
 var _class2 = _interopRequireDefault(_class);
 
@@ -69153,11 +66561,7 @@ var _isOverflowing = __webpack_require__(258);
 
 var _isOverflowing2 = _interopRequireDefault(_isOverflowing);
 
-<<<<<<< HEAD:public/bundle.js
-var _manageAriaHidden = __webpack_require__(582);
-=======
-var _manageAriaHidden = __webpack_require__(602);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _manageAriaHidden = __webpack_require__(604);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -69321,11 +66725,7 @@ exports.default = ModalManager;
 module.exports = exports['default'];
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 578 */
-=======
-/* 598 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 600 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -69347,11 +66747,7 @@ var _Portal = __webpack_require__(254);
 
 var _Portal2 = _interopRequireDefault(_Portal);
 
-<<<<<<< HEAD:public/bundle.js
-var _Position = __webpack_require__(579);
-=======
-var _Position = __webpack_require__(599);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _Position = __webpack_require__(601);
 
 var _Position2 = _interopRequireDefault(_Position);
 
@@ -69562,11 +66958,7 @@ exports.default = Overlay;
 module.exports = exports['default'];
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 579 */
-=======
-/* 599 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 601 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -69588,31 +66980,23 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(20);
+var _reactDom = __webpack_require__(19);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _componentOrElement = __webpack_require__(157);
+var _componentOrElement = __webpack_require__(158);
 
 var _componentOrElement2 = _interopRequireDefault(_componentOrElement);
 
-<<<<<<< HEAD:public/bundle.js
-var _calculatePosition = __webpack_require__(581);
-=======
-var _calculatePosition = __webpack_require__(601);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _calculatePosition = __webpack_require__(603);
 
 var _calculatePosition2 = _interopRequireDefault(_calculatePosition);
 
-var _getContainer = __webpack_require__(156);
+var _getContainer = __webpack_require__(157);
 
 var _getContainer2 = _interopRequireDefault(_getContainer);
 
-<<<<<<< HEAD:public/bundle.js
-var _ownerDocument = __webpack_require__(77);
-=======
 var _ownerDocument = __webpack_require__(79);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 
 var _ownerDocument2 = _interopRequireDefault(_ownerDocument);
 
@@ -69789,11 +67173,7 @@ exports.default = Position;
 module.exports = exports['default'];
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 580 */
-=======
-/* 600 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 602 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -69830,11 +67210,7 @@ function addFocusListener(handler) {
 module.exports = exports['default'];
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 581 */
-=======
-/* 601 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 603 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -69849,11 +67225,7 @@ var _offset = __webpack_require__(185);
 
 var _offset2 = _interopRequireDefault(_offset);
 
-<<<<<<< HEAD:public/bundle.js
-var _position = __webpack_require__(348);
-=======
-var _position = __webpack_require__(368);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _position = __webpack_require__(370);
 
 var _position2 = _interopRequireDefault(_position);
 
@@ -69861,11 +67233,7 @@ var _scrollTop = __webpack_require__(186);
 
 var _scrollTop2 = _interopRequireDefault(_scrollTop);
 
-<<<<<<< HEAD:public/bundle.js
-var _ownerDocument = __webpack_require__(77);
-=======
 var _ownerDocument = __webpack_require__(79);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 
 var _ownerDocument2 = _interopRequireDefault(_ownerDocument);
 
@@ -69975,11 +67343,7 @@ function calculatePosition(placement, overlayNode, target, container, padding) {
 module.exports = exports['default'];
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 582 */
-=======
-/* 602 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 604 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -70034,23 +67398,14 @@ function showSiblings(container, mountNode) {
 }
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 583 */
-=======
-/* 603 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 605 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(process) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils_PropTypes__ = __webpack_require__(257);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__utils_warning__ = __webpack_require__(153);
-=======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils_PropTypes__ = __webpack_require__(261);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__utils_warning__ = __webpack_require__(158);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__utils_warning__ = __webpack_require__(159);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Provider; });
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -70122,29 +67477,16 @@ Provider.displayName = 'Provider';
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 584 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_connectAdvanced__ = __webpack_require__(255);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils_shallowEqual__ = __webpack_require__(591);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mapDispatchToProps__ = __webpack_require__(585);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mapStateToProps__ = __webpack_require__(586);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__mergeProps__ = __webpack_require__(587);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__selectorFactory__ = __webpack_require__(588);
-=======
-/* 604 */
+/* 606 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_connectAdvanced__ = __webpack_require__(259);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils_shallowEqual__ = __webpack_require__(611);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mapDispatchToProps__ = __webpack_require__(605);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mapStateToProps__ = __webpack_require__(606);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__mergeProps__ = __webpack_require__(607);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__selectorFactory__ = __webpack_require__(608);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils_shallowEqual__ = __webpack_require__(613);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mapDispatchToProps__ = __webpack_require__(607);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mapStateToProps__ = __webpack_require__(608);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__mergeProps__ = __webpack_require__(609);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__selectorFactory__ = __webpack_require__(610);
 /* unused harmony export createConnect */
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -70251,21 +67593,12 @@ function createConnect() {
 /* harmony default export */ __webpack_exports__["a"] = (createConnect());
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 585 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_redux__ = __webpack_require__(98);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__wrapMapToProps__ = __webpack_require__(256);
-=======
-/* 605 */
+/* 607 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_redux__ = __webpack_require__(284);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__wrapMapToProps__ = __webpack_require__(260);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 /* unused harmony export whenMapDispatchToPropsIsFunction */
 /* unused harmony export whenMapDispatchToPropsIsMissing */
 /* unused harmony export whenMapDispatchToPropsIsObject */
@@ -70291,11 +67624,7 @@ function whenMapDispatchToPropsIsObject(mapDispatchToProps) {
 /* harmony default export */ __webpack_exports__["a"] = ([whenMapDispatchToPropsIsFunction, whenMapDispatchToPropsIsMissing, whenMapDispatchToPropsIsObject]);
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 586 */
-=======
-/* 606 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 608 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -70317,11 +67646,7 @@ function whenMapStateToPropsIsMissing(mapStateToProps) {
 /* harmony default export */ __webpack_exports__["a"] = ([whenMapStateToPropsIsFunction, whenMapStateToPropsIsMissing]);
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 587 */
-=======
-/* 607 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 609 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -70378,19 +67703,11 @@ function whenMergePropsIsOmitted(mergeProps) {
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 588 */
+/* 610 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(process) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__verifySubselectors__ = __webpack_require__(589);
-=======
-/* 608 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(process) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__verifySubselectors__ = __webpack_require__(609);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* WEBPACK VAR INJECTION */(function(process) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__verifySubselectors__ = __webpack_require__(611);
 /* unused harmony export impureFinalPropsSelectorFactory */
 /* unused harmony export pureFinalPropsSelectorFactory */
 /* harmony export (immutable) */ __webpack_exports__["a"] = finalPropsSelectorFactory;
@@ -70499,19 +67816,11 @@ function finalPropsSelectorFactory(dispatch, _ref2) {
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 589 */
+/* 611 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils_warning__ = __webpack_require__(153);
-=======
-/* 609 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils_warning__ = __webpack_require__(158);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils_warning__ = __webpack_require__(159);
 /* harmony export (immutable) */ __webpack_exports__["a"] = verifySubselectors;
 
 
@@ -70532,11 +67841,7 @@ function verifySubselectors(mapStateToProps, mapDispatchToProps, mergeProps, dis
 }
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 590 */
-=======
-/* 610 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 612 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -70632,11 +67937,7 @@ var Subscription = function () {
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 591 */
-=======
-/* 611 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 613 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -70673,10 +67974,7 @@ function shallowEqual(objA, objB) {
 }
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 592 */
-=======
-/* 612 */
+/* 614 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -70726,7 +68024,7 @@ exports.default = IndexLinkContainer;
 module.exports = exports['default'];
 
 /***/ }),
-/* 613 */
+/* 615 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -70735,7 +68033,7 @@ module.exports = exports['default'];
 exports.__esModule = true;
 exports.LinkContainer = exports.IndexLinkContainer = undefined;
 
-var _IndexLinkContainer2 = __webpack_require__(612);
+var _IndexLinkContainer2 = __webpack_require__(614);
 
 var _IndexLinkContainer3 = _interopRequireDefault(_IndexLinkContainer2);
 
@@ -70749,7 +68047,7 @@ exports.IndexLinkContainer = _IndexLinkContainer3.default;
 exports.LinkContainer = _LinkContainer3.default;
 
 /***/ }),
-/* 614 */
+/* 616 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -70820,11 +68118,11 @@ Object.defineProperty(exports, 'routerActions', {
   }
 });
 
-var _sync = __webpack_require__(616);
+var _sync = __webpack_require__(618);
 
 var _sync2 = _interopRequireDefault(_sync);
 
-var _middleware = __webpack_require__(615);
+var _middleware = __webpack_require__(617);
 
 var _middleware2 = _interopRequireDefault(_middleware);
 
@@ -70834,7 +68132,7 @@ exports.syncHistoryWithStore = _sync2['default'];
 exports.routerMiddleware = _middleware2['default'];
 
 /***/ }),
-/* 615 */
+/* 617 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -70873,7 +68171,7 @@ function routerMiddleware(history) {
 }
 
 /***/ }),
-/* 616 */
+/* 618 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -71034,8 +68332,7 @@ function syncHistoryWithStore(history, store) {
 }
 
 /***/ }),
-/* 617 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 619 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -71060,11 +68357,7 @@ var IndexLink = __WEBPACK_IMPORTED_MODULE_0_react___default.a.createClass({
 /* harmony default export */ __webpack_exports__["a"] = (IndexLink);
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 593 */
-=======
-/* 618 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 620 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -71073,13 +68366,8 @@ var IndexLink = __WEBPACK_IMPORTED_MODULE_0_react___default.a.createClass({
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__routerWarning__ = __webpack_require__(62);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_invariant__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_invariant__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Redirect__ = __webpack_require__(261);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__InternalPropTypes__ = __webpack_require__(78);
-=======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Redirect__ = __webpack_require__(268);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__InternalPropTypes__ = __webpack_require__(80);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 
 
 
@@ -71128,11 +68416,7 @@ var IndexRedirect = __WEBPACK_IMPORTED_MODULE_0_react___default.a.createClass({
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 594 */
-=======
-/* 619 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 621 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -71141,13 +68425,8 @@ var IndexRedirect = __WEBPACK_IMPORTED_MODULE_0_react___default.a.createClass({
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__routerWarning__ = __webpack_require__(62);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_invariant__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_invariant__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__RouteUtils__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__InternalPropTypes__ = __webpack_require__(78);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__RouteUtils__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__RouteUtils__ = __webpack_require__(41);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__InternalPropTypes__ = __webpack_require__(80);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 
 
 
@@ -71195,11 +68474,7 @@ var IndexRoute = __WEBPACK_IMPORTED_MODULE_0_react___default.a.createClass({
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 595 */
-=======
-/* 620 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 622 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -71207,13 +68482,8 @@ var IndexRoute = __WEBPACK_IMPORTED_MODULE_0_react___default.a.createClass({
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_invariant__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_invariant__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__RouteUtils__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__InternalPropTypes__ = __webpack_require__(78);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__RouteUtils__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__RouteUtils__ = __webpack_require__(41);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__InternalPropTypes__ = __webpack_require__(80);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 
 
 
@@ -71261,11 +68531,7 @@ var Route = __WEBPACK_IMPORTED_MODULE_0_react___default.a.createClass({
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 596 */
-=======
-/* 621 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 623 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -71273,21 +68539,12 @@ var Route = __WEBPACK_IMPORTED_MODULE_0_react___default.a.createClass({
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_invariant__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__createTransitionManager__ = __webpack_require__(265);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__InternalPropTypes__ = __webpack_require__(78);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__RouterContext__ = __webpack_require__(157);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__RouteUtils__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__RouterUtils__ = __webpack_require__(262);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__routerWarning__ = __webpack_require__(59);
-=======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__createTransitionManager__ = __webpack_require__(272);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__InternalPropTypes__ = __webpack_require__(80);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__RouterContext__ = __webpack_require__(162);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__RouteUtils__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__RouterContext__ = __webpack_require__(163);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__RouteUtils__ = __webpack_require__(41);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__RouterUtils__ = __webpack_require__(269);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__routerWarning__ = __webpack_require__(62);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
@@ -71306,30 +68563,28 @@ var _React$PropTypes = __WEBPACK_IMPORTED_MODULE_1_react___default.a.PropTypes,
     func = _React$PropTypes.func,
     object = _React$PropTypes.object;
 
-
-var propTypes = {
-  history: object,
-  children: __WEBPACK_IMPORTED_MODULE_3__InternalPropTypes__["d" /* routes */],
-  routes: __WEBPACK_IMPORTED_MODULE_3__InternalPropTypes__["d" /* routes */], // alias for children
-  render: func,
-  createElement: func,
-  onError: func,
-  onUpdate: func,
-
-  // PRIVATE: For client-side rehydration of server match.
-  matchContext: object
-};
-
 /**
  * A <Router> is a high-level API for automatically setting up
  * a router that renders a <RouterContext> with all the props
  * it needs each time the URL changes.
  */
+
 var Router = __WEBPACK_IMPORTED_MODULE_1_react___default.a.createClass({
   displayName: 'Router',
 
 
-  propTypes: propTypes,
+  propTypes: {
+    history: object,
+    children: __WEBPACK_IMPORTED_MODULE_3__InternalPropTypes__["d" /* routes */],
+    routes: __WEBPACK_IMPORTED_MODULE_3__InternalPropTypes__["d" /* routes */], // alias for children
+    render: func,
+    createElement: func,
+    onError: func,
+    onUpdate: func,
+
+    // PRIVATE: For client-side rehydration of server match.
+    matchContext: object
+  },
 
   getDefaultProps: function getDefaultProps() {
     return {
@@ -71426,7 +68681,7 @@ var Router = __WEBPACK_IMPORTED_MODULE_1_react___default.a.createClass({
 
     // Only forward non-Router-specific props to routing context, as those are
     // the only ones that might be custom routing context props.
-    Object.keys(propTypes).forEach(function (propType) {
+    Object.keys(Router.propTypes).forEach(function (propType) {
       return delete props[propType];
     });
 
@@ -71445,19 +68700,11 @@ var Router = __WEBPACK_IMPORTED_MODULE_1_react___default.a.createClass({
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 597 */
+/* 624 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__AsyncUtils__ = __webpack_require__(154);
-=======
-/* 622 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__AsyncUtils__ = __webpack_require__(159);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__AsyncUtils__ = __webpack_require__(160);
 /* harmony export (immutable) */ __webpack_exports__["c"] = runEnterHooks;
 /* harmony export (immutable) */ __webpack_exports__["b"] = runChangeHooks;
 /* harmony export (immutable) */ __webpack_exports__["a"] = runLeaveHooks;
@@ -71611,23 +68858,14 @@ function runLeaveHooks(routes, prevState) {
 }
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 598 */
-=======
-/* 623 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 625 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(process) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__RouterContext__ = __webpack_require__(157);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__routerWarning__ = __webpack_require__(59);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__RouterContext__ = __webpack_require__(162);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__RouterContext__ = __webpack_require__(163);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__routerWarning__ = __webpack_require__(62);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 
@@ -71672,19 +68910,11 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 599 */
+/* 626 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_lib_createBrowserHistory__ = __webpack_require__(375);
-=======
-/* 624 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_lib_createBrowserHistory__ = __webpack_require__(395);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_lib_createBrowserHistory__ = __webpack_require__(397);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_lib_createBrowserHistory___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_history_lib_createBrowserHistory__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__createRouterHistory__ = __webpack_require__(271);
 
@@ -71692,11 +68922,7 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__createRouterHistory__["a" /* default */])(__WEBPACK_IMPORTED_MODULE_0_history_lib_createBrowserHistory___default.a));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 600 */
-=======
-/* 625 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 627 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -71734,29 +68960,31 @@ function computeChangedRoutes(prevState, nextState) {
       changeRoutes = void 0,
       enterRoutes = void 0;
   if (prevRoutes) {
-    var parentIsLeaving = false;
-    leaveRoutes = prevRoutes.filter(function (route) {
-      if (parentIsLeaving) {
-        return true;
-      } else {
-        var isLeaving = nextRoutes.indexOf(route) === -1 || routeParamsChanged(route, prevState, nextState);
-        if (isLeaving) parentIsLeaving = true;
-        return isLeaving;
-      }
-    });
+    (function () {
+      var parentIsLeaving = false;
+      leaveRoutes = prevRoutes.filter(function (route) {
+        if (parentIsLeaving) {
+          return true;
+        } else {
+          var isLeaving = nextRoutes.indexOf(route) === -1 || routeParamsChanged(route, prevState, nextState);
+          if (isLeaving) parentIsLeaving = true;
+          return isLeaving;
+        }
+      });
 
-    // onLeave hooks start at the leaf route.
-    leaveRoutes.reverse();
+      // onLeave hooks start at the leaf route.
+      leaveRoutes.reverse();
 
-    enterRoutes = [];
-    changeRoutes = [];
+      enterRoutes = [];
+      changeRoutes = [];
 
-    nextRoutes.forEach(function (route) {
-      var isNew = prevRoutes.indexOf(route) === -1;
-      var paramsChanged = leaveRoutes.indexOf(route) !== -1;
+      nextRoutes.forEach(function (route) {
+        var isNew = prevRoutes.indexOf(route) === -1;
+        var paramsChanged = leaveRoutes.indexOf(route) !== -1;
 
-      if (isNew || paramsChanged) enterRoutes.push(route);else changeRoutes.push(route);
-    });
+        if (isNew || paramsChanged) enterRoutes.push(route);else changeRoutes.push(route);
+      });
+    })();
   } else {
     leaveRoutes = [];
     changeRoutes = [];
@@ -71773,21 +69001,12 @@ function computeChangedRoutes(prevState, nextState) {
 /* harmony default export */ __webpack_exports__["a"] = (computeChangedRoutes);
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 601 */
+/* 628 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__AsyncUtils__ = __webpack_require__(154);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__PromiseUtils__ = __webpack_require__(260);
-=======
-/* 626 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__AsyncUtils__ = __webpack_require__(159);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__AsyncUtils__ = __webpack_require__(160);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__PromiseUtils__ = __webpack_require__(267);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 
 
 
@@ -71824,11 +69043,7 @@ function getComponents(nextState, callback) {
 /* harmony default export */ __webpack_exports__["a"] = (getComponents);
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 602 */
-=======
-/* 627 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 629 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -71856,19 +69071,11 @@ function getRouteParams(route, params) {
 /* harmony default export */ __webpack_exports__["a"] = (getRouteParams);
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 603 */
+/* 630 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_lib_createHashHistory__ = __webpack_require__(376);
-=======
-/* 628 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_lib_createHashHistory__ = __webpack_require__(396);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_lib_createHashHistory__ = __webpack_require__(398);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_lib_createHashHistory___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_history_lib_createHashHistory__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__createRouterHistory__ = __webpack_require__(271);
 
@@ -71876,11 +69083,7 @@ function getRouteParams(route, params) {
 /* harmony default export */ __webpack_exports__["a"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__createRouterHistory__["a" /* default */])(__WEBPACK_IMPORTED_MODULE_0_history_lib_createHashHistory___default.a));
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 604 */
-=======
-/* 629 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 631 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -72033,25 +69236,17 @@ function isActive(_ref, indexOnly, currentLocation, routes, params) {
 }
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 605 */
+/* 632 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(process) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_lib_Actions__ = __webpack_require__(83);
-=======
-/* 630 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(process) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_lib_Actions__ = __webpack_require__(87);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* WEBPACK VAR INJECTION */(function(process) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_lib_Actions__ = __webpack_require__(89);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_lib_Actions___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_history_lib_Actions__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_invariant__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_invariant__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__createMemoryHistory__ = __webpack_require__(270);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__createTransitionManager__ = __webpack_require__(272);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__RouteUtils__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__RouteUtils__ = __webpack_require__(41);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__RouterUtils__ = __webpack_require__(269);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -72111,29 +69306,19 @@ function match(_ref, callback) {
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 606 */
+/* 633 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(process) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__AsyncUtils__ = __webpack_require__(154);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__PromiseUtils__ = __webpack_require__(260);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__PatternUtils__ = __webpack_require__(58);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__routerWarning__ = __webpack_require__(59);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__RouteUtils__ = __webpack_require__(38);
-=======
-/* 631 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(process) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__AsyncUtils__ = __webpack_require__(159);
+/* WEBPACK VAR INJECTION */(function(process) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__AsyncUtils__ = __webpack_require__(160);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__PromiseUtils__ = __webpack_require__(267);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__PatternUtils__ = __webpack_require__(61);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__routerWarning__ = __webpack_require__(62);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__RouteUtils__ = __webpack_require__(40);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__RouteUtils__ = __webpack_require__(41);
 /* harmony export (immutable) */ __webpack_exports__["a"] = matchRoutes;
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 
 
@@ -72273,32 +69458,38 @@ function matchRouteDeep(route, location, remainingPathname, paramNames, paramVal
     // By assumption, pattern is non-empty here, which is the prerequisite for
     // actually terminating a match.
     if (remainingPathname === '') {
-      var match = {
-        routes: [route],
-        params: createParams(paramNames, paramValues)
-      };
+      var _ret = function () {
+        var match = {
+          routes: [route],
+          params: createParams(paramNames, paramValues)
+        };
 
-      getIndexRoute(route, location, paramNames, paramValues, function (error, indexRoute) {
-        if (error) {
-          callback(error);
-        } else {
-          if (Array.isArray(indexRoute)) {
-            var _match$routes;
+        getIndexRoute(route, location, paramNames, paramValues, function (error, indexRoute) {
+          if (error) {
+            callback(error);
+          } else {
+            if (Array.isArray(indexRoute)) {
+              var _match$routes;
 
-            process.env.NODE_ENV !== 'production' ? __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__routerWarning__["a" /* default */])(indexRoute.every(function (route) {
-              return !route.path;
-            }), 'Index routes should not have paths') : void 0;
-            (_match$routes = match.routes).push.apply(_match$routes, indexRoute);
-          } else if (indexRoute) {
-            process.env.NODE_ENV !== 'production' ? __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__routerWarning__["a" /* default */])(!indexRoute.path, 'Index routes should not have paths') : void 0;
-            match.routes.push(indexRoute);
+              process.env.NODE_ENV !== 'production' ? __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__routerWarning__["a" /* default */])(indexRoute.every(function (route) {
+                return !route.path;
+              }), 'Index routes should not have paths') : void 0;
+              (_match$routes = match.routes).push.apply(_match$routes, indexRoute);
+            } else if (indexRoute) {
+              process.env.NODE_ENV !== 'production' ? __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__routerWarning__["a" /* default */])(!indexRoute.path, 'Index routes should not have paths') : void 0;
+              match.routes.push(indexRoute);
+            }
+
+            callback(null, match);
           }
+        });
 
-          callback(null, match);
-        }
-      });
+        return {
+          v: void 0
+        };
+      }();
 
-      return;
+      if ((typeof _ret === 'undefined' ? 'undefined' : _typeof(_ret)) === "object") return _ret.v;
     }
   }
 
@@ -72376,11 +69567,7 @@ function matchRoutes(routes, location, callback, remainingPathname) {
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 607 */
-=======
-/* 632 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 634 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -72390,13 +69577,8 @@ function matchRoutes(routes, location, callback, remainingPathname) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_hoist_non_react_statics__ = __webpack_require__(196);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_hoist_non_react_statics___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_hoist_non_react_statics__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ContextUtils__ = __webpack_require__(155);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__PropTypes__ = __webpack_require__(156);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ContextUtils__ = __webpack_require__(160);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__PropTypes__ = __webpack_require__(161);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ContextUtils__ = __webpack_require__(161);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__PropTypes__ = __webpack_require__(162);
 /* harmony export (immutable) */ __webpack_exports__["a"] = withRouter;
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -72458,11 +69640,7 @@ function withRouter(WrappedComponent, options) {
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 608 */
-=======
-/* 633 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 635 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -72526,11 +69704,7 @@ var KeyEscapeUtils = {
 module.exports = KeyEscapeUtils;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 609 */
-=======
-/* 634 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 636 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -72547,7 +69721,7 @@ module.exports = KeyEscapeUtils;
 
 
 
-var _prodInvariant = __webpack_require__(46);
+var _prodInvariant = __webpack_require__(47);
 
 var invariant = __webpack_require__(9);
 
@@ -72648,11 +69822,7 @@ module.exports = PooledClass;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 610 */
-=======
-/* 635 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 637 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -72668,19 +69838,11 @@ module.exports = PooledClass;
 
 
 
-<<<<<<< HEAD:public/bundle.js
-var PooledClass = __webpack_require__(609);
-var ReactElement = __webpack_require__(43);
+var PooledClass = __webpack_require__(636);
+var ReactElement = __webpack_require__(46);
 
 var emptyFunction = __webpack_require__(24);
-var traverseAllChildren = __webpack_require__(618);
-=======
-var PooledClass = __webpack_require__(634);
-var ReactElement = __webpack_require__(45);
-
-var emptyFunction = __webpack_require__(24);
-var traverseAllChildren = __webpack_require__(643);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var traverseAllChildren = __webpack_require__(645);
 
 var twoArgumentPooler = PooledClass.twoArgumentPooler;
 var fourArgumentPooler = PooledClass.fourArgumentPooler;
@@ -72856,11 +70018,7 @@ var ReactChildren = {
 module.exports = ReactChildren;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 611 */
-=======
-/* 636 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 638 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -72876,20 +70034,13 @@ module.exports = ReactChildren;
 
 
 
-var _prodInvariant = __webpack_require__(46),
+var _prodInvariant = __webpack_require__(47),
     _assign = __webpack_require__(13);
 
-<<<<<<< HEAD:public/bundle.js
-var ReactComponent = __webpack_require__(158);
-var ReactElement = __webpack_require__(43);
-var ReactPropTypeLocationNames = __webpack_require__(160);
-var ReactNoopUpdateQueue = __webpack_require__(159);
-=======
-var ReactComponent = __webpack_require__(163);
-var ReactElement = __webpack_require__(45);
-var ReactPropTypeLocationNames = __webpack_require__(165);
-var ReactNoopUpdateQueue = __webpack_require__(164);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var ReactComponent = __webpack_require__(164);
+var ReactElement = __webpack_require__(46);
+var ReactPropTypeLocationNames = __webpack_require__(166);
+var ReactNoopUpdateQueue = __webpack_require__(165);
 
 var emptyObject = __webpack_require__(69);
 var invariant = __webpack_require__(9);
@@ -73590,11 +70741,7 @@ module.exports = ReactClass;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 612 */
-=======
-/* 637 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 639 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -73610,7 +70757,7 @@ module.exports = ReactClass;
 
 
 
-var ReactElement = __webpack_require__(45);
+var ReactElement = __webpack_require__(46);
 
 /**
  * Create a factory that creates HTML tag elements.
@@ -73770,11 +70917,7 @@ module.exports = ReactDOMFactories;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 613 */
-=======
-/* 638 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 640 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -73790,21 +70933,12 @@ module.exports = ReactDOMFactories;
 
 
 
-<<<<<<< HEAD:public/bundle.js
-var ReactElement = __webpack_require__(43);
-var ReactPropTypeLocationNames = __webpack_require__(160);
-var ReactPropTypesSecret = __webpack_require__(270);
-
-var emptyFunction = __webpack_require__(24);
-var getIteratorFn = __webpack_require__(162);
-=======
-var ReactElement = __webpack_require__(45);
-var ReactPropTypeLocationNames = __webpack_require__(165);
+var ReactElement = __webpack_require__(46);
+var ReactPropTypeLocationNames = __webpack_require__(166);
 var ReactPropTypesSecret = __webpack_require__(277);
 
 var emptyFunction = __webpack_require__(24);
-var getIteratorFn = __webpack_require__(167);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var getIteratorFn = __webpack_require__(168);
 var warning = __webpack_require__(10);
 
 /**
@@ -74223,11 +71357,7 @@ module.exports = ReactPropTypes;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 614 */
-=======
-/* 639 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 641 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -74245,13 +71375,8 @@ module.exports = ReactPropTypes;
 
 var _assign = __webpack_require__(13);
 
-<<<<<<< HEAD:public/bundle.js
-var ReactComponent = __webpack_require__(158);
-var ReactNoopUpdateQueue = __webpack_require__(159);
-=======
-var ReactComponent = __webpack_require__(163);
-var ReactNoopUpdateQueue = __webpack_require__(164);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var ReactComponent = __webpack_require__(164);
+var ReactNoopUpdateQueue = __webpack_require__(165);
 
 var emptyObject = __webpack_require__(69);
 
@@ -74279,11 +71404,7 @@ ReactPureComponent.prototype.isPureReactComponent = true;
 module.exports = ReactPureComponent;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 615 */
-=======
-/* 640 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 642 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -74302,11 +71423,7 @@ module.exports = ReactPureComponent;
 module.exports = '15.4.2';
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 616 */
-=======
-/* 641 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 643 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -74322,15 +71439,10 @@ module.exports = '15.4.2';
 
 
 
-var _prodInvariant = __webpack_require__(46);
+var _prodInvariant = __webpack_require__(47);
 
-<<<<<<< HEAD:public/bundle.js
-var ReactPropTypeLocationNames = __webpack_require__(160);
-var ReactPropTypesSecret = __webpack_require__(270);
-=======
-var ReactPropTypeLocationNames = __webpack_require__(165);
+var ReactPropTypeLocationNames = __webpack_require__(166);
 var ReactPropTypesSecret = __webpack_require__(277);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
 
 var invariant = __webpack_require__(9);
 var warning = __webpack_require__(10);
@@ -74404,11 +71516,7 @@ module.exports = checkReactTypeSpec;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 617 */
-=======
-/* 642 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 644 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -74423,9 +71531,9 @@ module.exports = checkReactTypeSpec;
  */
 
 
-var _prodInvariant = __webpack_require__(46);
+var _prodInvariant = __webpack_require__(47);
 
-var ReactElement = __webpack_require__(45);
+var ReactElement = __webpack_require__(46);
 
 var invariant = __webpack_require__(9);
 
@@ -74452,11 +71560,7 @@ module.exports = onlyChild;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 618 */
-=======
-/* 643 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 645 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -74472,20 +71576,14 @@ module.exports = onlyChild;
 
 
 
-var _prodInvariant = __webpack_require__(46);
+var _prodInvariant = __webpack_require__(47);
 
-var ReactCurrentOwner = __webpack_require__(29);
+var ReactCurrentOwner = __webpack_require__(30);
 var REACT_ELEMENT_TYPE = __webpack_require__(275);
 
-<<<<<<< HEAD:public/bundle.js
-var getIteratorFn = __webpack_require__(162);
+var getIteratorFn = __webpack_require__(168);
 var invariant = __webpack_require__(9);
-var KeyEscapeUtils = __webpack_require__(608);
-=======
-var getIteratorFn = __webpack_require__(167);
-var invariant = __webpack_require__(9);
-var KeyEscapeUtils = __webpack_require__(633);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var KeyEscapeUtils = __webpack_require__(635);
 var warning = __webpack_require__(10);
 
 var SEPARATOR = '.';
@@ -74644,11 +71742,7 @@ module.exports = traverseAllChildren;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 619 */
-=======
-/* 644 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 646 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -74672,11 +71766,7 @@ function reduceReducers() {
 module.exports = exports["default"];
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 620 */
-=======
-/* 645 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 647 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -74687,47 +71777,30 @@ module.exports = exports["default"];
 });
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 621 */
-=======
-/* 646 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 648 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__camelCase__ = __webpack_require__(278);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_lodash_identity__ = __webpack_require__(70);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_lodash_identity___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_lodash_identity__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash_isPlainObject__ = __webpack_require__(132);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash_isPlainObject__ = __webpack_require__(133);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash_isPlainObject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_lodash_isPlainObject__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_lodash_isArray__ = __webpack_require__(71);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_lodash_isArray___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_lodash_isArray__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_lodash_last__ = __webpack_require__(431);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_lodash_last__ = __webpack_require__(451);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_lodash_last__ = __webpack_require__(453);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_lodash_last___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_lodash_last__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_lodash_isString__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_lodash_isString__ = __webpack_require__(134);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_lodash_isString___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_lodash_isString__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_lodash_defaults__ = __webpack_require__(424);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_lodash_defaults__ = __webpack_require__(444);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_lodash_defaults__ = __webpack_require__(446);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_lodash_defaults___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_lodash_defaults__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_lodash_isFunction__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_lodash_isFunction__ = __webpack_require__(57);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_lodash_isFunction___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_lodash_isFunction__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__createAction__ = __webpack_require__(280);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_invariant__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_invariant__);
-<<<<<<< HEAD:public/bundle.js
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__arrayToObject__ = __webpack_require__(620);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__namespaceActions__ = __webpack_require__(624);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__arrayToObject__ = __webpack_require__(645);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__namespaceActions__ = __webpack_require__(648);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__arrayToObject__ = __webpack_require__(647);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__namespaceActions__ = __webpack_require__(650);
 /* harmony export (immutable) */ __webpack_exports__["a"] = createActions;
 var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
 
@@ -74812,23 +71885,13 @@ function actionCreatorsFromIdentityActions(identityActions) {
 }
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 622 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__handleAction__ = __webpack_require__(274);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ownKeys__ = __webpack_require__(625);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_reduce_reducers__ = __webpack_require__(619);
-=======
-/* 647 */
+/* 649 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__handleAction__ = __webpack_require__(281);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ownKeys__ = __webpack_require__(649);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_reduce_reducers__ = __webpack_require__(644);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ownKeys__ = __webpack_require__(651);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_reduce_reducers__ = __webpack_require__(646);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_reduce_reducers___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_reduce_reducers__);
 /* harmony export (immutable) */ __webpack_exports__["a"] = handleActions;
 function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
@@ -74848,45 +71911,12 @@ function handleActions(handlers, defaultState) {
 }
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 623 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__createAction__ = __webpack_require__(273);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__handleAction__ = __webpack_require__(274);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__handleActions__ = __webpack_require__(622);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__combineActions__ = __webpack_require__(272);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__createActions__ = __webpack_require__(621);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "createAction", function() { return __WEBPACK_IMPORTED_MODULE_0__createAction__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "createActions", function() { return __WEBPACK_IMPORTED_MODULE_4__createActions__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "handleAction", function() { return __WEBPACK_IMPORTED_MODULE_1__handleAction__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "handleActions", function() { return __WEBPACK_IMPORTED_MODULE_2__handleActions__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "combineActions", function() { return __WEBPACK_IMPORTED_MODULE_3__combineActions__["a"]; });
-
-
-
-
-
-
-
-
-/***/ }),
-/* 624 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__camelCase__ = __webpack_require__(271);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_lodash_isPlainObject__ = __webpack_require__(128);
-=======
-/* 648 */
+/* 650 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__camelCase__ = __webpack_require__(278);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_lodash_isPlainObject__ = __webpack_require__(132);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_lodash_isPlainObject__ = __webpack_require__(133);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_lodash_isPlainObject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_lodash_isPlainObject__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return flattenActionMap; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return unflattenActionCreators; });
@@ -74946,11 +71976,7 @@ function unflattenActionCreators(flatActionCreators) {
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 625 */
-=======
-/* 649 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 651 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -74970,11 +71996,7 @@ function ownKeys(object) {
 }
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 626 */
-=======
-/* 650 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 652 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -75003,11 +72025,7 @@ thunk.withExtraArgument = createThunkMiddleware;
 exports['default'] = thunk;
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 627 */
-=======
-/* 651 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 653 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -75063,11 +72081,7 @@ function applyMiddleware() {
 }
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 628 */
-=======
-/* 652 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 654 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -75121,16 +72135,12 @@ function bindActionCreators(actionCreators, dispatch) {
 }
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 629 */
-=======
-/* 653 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 655 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(process) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__createStore__ = __webpack_require__(283);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_lodash_es_isPlainObject__ = __webpack_require__(128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_lodash_es_isPlainObject__ = __webpack_require__(129);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__utils_warning__ = __webpack_require__(285);
 /* harmony export (immutable) */ __webpack_exports__["a"] = combineReducers;
 
@@ -75265,11 +72275,7 @@ function combineReducers(reducers) {
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1)))
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 630 */
-=======
-/* 654 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 656 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -75282,25 +72288,14 @@ module.exports = function (str) {
 
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 631 */
+/* 657 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(632);
+module.exports = __webpack_require__(658);
 
 
 /***/ }),
-/* 632 */
-=======
-/* 655 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(656);
-
-
-/***/ }),
-/* 656 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 658 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -75310,11 +72305,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-<<<<<<< HEAD:public/bundle.js
-var _ponyfill = __webpack_require__(633);
-=======
-var _ponyfill = __webpack_require__(657);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _ponyfill = __webpack_require__(659);
 
 var _ponyfill2 = _interopRequireDefault(_ponyfill);
 
@@ -75337,17 +72328,10 @@ if (typeof self !== 'undefined') {
 
 var result = (0, _ponyfill2['default'])(root);
 exports['default'] = result;
-<<<<<<< HEAD:public/bundle.js
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(163), __webpack_require__(100)(module)))
-
-/***/ }),
-/* 633 */
-=======
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(81), __webpack_require__(82)(module)))
 
 /***/ }),
-/* 657 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 659 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -75376,11 +72360,7 @@ function symbolObservablePonyfill(root) {
 };
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 634 */
-=======
-/* 658 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 660 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -75400,11 +72380,7 @@ var _invariant = __webpack_require__(14);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
-<<<<<<< HEAD:public/bundle.js
-var _utils = __webpack_require__(635);
-=======
-var _utils = __webpack_require__(659);
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+var _utils = __webpack_require__(661);
 
 var utils = _interopRequireWildcard(_utils);
 
@@ -75554,11 +72530,7 @@ function createUncontrollable(mixins, set) {
 module.exports = exports['default'];
 
 /***/ }),
-<<<<<<< HEAD:public/bundle.js
-/* 635 */
-=======
-/* 659 */
->>>>>>> bb32eda... Introduce public and personal lib:.build/bundle.js
+/* 661 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -75679,198 +72651,6 @@ function isReactComponent(component) {
   return !!(component && component.prototype && component.prototype.isReactComponent);
 }
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
-
-/***/ }),
-/* 660 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-	value: true
-});
-exports.default = undefined;
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _dec, _class;
-
-var _reactDom = __webpack_require__(20);
-
-var _reactDom2 = _interopRequireDefault(_reactDom);
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _reactRedux = __webpack_require__(60);
-
-var _reactBootstrap = __webpack_require__(30);
-
-var _actions = __webpack_require__(103);
-
-var _actions2 = _interopRequireDefault(_actions);
-
-var _webUtil = __webpack_require__(104);
-
-var _notificationUtil = __webpack_require__(169);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var PublicLibraryPage = (_dec = (0, _reactRedux.connect)(function (state) {
-	return state;
-}), _dec(_class = function (_React$Component) {
-	_inherits(PublicLibraryPage, _React$Component);
-
-	function PublicLibraryPage() {
-		_classCallCheck(this, PublicLibraryPage);
-
-		return _possibleConstructorReturn(this, (PublicLibraryPage.__proto__ || Object.getPrototypeOf(PublicLibraryPage)).apply(this, arguments));
-	}
-
-	_createClass(PublicLibraryPage, [{
-		key: 'componentDidMount',
-		value: function componentDidMount() {
-			$(_reactDom2.default.findDOMNode(this.publicDocumentList)).dataTable({
-				// responsive: true,
-				// stateSave: true,
-				// paging: true,
-				// searching: true,
-				// order: [ 0, 'asc' ],
-				// columnDefs: [
-				//  	// {searchable: false, targets: 0},
-				//  	// {visible: false, targets: 0},
-				//  	// {orderable: false, targets: 1},
-				//  	// {searchable: false, targets: 1},
-				// ],
-			});
-		}
-	}, {
-		key: 'handleSaveLibrary',
-		value: function handleSaveLibrary(document) {
-			this.props.dispatch(_actions2.default.addDocumentPersonal(document));
-			(0, _webUtil.redirect)('/my_library');
-			(0, _notificationUtil.publishNoti)('info', 'Successfully added document to your personal library!');
-		}
-	}, {
-		key: 'renderTableHeader',
-		value: function renderTableHeader() {
-			return _react2.default.createElement(
-				'thead',
-				null,
-				_react2.default.createElement(
-					'tr',
-					null,
-					_react2.default.createElement(
-						'th',
-						null,
-						'Name'
-					),
-					_react2.default.createElement(
-						'th',
-						null,
-						'Language'
-					),
-					_react2.default.createElement('th', null)
-				)
-			);
-		}
-	}, {
-		key: 'renderTableBody',
-		value: function renderTableBody(list) {
-			var _this2 = this;
-
-			return _react2.default.createElement(
-				'tbody',
-				null,
-				list.map(function (record, idx) {
-					return _this2.renderTableRow(record, idx);
-				})
-			);
-		}
-	}, {
-		key: 'renderTableRow',
-		value: function renderTableRow(record, idx) {
-			var _this3 = this;
-
-			return _react2.default.createElement(
-				'tr',
-				{ key: 'my-library-row-' + idx },
-				_react2.default.createElement(
-					'td',
-					null,
-					record.name
-				),
-				_react2.default.createElement(
-					'td',
-					null,
-					record.lang
-				),
-				_react2.default.createElement(
-					'td',
-					null,
-					_react2.default.createElement('a', { id: 'download-link-' + record.link, href: '' + record.link, download: true }),
-					_react2.default.createElement(
-						_reactBootstrap.Button,
-						{
-							bsSize: 'sm',
-							bsStyle: 'info',
-							onClick: function onClick() {
-								return document.getElementById('download-link-' + record.link).click();
-							}
-						},
-						'Download'
-					),
-					'\u2003',
-					_react2.default.createElement(
-						_reactBootstrap.Button,
-						{
-							bsSize: 'sm',
-							bsStyle: 'info',
-							onClick: function onClick() {
-								return _this3.handleSaveLibrary.call(_this3, record);
-							}
-						},
-						'Add to my library'
-					)
-				)
-			);
-		}
-	}, {
-		key: 'render',
-		value: function render() {
-			var _this4 = this;
-
-			var list = this.props.publicLib.documentList;
-			return _react2.default.createElement(
-				'div',
-				{ id: 'my-library-container' },
-				_react2.default.createElement(
-					_reactBootstrap.Grid,
-					null,
-					_react2.default.createElement(
-						'table',
-						{ ref: function ref(c) {
-								return _this4.publicDocumentList = c;
-							}, className: 'display', cellSpacing: '0', width: '100%' },
-						this.renderTableHeader(),
-						this.renderTableBody(list)
-					)
-				)
-			);
-		}
-	}]);
-
-	return PublicLibraryPage;
-}(_react2.default.Component)) || _class);
-exports.default = PublicLibraryPage;
 
 /***/ })
 /******/ ]);

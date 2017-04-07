@@ -30,7 +30,7 @@ export default class Community extends React.Component {
     };
     
     // Example hardcoded image
-    this.image = '/static/img/example_manga.jpg';
+    this.image = '/public/img/example_manga.jpg';
     this.width = '480px';
     this.height = '2103px';
     this.locations = [
